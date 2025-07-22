@@ -1,0 +1,8 @@
+flask
+flask-cors
+soundfile
+scipy
+torch
+speechbrain
+matplotlib
+scikit-learn

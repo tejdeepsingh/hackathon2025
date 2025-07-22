@@ -1,22 +1,48 @@
+import threading
+import http.server
+import socketserver
+from flask_cors import CORS
 from flask import Flask, request, jsonify
 import os
 import uuid
 import numpy as np
+import torch
 from speechbrain.pretrained import SpeakerRecognition
 from scipy.spatial.distance import cosine
 import soundfile as sf
 
 app = Flask(__name__)
-UPLOAD_FOLDER = 'voice_db'
+UPLOAD_FOLDER = 'tejdeep\\voice_db'
 os.makedirs(UPLOAD_FOLDER, exist_ok=True)
 
+def run_http_server():
+    """Runs a simple HTTP server in a separate thread."""
+    PORT = 8080
+    Handler = http.server.SimpleHTTPRequestHandler
+    with socketserver.TCPServer(("", PORT), Handler) as httpd:
+        print(f"Serving static files at http://localhost:{PORT}")
+        httpd.serve_forever()
+        
+        
 # Load pretrained speaker recognition model
 spk_model = SpeakerRecognition.from_hparams(source="speechbrain/spkrec-ecapa-voxceleb")
 
 def compute_embedding(filepath):
     signal, fs = sf.read(filepath)
-    embedding = spk_model.encode_batch(signal=torch.tensor([signal]))
+    
+    # Ensure it's a mono channel
+    if len(signal.shape) > 1:
+        signal = np.mean(signal, axis=1)
+
+    # Convert to float32 to ensure model compatibility
+    signal = torch.tensor(signal, dtype=torch.float32).unsqueeze(0)  # Shape: [1, time]
+    
+    with torch.no_grad():
+        embedding = spk_model.encode_batch(signal)
+    
     return embedding.squeeze().numpy()
+
+
 
 # Simple in-memory storage for demo
 embeddings_db = {}
@@ -55,4 +81,8 @@ def match_voice():
     })
 
 if __name__ == "__main__":
+    http_thread = threading.Thread(target=run_http_server, daemon=True)
+    http_thread.start()
+    CORS(app)
     app.run(debug=True)
+    

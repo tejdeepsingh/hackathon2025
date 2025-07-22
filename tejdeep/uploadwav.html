@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Voice Recognition UI</title>
+</head>
+<body>
+  <h1>🔐 Voice Enrollment</h1>
+  <form id="enrollForm">
+    <label for="enrollName">Name:</label>
+    <input type="text" id="enrollName" name="name" required>
+    <br><br>
+    <label for="enrollFile">.wav File:</label>
+    <input type="file" id="enrollFile" name="file" accept=".wav" required>
+    <br><br>
+    <button type="submit">Enroll Voice</button>
+  </form>
+
+  <hr>
+
+  <h1>🎯 Voice Matching</h1>
+  <form id="matchForm">
+    <label for="matchFile">Upload .wav File:</label>
+    <input type="file" id="matchFile" name="file" accept=".wav" required>
+    <br><br>
+    <button type="submit">Match Voice</button>
+  </form>
+
+  <hr>
+  <div id="responseBox"></div>
+
+  <script>
+    const enrollForm = document.getElementById('enrollForm');
+    const matchForm = document.getElementById('matchForm');
+    const responseBox = document.getElementById('responseBox');
+
+    enrollForm.addEventListener('submit', async (e) => {
+      e.preventDefault();
+      const name = document.getElementById('enrollName').value;
+      const file = document.getElementById('enrollFile').files[0];
+
+      const formData = new FormData();
+      formData.append("name", name);
+      formData.append("file", file);
+
+      try {
+        const res = await fetch('http://127.0.0.1:5000/enroll', {
+          method: 'POST',
+          body: formData
+        });
+        const data = await res.json();
+        responseBox.innerText = "✅ Enrolled: " + data.message + "\nFile: " + data.file;
+      } catch (err) {
+        responseBox.innerText = "❌ Enroll failed: " + err.message;
+      }
+    });
+
+    matchForm.addEventListener('submit', async (e) => {
+      e.preventDefault();
+      const file = document.getElementById('matchFile').files[0];
+
+      const formData = new FormData();
+      formData.append("file", file);
+
+      try {
+        const res = await fetch('http://127.0.0.1:5000/match', {
+          method: 'POST',
+          body: formData
+        });
+        const data = await res.json();
+        responseBox.innerText = `🎯 Match Found: ${data.match_file}\nSimilarity: ${data.match_percentage}%`;
+      } catch (err) {
+        responseBox.innerText = "❌ Match failed: " + err.message;
+      }
+    });
+  </script>
+</body>
+</html>
