@@ -1,0 +1,22 @@
+For hackathon, there will be 4 major components
+A. IVR (this is where we configure the IVR flow and get the recorded audio file) -- deployed on compute engine on GCP
+B. Zioper (softphone, this is from we make a call to IVR and go through the flow) -- on local machine with mic
+C. APIs ( These will be used to expose the audio file and context informatio around it like caller id, sipid, datetime etc) -- could be a cloud run on GCP
+D. ML app -- pre trained models to match the incoming audio and providing the callerid/sip id and matching percentage
+E. Dashboard: showing in realtime the calls and matching percentage to the human agents
+
+Below is the overall flow for asterisk :
+  #1. IVR--> Receive the call
+  #2. Prmopt 1: please press 1 to say your contact number
+  #3. Prmopt 2: please press 2 to say last 4 digits of your account number
+  #4. Prmopt 3: please press 3 to say your last name
+  #5. Prmopt 4: Wait for human assistance to help you
+  
+  #6. the audio file will be store in the asterisk docker directory
+  (Mount this dirctory to filesystem)
+  #7. build a flask based app to expose this as api
+  
+  #8. on AI/ML side keep mointoring the arrival of the file, 
+  #9. Match the voice using ML
+  
+  #10. After the match, divert the call to appropriate agent with the confidence score
