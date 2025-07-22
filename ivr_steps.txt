@@ -1,4 +1,4 @@
-For hackathon, there will be 4 major components
+For hackathon, there will be 5 major components
 A. IVR (this is where we configure the IVR flow and get the recorded audio file) -- deployed on compute engine on GCP
 B. Zioper (softphone, this is from we make a call to IVR and go through the flow) -- on local machine with mic
 C. APIs ( These will be used to expose the audio file and context informatio around it like caller id, sipid, datetime etc) -- could be a cloud run on GCP
