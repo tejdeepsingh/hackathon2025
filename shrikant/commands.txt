@@ -18,4 +18,391 @@ sudo sox -n -r 8000 -c 1 beep.wav synth 0.2 sine 1000
 asterisk -rx "logger reload"
 /etc/asterisk/cdr.conf
 
+from inside the docker sh run script.sh
+mount the active_calls.log
+Channel              Context              Extension        Prio State   Application  Data                      CallerID        Duration Accoun
+
+
+PJSIP/1001-00000013  ivrmenu              1001                3 Up      Wait         1                         1001            00:00:00
+
+PJSIP/1001-00000013  ivrmenu              1001                5 Up      BackGround   ivr-options               1001            00:00:05
+
+
+PJSIP/1001-00000014  ivrmenu              1001                5 Up      BackGround   ivr-options               1001            00:00:01
+
+PJSIP/1001-00000014  ivrmenu              1001                5 Up      BackGround   ivr-options               1001            00:00:06
+
+PJSIP/1001-00000014  ivrmenu              3                   2 Up      Record       /var/spool/asterisk/recor 1001            00:00:11
+
+
+PJSIP/1001-00000015  ivrmenu              1001                5 Up      BackGround   ivr-options               1001            00:00:01
+
+PJSIP/1001-00000015  ivrmenu              2                   2 Up      Record       /var/spool/asterisk/recor 1001            00:00:06
+===================command history insie container--------------------------
+0 pwd
+   1 cd /etc/asterisk/\
+   2 ls
+   3 vi sip.conf 
+   4 vi extensions.conf 
+   5 ls -all
+   6 cd /var/lib/asterisk/sounds
+   7 ls
+   8 asterisk -rvvvvv
+   9 cd -
+  10 ls
+  11 vi pjsip.conf 
+  12 asterisk -rvvvvv
+  13 vi extensions.conf 
+  14 asterisk -rvvvvv
+  15 vi extensions.conf 
+  16 asterisk -rvvvvv
+  17 vi extensions.conf 
+  18 asterisk -rvvvvv
+  19 vi extensions.conf 
+  20 asterisk -rvvvvv
+  21 cd /var/spool/asterisk
+  22 ls
+  23 cd recording/
+  24 ls
+  25 cd ..
+  26 cd tmp
+  27 ls
+  28 cd ..
+  29 cd -
+  30 cd ..
+  31 cd ../..
+  32 ls
+  33 cd~
+  34 exit
+  35 ls
+  36 cd etc/
+  37 ls
+  38 cd asterisk
+  39 ls
+  40 vi extensions.conf 
+  41 asterisk -rvvvvv
+  42 vi extensions.conf 
+  43 asterisk -rvvvvv
+  44 ls /var/spool/asterisk/recordings/
+  45 ls /var/spool/asterisk/recordings
+  46 ls /var/spool/asterisk/
+  47 vi extensions.conf 
+  48 asterisk -rvvvvv
+  49 ls /var/spool/asterisk/recording
+  50 vi extensions.conf 
+  51 asterisk -rvvvvv
+  52 ls /var/spool/asterisk/recording
+  53 vi extensions.conf 
+  54 asterisk -rvvvvv
+  55 ls /var/spool/asterisk/recording
+  56 vi extensions.conf 
+  57 asterisk -rvvvvv
+  58 ls /var/spool/asterisk/recording
+  59 ls -all
+  60 dialplan show ivrmenu
+  61 asterisk -rvvvvv
+  62 chown asterisk:asterisk /var/spool/asterisk/recording
+  63 asterisk -rvvvvv
+  64 ls /var/spool/asterisk/recording
+  65 ls -all
+  66 ls -all /var/spool/asterisk/recording
+  67 vi extensions.conf 
+  68 vi pjsip.conf 
+  69 vi extensions.conf 
+  70 asterisk -rvvvvv
+  71 vi extensions.conf 
+  72 asterisk -rvvvvv
+  73 vi pjsip.conf 
+  74 vi extensions.conf 
+  75 asterisk -rvvvvv
+  76 exit
+  77 vi extensions.conf 
+  78 cd /etc/asterisk/
+  79 vi extensions.conf 
+  80 asterisk -rvvvvv
+  81 vi /etc/asterisk/logger.conf
+  82 asterisk -rx "logger reload"
+  83 asterisk -rvvvvv
+  84 tail -f /var/log/asterisk/full
+  85 vi /var/log/asterisk/full
+  86 vi /etc/asterisk/cdr.conf
+  87 asterisk -rvvvvv
+  88 vi extensions.conf 
+  89 asterisk -rvvvvv
+  90 tail -f /var/log/asterisk/full
+  91 vi /var/log/asterisk/full
+  92 core show channels
+  93 asterisk -rvvvvv
+  94 vi cdr.conf 
+  95 vi cdr_mysql.conf 
+  96 vi cdr_sqlite3_custom.conf 
+  97 tail -f /var/log/asterisk/cdr-csv/Master.csv
+  98 vi cdr_manager.conf 
+  99 vi cdr.conf 
+ 100 asterisk -rvvvvv
+ 101 watch -n 1 "sudo asterisk -vvvvrx 'core show channels' | grep call"
+ 102 watch -n 1 "asterisk -vvvvrx 'core show channels' | grep call"
+ 103 vi cdr_sqlite3_custom.conf 
+ 104 docker exec -it asterisk sqlite3 /var/log/asterisk/master.db
+ 105 chown asterisk:asterisk /var/log/asterisk/master.db
+ 106 chmod 644 /var/log/asterisk/master.db
+ 107 ls -all /var/log/asterisk/
+ 108 python
+ 109 python3
+ 110 pwd
+ 111 cd /etc/asterisk
+ 112 ls
+ 113 vi cdr.conf 
+ 114 mkdir -p /etc/asterisk/cdr_csv.conf
+ 115 vi cdr_csv.conf/
+ 116 ls -all
+ 117 rm -r cdr_csv.conf/
+ 118 vi cdr_csv.conf
+ 119 ls -all
+ 120 sudo mkdir -p /var/log/asterisk/cdr-csv
+ 121 mkdir -p /var/log/asterisk/cdr-csv
+ 122 sudo chown asterisk:asterisk /var/log/asterisk/cdr-csv
+ 123  chown asterisk:asterisk /var/log/asterisk/cdr-csv
+ 124 module load cdr_csv.so
+ 125 module reload cdr.so
+ 126 module show like cdr
+ 127 module show like cdr_custom
+ 128 ls | grep cdr
+ 129 module show like cdr_custom.so
+ 130 module reload cdr_custom.so
+ 131 module reload cdr_custom
+ 132 cd /var/log/asterisk/
+ 133 ls
+ 134 cd cdr-csv/
+ 135 ls
+ 136 cat Master.csv 
+ 137 tail -f Master.csv 
+ 138 asterisk -rvvvvv
+ 139 asterisk -rx "core show channels verbose"
+ 140 watch -n 5 'asterisk -rx "core show channels verbose"'
+ 141 vi scr.sh
+ 142 sh scr.sh 
+ 143 vi scr.sh
+ 144 sh scr.sh 
+ 145 vi scr.sh
+ 146 sh scr.sh 
+ 147 ls
+ 148 vi active_calls.log 
+ 149 vi scr.sh
+ 150 vi script.sh
+ 151 vi scr.sh 
+ 152 vi script.sh
+ 153 sh script.sh 
+ 154 vi active_calls.log 
+ 155 vi script.sh
+ 156 sh script.sh 
+ 157 vi script.sh
+ 158 sh script.sh 
+ 159 cat active_calls1.log 
+ 160 sh script.sh 
+ 161 vi script.sh
+ 162 cat '' >active_calls1.log 
+ 163 sudo cat '' >active_calls1.log 
+ 164 cat active_calls1.log 
+ 165 sh script.sh 
+ 166 cat active_calls1.log 
+ 167 vi script.sh
+ 168 cat ''> active_calls1.log 
+ 169 cat active_calls1.log 
+ 170 sh script.sh 
+ 171 vi active_calls1.log 
+ 172 vi script.sh
+ 173 vi active_calls1.log 
+
+====================outside container===================
+docker run -d --name asterisk  -p 5060:5060 -p 5060:5060/udp -p  andrius/asterisk
+ 1861  docker run -d --name asterisk  -p 5060:5060 -p 5060:5060/udp -p andrius/asterisk
+ 1862  docker run -d --name asterisk -p 5060:5060 -p 5060:5060/udp  andrius/asterisk
+ 1863  docker rm asterisk
+ 1864  docker run -d --name asterisk -p 5060:5060 -p 5060:5060/udp  andrius/asterisk
+ 1865  hostname -I
+ 1866  docker rm asterisk
+ 1867  docker stop asterisk
+ 1868  docker rm asterisk
+ 1869  docker run -d --name asterisk -p 5060:5060 -p 5060:5060/udp -p 10000:10000/udp -p 10001:10001/udp -p 10002:10002/udp asterisk/asterisk
+ 1870  docker run -d --name asterisk -p 5060:5060 -p 5060:5060/udp -p 10000:10000/udp -p 10001:10001/udp -p 10002:10002/udp andrius/asterisk
+ 1871  cd !
+ 1872  cd ~
+ 1873  ls
+ 1874  cd asterisk-config/
+ 1875  vi sip.conf
+ 1876  docker restart asterisk
+ 1877  ls
+ 1878  cd  ../asterisk-logs
+ 1879  ls
+ 1880  sudo ufw allow 5060/tcp
+ 1881  sudo ufw allow 5060/udp
+ 1882  docker inspect asterisk
+ 1883  docker logs asterisk
+ 1884  cd ../asterisk-config/
+ 1885  vi sip.conf 
+ 1886  vi pjsip.conf
+ 1887  docker restart asterisk
+ 1888  asterisk
+ 1889  docker exec -it asterisk /bin/bash
+ 1890  docker exec -it asterisk asterisk -rvvv
+ 1891  vi pjsip.conf 
+ 1892  vi extensions.conf
+ 1893  docker exec -it asterisk asterisk -rx "sip reload"
+ 1894  docker exec -it asterisk asterisk -rx "dialplan reload"
+ 1895  docker exec -it asterisk asterisk -rx "sip show peers"
+ 1896  docker exec -it asterisk asterisk -rx "pjsip reload"
+ 1897  docker exec -it asterisk asterisk -rx "dialplan reload"
+ 1898  docker exec -it asterisk asterisk -rx "pjsip show endpoints"
+ 1899  docker exec -it asterisk asterisk -rvvv
+ 1900  docker exec -it asterisk asterisk -rx "pjsip show endpoints"
+ 1901  docker exec -it asterisk /bin/bash
+ 1902  docker exec -it asterisk /bin/sh
+ 1903  docker exec -it asterisk asterisk -rx "pjsip reload"
+ 1904  docker exec -it asterisk asterisk -rx "dialplan reload"
+ 1905  docker exec -it asterisk asterisk -rx "pjsip show endpoints"
+ 1906  hostname -I
+ 1907  docker exec -it asterisk asterisk -rx "pjsip show endpoints"
+ 1908  netstat -tulnp | grep 5060
+ 1909  sudonetstat -tulnp | grep 5060
+ 1910  sudo netstat -tulnp | grep 5060
+ 1911  sudo ss -tulnp | grep 5060
+ 1912  docker exec -it asterisk /bin/sh
+ 1913  docker exec -it asterisk asterisk -rx "pjsip reload"
+ 1914  ss -tulnp | grep 5060
+ 1915  docker exec -it asterisk asterisk -rx "pjsip show endpoints"
+ 1916  docker exec -it asterisk /bin/sh
+ 1917  docker exec -it asterisk asterisk -rx "dialplan reload"
+ 1918  docker exec -it asterisk asterisk -rx "pjsip show endpoints"
+ 1919  docker exec -it asterisk /bin/sh
+ 1920  docker exec -it asterisk asterisk -rx "pjsip reload"
+ 1921  docker exec -it asterisk asterisk -rx "pjsip show endpoints"
+ 1922  docker run -d --name asterisk -p 5060:5060 -p 5060:5060/udp -p 10000:10000/udp -p 10001:10001/udp -p 10004:10004/udp asterisk/asterisk
+ 1923  docker rm asterisk
+ 1924  docker images
+ 1925  docker run -d --name asterisk -p 5060:5060 -p 5060:5060/udp -p 10000:10000/udp -p 10001:10001/udp -p 10004:10004/udp asterisk/asterisk
+ 1926  sudo docker run -d --name asterisk -p 5060:5060 -p 5060:5060/udp -p 10000:10000/udp -p 10001:10001/udp -p 10004:10004/udp asterisk/asterisk
+ 1927  history
+ 1928  docker run -d --name asterisk -p 5060:5060 -p 5060:5060/udp -p 10000:10000/udp -p 10001:10001/udp -p 10002:10002/udp andrius/asterisk
+ 1929  docker run -d --name asterisk -p 5060:5060 -p 5060:5060/udp -p 10000:10000/udp -p 10004:10004/udp -p 10002:10002/udp andrius/asterisk
+ 1930  docker rm asterix
+ 1931  docker rm asterisk
+ 1932  docker stop asterisk
+ 1933  docker rm asterisk
+ 1934  docker run -d --name asterisk -p 5060:5060 -p 5060:5060/udp -p 10000:10000/udp -p 10004:10004/udp  andrius/asterisk
+ 1935  docker exec -it asterisk /bin/sh
+ 1936  shutdown now
+ 1937  docker run -d --name asterisk -p 5060:5060 -p 5060:5060/udp -p 10000:10000/udp -p 10004:10004/udp  andrius/asterisk
+ 1938  docker rm asterisk
+ 1939  docker run -d --name asterisk -p 5060:5060 -p 5060:5060/udp -p 10000:10000/udp -p 10004:10004/udp  andrius/asterisk
+ 1940  docker exec -it asterisk /bin/sh
+ 1941  mkdir hack20205
+ 1942  mkdir -p ~/asterisk-recordings
+ 1943  docker stop asterisk
+ 1944  docker run -d --name asterisk   -v ~/asterisk-recordings:/var/lib/asterisk/recordings   -p 5060:5060/udp   -p 8088:8088   andrius/asterisk
+ 1945  docker rm asterisk
+ 1946  docker run -d --name asterisk   -v ~/asterisk-recordings:/var/lib/asterisk/recordings   -p 5060:5060/udp   -p 8088:8088   andrius/asterisk
+ 1947  vi /etc/asterisk/extensions.conf
+ 1948  cd /etc/
+ 1949  ls
+ 1950  docker exec -it asterisk /bin/sh
+ 1951  cd ~/Downloads/
+ 1952  docker cp welcome1.wav asterisk:/var/lib/asterisk/sounds/en/
+ 1953  docker exec -it asterisk /bin/sh
+ 1954  docker cp welcome1.wav asterisk:/var/lib/asterisk/sounds/en/
+ 1955  docker cp ivr-options.wav asterisk:/var/lib/asterisk/sounds/en/
+ 1956  docker cp please-wait-connect-call.wav  asterisk:/var/lib/asterisk/sounds/en/
+ 1957  docker exec -it asterisk /bin/sh
+ 1958  docker ps
+ 1959  hostname -I
+ 1960  docker exec -it asterisk /bin/sh
+ 1961  hostname -I
+ 1962  docker exec -it asterisk /bin/sh
+ 1963  cd ~/asterisk/sounds/
+ 1964  ls
+ 1965  history | grep 'docker cp'
+ 1966  docker cp welcome1.wav asterisk:/var/lib/asterisk/sounds
+ 1967  docker cp ivr-options.wav asterisk:/var/lib/asterisk/sounds
+ 1968  docker cp please-wait-connect-call.wav  asterisk:/var/lib/asterisk/sounds
+ 1969  sudo ufw allow 5060/udp
+ 1970  sudo ufw allow 10000:20000/udp
+ 1971  sudo netstat -anpu | grep 5060
+ 1972  ffmpeg -i welcome1.wav -ac 1 -ar 8000 -c:a pcm_s16le welcome1_asterisk.wav
+ 1973  sudo apt install ffmpeg
+ 1974  ffmpeg -i welcome1.wav -ac 1 -ar 8000 -c:a pcm_s16le welcome1_asterisk.wav
+ 1975  sudo ffmpeg -i welcome1.wav -ac 1 -ar 8000 -c:a pcm_s16le welcome1_asterisk.wav
+ 1976  ls
+ 1977  rm welcome1.wav 
+ 1978  sudo rm welcome1.wav 
+ 1979  mv welcome1_asterisk.wav welcome1.wav 
+ 1980  sudo mv welcome1_asterisk.wav welcome1.wav 
+ 1981  docker cp welcome1.wav asterisk:/var/lib/asterisk/sounds
+ 1982  ls
+ 1983  sudo ffmpeg -i please-wait-connect-call.wav -ac 1 -ar 8000 -c:a pcm_s16le pl_asterisk.wav
+ 1984  ls
+ 1985  sudo ffmpeg -i ivr-options.wav -ac 1 -ar 8000 -c:a pcm_s16le ivr_asterisk.wav
+ 1986  ls
+ 1987  sudo rm please-wait-connect-call.wav 
+ 1988  sudo mv pl_asterisk.wav please-wait-connect-call.wav
+ 1989  sudo rm ivr_asterisk.wav 
+ 1990  sudo ffmpeg -i ivr-options.wav -ac 1 -ar 8000 -c:a pcm_s16le ivr_asterisk.wav
+ 1991  ls 
+ 1992  sudo rm ivr-options.wav 
+ 1993  sudo mv ivr_asterisk.wav ivr-options.wav
+ 1994  docker cp please-wait-connect-call.wav  asterisk:/var/lib/asterisk/sounds
+ 1995  docker cp ivr-options.wav asterisk:/var/lib/asterisk/sounds
+ 1996  exit
+ 1997  cd ~/asterisk
+ 1998  ls
+ 1999  cd sounds/
+ 2000  sox -n -r 8000 -c 1 beep.wav synth 0.2 sine 1000
+ 2001  sudo apt install sox
+ 2002  sox -n -r 8000 -c 1 beep.wav synth 0.2 sine 1000
+ 2003  sudo sox -n -r 8000 -c 1 beep.wav synth 0.2 sine 1000
+ 2004  ls
+ 2005  docker cp beep.wav asterisk:/var/lib/asterisk/sounds
+ 2006  ls
+ 2007  docker ps
+ 2008  docker cp asterisk:/var/spool/asterisk/recording/
+ 2009  docker cp asterisk:/var/spool/asterisk/recording/ .
+ 2010  sudo docker cp asterisk:/var/spool/asterisk/recording/ .
+ 2011* 
+ 2012  rm  -r recording/
+ 2013  sudo rm  -r recording/
+ 2014  sudo docker cp asterisk:/var/spool/asterisk/recording/ .
+ 2015  sudo rm  -r recording/
+ 2016  sudo docker cp asterisk:/var/spool/asterisk/recording/ .
+ 2017  cd ~
+ 2018  ls
+ 2019  cd DEV
+ 2020  mkdir hackthon
+ 2021  git clone https://github.com/tejdeepsingh/hackathon2025.git
+ 2022  cd hackathon2025/
+ 2023  ls
+ 2024  git status
+ 2025  git checkout shri
+ 2026  git checkout -b shri
+ 2027  giti status
+ 2028  git status
+ 2029  git add .
+ 2030  git commit -m "added sound files"
+ 2031  git push -u origin shri
+ 2032  slack
+ 2033  sudo docker cp asterisk:/var/log/asterisk .
+ 2034  slack
+ 2035  sudo docker cp asterisk:/var/spool/asterisk/recording/ .
+ 2036  sudo apt update
+ 2037  sudo apt install sqlite3 libsqlite3-dev
+ 2038  sqlite3 /var/log/asterisk/master.db
+ 2039  .quit
+ 2040  sqlite3 /var/log/asterisk/master.db
+ 2041  mkdir -p /opt/asterisk-logs
+ 2042  sudo mkdir -p /opt/asterisk-logs
+ 2043  sqlite3 /opt/asterisk-logs/master.db
+ 2044  .quit
+ 2045  sudo sqlite3 /opt/asterisk-logs/master.db
+ 2046  docker stop asterisk
+ 2047  docker run -d   --name asterisk   -v /path/on/host:/var/log/asterisk   -p 5060:5060/udp   -p 5060:5060/tcp   -p 10000-10010:10000-10010/udp   andrius/asterisk
+ 2048  docker ps
+ 2049  docker start dcec795e7862f262e05323d24e0916c8e54f0b2ca1ee01c39e7ba892cbc819a9
 
