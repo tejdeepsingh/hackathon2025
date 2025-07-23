@@ -15,5 +15,7 @@ docker cp my-asterisk:/var/spool/asterisk/recording/ .
 
 sudo ffmpeg -i ivr-options.wav -ac 1 -ar 8000 -c:a pcm_s16le ivr_asterisk.wav
 sudo sox -n -r 8000 -c 1 beep.wav synth 0.2 sine 1000
+asterisk -rx "logger reload"
+/etc/asterisk/cdr.conf
 
 
