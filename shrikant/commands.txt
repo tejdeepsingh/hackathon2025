@@ -1,0 +1,15 @@
+  docker run -d \
+  --name asterisk \
+  -p 5060:5060/udp \
+  -p 5060:5060/tcp \
+  -p 10000-10010:10000-10010/udp \
+  andrius/asterisk
+
+docker exec -it asterisk /bin/sh
+ asterisk -rvvvvv
+dcec795e7862*CLI> pjsip reload
+dcec795e7862*CLI> dialplan reload 
+docker cp welcome1.wav asterisk:/var/lib/asterisk/sounds
+
+docker cp my-asterisk:/var/spool/asterisk/recording/ .
+
