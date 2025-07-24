@@ -1,8 +1,8 @@
 #!/bin/bash
 
 # ===== Configuration =====
-IMAGE_NAME="fin_ivr"
-CONTAINER_NAME="fin_ivr"
+IMAGE_NAME="asterisk"
+CONTAINER_NAME="asterisk"
 RECORDINGS_DIR="./recordings"
 LOGS_DIR="./logs"
 
@@ -24,7 +24,7 @@ docker run -it --rm \
   --name "$CONTAINER_NAME" \
   -v "$(pwd)/pjsip.conf:/etc/asterisk/pjsip.conf" \
   -v "$(pwd)/extensions.conf:/etc/asterisk/extensions.conf" \
-  -v "$(pwd)/run_script.sh:/usr/local/bin/run_script.sh" \
+  -v "$(pwd)/cdr_scripts.sh:/usr/local/bin/cdr_scripts.sh" \
   -v "$(pwd)/recordings:/var/spool/asterisk/monitor" \
   -v "$(pwd)/logs:/var/log/asterisk" \
   "$IMAGE_NAME"
