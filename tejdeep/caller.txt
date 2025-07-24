@@ -1,0 +1,8 @@
+Channel              Context              Extension        Prio State   Application  Data                      CallerID        Duration
+PJSIP/1001-00000013  ivrmenu              1001                3 Up      Wait         1                         1001            00:00:00
+PJSIP/1001-00000013  ivrmenu              1001                5 Up      BackGround   ivr-options               1001            00:00:05
+PJSIP/1001-00000014  ivrmenu              1001                5 Up      BackGround   ivr-options               1001            00:00:01
+PJSIP/1001-00000014  ivrmenu              1001                5 Up      BackGround   ivr-options               1001            00:00:06
+PJSIP/1001-00000014  ivrmenu              3                   2 Up      Record       /var/spool/asterisk/recor 1001            00:00:11
+PJSIP/1001-00000015  ivrmenu              1001                5 Up      BackGround   ivr-options               1001            00:00:01
+PJSIP/1001-00000015  ivrmenu              2                   2 Up      Record       /var/spool/asterisk/recor 1001            00:00:06
