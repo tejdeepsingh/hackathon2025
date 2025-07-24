@@ -1,8 +1,8 @@
 #!/bin/bash
 
 # ===== Configuration =====
-IMAGE_NAME="custom-asterisk"
-CONTAINER_NAME="my-asterisk"
+IMAGE_NAME="fin_ivr"
+CONTAINER_NAME="fin_ivr"
 RECORDINGS_DIR="./recordings"
 LOGS_DIR="./logs"
 
