@@ -27,7 +27,7 @@
   </form>
 
   <hr>
-  <div id="responseBox"></div>
+  <div id="responseBox" style="white-space: pre-wrap; font-family: monospace;"></div>
 
   <script>
     const enrollForm = document.getElementById('enrollForm');
@@ -44,12 +44,12 @@
       formData.append("file", file);
 
       try {
-        const res = await fetch('http://127.0.0.1:5000/enroll', {
+        const res = await fetch('/enroll', {
           method: 'POST',
           body: formData
         });
         const data = await res.json();
-        responseBox.innerText = "✅ Enrolled: " + data.message + "\nFile: " + data.file;
+        responseBox.innerText = `✅ Enrolled:\nName: ${data.message}\nFile: ${data.file}`;
       } catch (err) {
         responseBox.innerText = "❌ Enroll failed: " + err.message;
       }
@@ -62,16 +62,23 @@
       const formData = new FormData();
       formData.append("file", file);
 
-      try {
-        const res = await fetch('http://127.0.0.1:5000/match', {
-          method: 'POST',
-          body: formData
-        });
-        const data = await res.json();
-        responseBox.innerText = `🎯 Match Found: ${data.match_file}\nSimilarity: ${data.match_percentage}%`;
-      } catch (err) {
-        responseBox.innerText = "❌ Match failed: " + err.message;
-      }
+   try {
+  const res = await fetch('/match', {
+    method: 'POST',
+    body: formData
+  });
+
+  if (!res.ok) {
+    const errText = await res.text(); // Read the HTML/err page
+    throw new Error(`Server error (${res.status}): ${errText}`);
+  }
+
+  const data = await res.json();
+  responseBox.innerText = `🎯 Similarity: ${data.match_percentage}%`;
+
+} catch (err) {
+  responseBox.innerText = "❌ Match failed: " + err.message;
+}
     });
   </script>
 </body>

@@ -1,13 +1,11 @@
-import threading
-import http.server
-import socketserver
+
 from flask_cors import CORS
-from flask import Flask, request, jsonify
+from flask import Flask, request, jsonify ,render_template
 import os
 import uuid
 import numpy as np
 import torch
-from speechbrain.pretrained import SpeakerRecognition
+from speechbrain.inference import SpeakerRecognition
 from scipy.spatial.distance import cosine
 import soundfile as sf
 
@@ -15,19 +13,8 @@ app = Flask(__name__)
 UPLOAD_FOLDER = 'tejdeep/voice_db'
 os.makedirs(UPLOAD_FOLDER, exist_ok=True)
 
-
-def run_http_server():
-    """Runs a simple HTTP server in a separate thread."""
-    PORT = 8081
-    Handler = http.server.SimpleHTTPRequestHandler
-    with socketserver.TCPServer(("", PORT), Handler) as httpd:
-        print(f"Serving static files at http://localhost:{PORT}")
-        httpd.serve_forever()
-
-
 # Load pretrained speaker recognition model
-spk_model = SpeakerRecognition.from_hparams(
-    source="speechbrain/spkrec-ecapa-voxceleb")
+spk_model = SpeakerRecognition.from_hparams(source="speechbrain/spkrec-ecapa-voxceleb")
 
 
 def compute_embedding(filepath):
@@ -50,6 +37,10 @@ def compute_embedding(filepath):
 # Simple in-memory storage for demo
 embeddings_db = {}
 
+@app.route('/')
+def index():
+    return render_template('uploadwav.html')
+
 
 @app.route("/enroll", methods=["POST"])
 def enroll_voice():
@@ -65,25 +56,36 @@ def enroll_voice():
 
 @app.route("/match", methods=["POST"])
 def match_voice():
-    """Compare a new voice sample to all enrolled voices"""
-    file = request.files["file"]
-    query_path = os.path.join(UPLOAD_FOLDER, f"query_{uuid.uuid4().hex}.wav")
-    file.save(query_path)
-    query_emb = compute_embedding(query_path)
+    try:
+        file = request.files["file"]
+        query_path = os.path.join(UPLOAD_FOLDER, f"query_{uuid.uuid4().hex}.wav")
+        file.save(query_path)
+        query_emb = compute_embedding(query_path)
 
-    best_score = -1
-    best_match = None
+        best_score = -1
+        best_match = None
 
-    for ref_file, ref_emb in embeddings_db.items():
-        similarity = 1 - cosine(query_emb, ref_emb)  # Cosine similarity
-        if similarity > best_score:
-            best_score = similarity
-            best_match = ref_file
+        for ref_file, ref_emb in embeddings_db.items():
+            similarity = 1 - cosine(query_emb, ref_emb)
+            if similarity > best_score:
+                best_score = similarity
+                best_match = ref_file
 
-    return jsonify({
-        "match_file": best_match,
-        "match_percentage": round(best_score * 100, 2)
-    })
+        if best_match is None:
+            return jsonify({"error": "No enrolled voices to compare against."}), 400
+
+        return jsonify({
+            "match_file": best_match,
+            "match_percentage": round(float(best_score) * 100, 2)
+
+        })
+
+    except Exception as e:
+        print("🔥 Internal error in /match:", e)
+        return jsonify({"error": str(e)}), 500
+    
+    
+    
 
 
 @app.route('/api/read-file', methods=['GET'])
@@ -120,7 +122,7 @@ def read_file():
 
 
 if __name__ == "__main__":
-    http_thread = threading.Thread(target=run_http_server, daemon=True)
-    http_thread.start()
+#    http_thread = threading.Thread(target=run_http_server, daemon=True)
+#    http_thread.start()
     CORS(app)
-    app.run(debug=True, host="0.0.0.0", port=8080)
+    app.run(debug=True, port=5000)
