@@ -125,4 +125,4 @@ if __name__ == "__main__":
 #    http_thread = threading.Thread(target=run_http_server, daemon=True)
 #    http_thread.start()
     CORS(app)
-    app.run(debug=True, port=5000)
+    app.run(debug=True, host="0.0.0.0",port=8080)
