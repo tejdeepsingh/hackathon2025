@@ -8,6 +8,10 @@ import torch
 from speechbrain.inference import SpeakerRecognition
 from scipy.spatial.distance import cosine
 import soundfile as sf
+from flask import send_from_directory
+
+from userdata import get_name_by_caller_id, get_status
+import sys
 
 app = Flask(__name__)
 UPLOAD_FOLDER = 'tejdeep/voice_db'
@@ -83,43 +87,59 @@ def match_voice():
     except Exception as e:
         print("🔥 Internal error in /match:", e)
         return jsonify({"error": str(e)}), 500
-    
-    
-    
 
-
-@app.route('/api/read-file', methods=['GET'])
+@app.route('/read-file', methods=['GET'])
 def read_file():
-    file_path = os.path.expanduser("./caller.txt")
     result = []
-
     try:
-        with open(file_path, 'r') as file:
+        with open("tejdeep\caller.txt", 'r') as file:
             lines = file.readlines()
-
             # Skip header row
             for line in lines[1:]:
-
+                columns = line.strip().split()
                 if len(columns) >= 9:
-                    columns = line.strip().split()
-                    caller_id = columns[7]
-                    timestamp = columns[8]
-                    appended_location = f"{columns[6]}/{caller_id}-{timestamp}.wav"
-                entry = {
-                    "Name": "Teena",  # 🔹 Add the constant Name field
-                    "Phone no.": columns[2],
-                    "Status": columns[5],
-                    "Location": appended_location,
-                    "CallerID": columns[7],
-                    "Duration": columns[8]
-                }
-                result.append(entry)
-
+                     caller_id = columns[7]
+                     timestamp = columns[8]
+                     appended_location = f"{columns[6]}/{caller_id}-{timestamp}.wav"
+                     entry = {
+                        "Name": get_name_by_caller_id(caller_id), 
+                        "Phone no.": columns[2],
+                        "Status": get_status(columns[5]),
+                        "Location": appended_location,
+                        "CallerID": columns[7],
+                        "Duration": columns[8]
+                    }
+                     result.append(entry)
         return jsonify({"data": result})
 
     except Exception as e:
         return jsonify({"status": "error", "message": str(e)}), 500
+        
+@app.route('/test-audio')
+def test_file():
+    return send_from_directory("C:/Users/teena/Downloads", "Shourya_01.wav", as_attachment=True)
 
+@app.route('/get-audio-file', methods=['POST'])
+def test_file_post():
+    if not request.is_json:
+        print("Invalid request: Expected JSON", file=sys.stderr)
+        return {"error": "Expected JSON body"}, 400
+
+    data = request.get_json()
+    folder = data.get('folder')
+    filename = data.get('filename')
+
+    if not folder or not filename:
+        print("Missing folder or filename", file=sys.stderr)
+        return {"error": "Missing 'folder' or 'filename'"}, 400
+
+    print(f"Serving file: {filename} from folder: {folder}", file=sys.stderr)
+
+    try:
+        return send_from_directory(folder, filename, as_attachment=True)
+    except Exception as e:
+        print(f"Error occurred: {e}", file=sys.stderr)
+        return {"error": str(e)}, 500
 
 if __name__ == "__main__":
 #    http_thread = threading.Thread(target=run_http_server, daemon=True)
