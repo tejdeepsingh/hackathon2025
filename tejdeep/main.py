@@ -17,7 +17,7 @@ os.makedirs(UPLOAD_FOLDER, exist_ok=True)
 
 def run_http_server():
     """Runs a simple HTTP server in a separate thread."""
-    PORT = 8080
+    PORT = 8081
     Handler = http.server.SimpleHTTPRequestHandler
     with socketserver.TCPServer(("", PORT), Handler) as httpd:
         print(f"Serving static files at http://localhost:{PORT}")
@@ -84,5 +84,5 @@ if __name__ == "__main__":
     http_thread = threading.Thread(target=run_http_server, daemon=True)
     http_thread.start()
     CORS(app)
-    app.run(debug=True)
+    app.run(debug=True,host="0.0.0.0",port=8080)
     

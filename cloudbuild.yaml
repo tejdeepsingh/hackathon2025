@@ -1,0 +1,9 @@
+steps:
+  - name: 'gcr.io/cloud-builders/docker'
+    args: ['build', '-t', 'asia-south1-docker.pkg.dev/hack-team-cyberpatrol/voice-api-repo/voice-match-api', '.']
+
+images:
+  - 'asia-south1-docker.pkg.dev/hack-team-cyberpatrol/voice-api-repo/voice-match-api'
+
+options:
+  logging: CLOUD_LOGGING_ONLY
