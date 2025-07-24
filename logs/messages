@@ -1,0 +1,160 @@
+[Jul 23 16:42:11] Asterisk 18.11.2 built by buildozer @ build-3-16-x86_64 on a x86_64 running Linux on 2022-04-28 07:42:40 UTC
+[Jul 23 16:42:11] NOTICE[1] loader.c: 313 modules will be loaded.
+[Jul 23 16:42:11] NOTICE[1] cdr.c: CDR simple logging enabled.
+[Jul 23 16:42:11] ERROR[36] res_pjsip/config_system.c: There are no local system nameservers configured, resorting to system resolution
+[Jul 23 16:42:11] ERROR[36] res_pjsip/config_system.c: There are no local system nameservers configured, resorting to system resolution
+[Jul 23 16:42:11] NOTICE[1] res_smdi.c: No SMDI interfaces are available to listen on, not starting SMDI listener.
+[Jul 23 16:42:11] ERROR[1] file.c: Error opening directory - /var/lib/asterisk/moh: No such file or directory
+[Jul 23 16:42:11] WARNING[1] res_musiconhold.c: No music on hold classes configured, disabling music on hold.
+[Jul 23 16:42:11] WARNING[1] res_phoneprov.c: Unable to find a valid server address or name.
+[Jul 23 16:42:11] NOTICE[1] chan_skinny.c: Configuring skinny from skinny.conf
+[Jul 23 16:42:11] ERROR[1] ari/config.c: No configured users for ARI
+[Jul 23 16:42:11] NOTICE[1] confbridge/conf_config_parser.c: Adding default_menu menu to app_confbridge
+[Jul 23 16:42:11] NOTICE[1] cel_custom.c: No mappings found in cel_custom.conf. Not logging CEL to custom CSVs.
+[Jul 23 16:42:11] WARNING[1] pbx.c: Context 'local' tries to include nonexistent context 'iaxtel700'
+[Jul 23 16:42:12] WARNING[1] pbx.c: Context 'local' tries to include nonexistent context 'iaxtel700'
+[Jul 23 16:42:12] WARNING[1] loader.c: Some non-required modules failed to load.
+[Jul 23 16:42:12] WARNING[1] loader.c: The deprecated module 'res_monitor.so' has been loaded and is running, it may be removed in a future version
+[Jul 23 16:42:12] WARNING[1] loader.c: The deprecated module 'res_adsi.so' has been loaded and is running, it may be removed in a future version
+[Jul 23 16:42:12] WARNING[1] loader.c: The deprecated module 'chan_oss.so' has been loaded and is running, it may be removed in a future version
+[Jul 23 16:42:12] WARNING[1] loader.c: The deprecated module 'app_image.so' has been loaded and is running, it may be removed in a future version
+[Jul 23 16:42:12] WARNING[1] loader.c: The deprecated module 'app_ices.so' has been loaded and is running, it may be removed in a future version
+[Jul 23 16:42:12] WARNING[1] loader.c: The deprecated module 'app_url.so' has been loaded and is running, it may be removed in a future version
+[Jul 23 16:42:12] WARNING[1] loader.c: The deprecated module 'app_getcpeid.so' has been loaded and is running, it may be removed in a future version
+[Jul 23 16:42:12] WARNING[1] loader.c: The deprecated module 'app_adsiprog.so' has been loaded and is running, it may be removed in a future version
+[Jul 23 16:42:12] WARNING[1] loader.c: The deprecated module 'app_nbscat.so' has been loaded and is running, it may be removed in a future version
+[Jul 23 16:42:12] ERROR[1] loader.c: Failed to resolve dependencies for res_stir_shaken
+[Jul 23 16:42:12] ERROR[1] loader.c: res_stir_shaken declined to load.
+[Jul 23 16:42:12] ERROR[1] loader.c: cdr_sqlite3_custom declined to load.
+[Jul 23 16:42:12] ERROR[1] loader.c: cel_sqlite3_custom declined to load.
+[Jul 23 16:42:12] ERROR[1] loader.c: Failed to resolve dependencies for res_http_media_cache
+[Jul 23 16:42:12] ERROR[1] loader.c: res_http_media_cache declined to load.
+[Jul 23 16:42:12] ERROR[1] loader.c: Failed to resolve dependencies for res_pjsip_stir_shaken
+[Jul 23 16:42:12] ERROR[1] loader.c: res_pjsip_stir_shaken declined to load.
+[Jul 23 16:47:11] NOTICE[103] sorcery.c: Type 'system' is not reloadable, maintaining previous values
+[Jul 23 16:47:11] ERROR[103] res_pjsip/config_system.c: There are no local system nameservers configured, resorting to system resolution
+[Jul 23 16:47:21] WARNING[102] pbx.c: Context 'local' tries to include nonexistent context 'iaxtel700'
+[Jul 23 16:47:47] WARNING[112][C-00000001] file.c: File beep does not exist in any format
+[Jul 23 16:47:47] WARNING[112][C-00000001] file.c: Unable to open beep (format (ulaw)): Invalid argument
+[Jul 23 16:47:47] WARNING[112][C-00000001] app_playback.c: Playback failed on PJSIP/1001-00000000 for beep
+[Jul 23 16:47:47] WARNING[112][C-00000001] file.c: File ivr-options does not exist in any format
+[Jul 23 16:47:47] WARNING[112][C-00000001] file.c: Unable to open ivr-options (format (ulaw)): Invalid argument
+[Jul 23 16:47:47] WARNING[112][C-00000001] pbx_builtins.c: ast_streamfile failed on PJSIP/1001-00000000 for ivr-options
+[Jul 23 16:47:52] WARNING[112][C-00000001] file.c: File please-wait-connect-call does not exist in any format
+[Jul 23 16:47:52] WARNING[112][C-00000001] file.c: Unable to open please-wait-connect-call (format (ulaw)): Invalid argument
+[Jul 23 16:47:52] WARNING[112][C-00000001] app_playback.c: Playback failed on PJSIP/1001-00000000 for please-wait-connect-call
+[Jul 23 16:47:52] ERROR[31] cdr_csv.c: Unable to open file /var/log/asterisk//cdr-csv//Master.csv : No such file or directory
+[Jul 23 16:47:52] WARNING[31] cdr_csv.c: Unable to write CSV record to master '/var/log/asterisk//cdr-csv//Master.csv' : Invalid argument
+[Jul 23 16:47:57] WARNING[113][C-00000002] file.c: File beep does not exist in any format
+[Jul 23 16:47:57] WARNING[113][C-00000002] file.c: Unable to open beep (format (ulaw)): Invalid argument
+[Jul 23 16:47:57] WARNING[113][C-00000002] app_playback.c: Playback failed on PJSIP/1001-00000001 for beep
+[Jul 23 16:47:57] WARNING[113][C-00000002] file.c: File ivr-options does not exist in any format
+[Jul 23 16:47:57] WARNING[113][C-00000002] file.c: Unable to open ivr-options (format (ulaw)): Invalid argument
+[Jul 23 16:47:57] WARNING[113][C-00000002] pbx_builtins.c: ast_streamfile failed on PJSIP/1001-00000001 for ivr-options
+[Jul 23 16:48:01] ERROR[31] cdr_csv.c: Unable to open file /var/log/asterisk//cdr-csv//Master.csv : No such file or directory
+[Jul 23 16:48:01] WARNING[31] cdr_csv.c: Unable to write CSV record to master '/var/log/asterisk//cdr-csv//Master.csv' : Invalid argument
+[Jul 23 16:49:32] WARNING[115][C-00000003] file.c: File beep does not exist in any format
+[Jul 23 16:49:32] WARNING[115][C-00000003] file.c: Unable to open beep (format (ulaw)): Invalid argument
+[Jul 23 16:49:32] WARNING[115][C-00000003] app_playback.c: Playback failed on PJSIP/1001-00000002 for beep
+[Jul 23 16:49:32] WARNING[115][C-00000003] format_wav.c: Not in mono 2
+[Jul 23 16:49:32] WARNING[115][C-00000003] file.c: Unable to open format wav
+[Jul 23 16:49:32] WARNING[115][C-00000003] file.c: Unable to open ivr-options (format (ulaw)): No such file or directory
+[Jul 23 16:49:32] WARNING[115][C-00000003] pbx_builtins.c: ast_streamfile failed on PJSIP/1001-00000002 for ivr-options
+[Jul 23 16:49:37] WARNING[115][C-00000003] format_wav.c: Not in mono 2
+[Jul 23 16:49:37] WARNING[115][C-00000003] file.c: Unable to open format wav
+[Jul 23 16:49:37] WARNING[115][C-00000003] file.c: Unable to open please-wait-connect-call (format (ulaw)): No such file or directory
+[Jul 23 16:49:37] WARNING[115][C-00000003] app_playback.c: Playback failed on PJSIP/1001-00000002 for please-wait-connect-call
+[Jul 23 16:49:37] ERROR[31] cdr_csv.c: Unable to open file /var/log/asterisk//cdr-csv//Master.csv : No such file or directory
+[Jul 23 16:49:37] WARNING[31] cdr_csv.c: Unable to write CSV record to master '/var/log/asterisk//cdr-csv//Master.csv' : Invalid argument
+[Jul 23 16:49:42] WARNING[116][C-00000004] file.c: File beep does not exist in any format
+[Jul 23 16:49:42] WARNING[116][C-00000004] file.c: Unable to open beep (format (ulaw)): Invalid argument
+[Jul 23 16:49:42] WARNING[116][C-00000004] app_playback.c: Playback failed on PJSIP/1001-00000003 for beep
+[Jul 23 16:49:42] WARNING[116][C-00000004] format_wav.c: Not in mono 2
+[Jul 23 16:49:42] WARNING[116][C-00000004] file.c: Unable to open format wav
+[Jul 23 16:49:42] WARNING[116][C-00000004] file.c: Unable to open ivr-options (format (ulaw)): No such file or directory
+[Jul 23 16:49:42] WARNING[116][C-00000004] pbx_builtins.c: ast_streamfile failed on PJSIP/1001-00000003 for ivr-options
+[Jul 23 16:49:47] WARNING[116][C-00000004] format_wav.c: Not in mono 2
+[Jul 23 16:49:47] WARNING[116][C-00000004] file.c: Unable to open format wav
+[Jul 23 16:49:47] WARNING[116][C-00000004] file.c: Unable to open please-wait-connect-call (format (ulaw)): No such file or directory
+[Jul 23 16:49:47] WARNING[116][C-00000004] app_playback.c: Playback failed on PJSIP/1001-00000003 for please-wait-connect-call
+[Jul 23 16:49:47] ERROR[31] cdr_csv.c: Unable to open file /var/log/asterisk//cdr-csv//Master.csv : No such file or directory
+[Jul 23 16:49:47] WARNING[31] cdr_csv.c: Unable to write CSV record to master '/var/log/asterisk//cdr-csv//Master.csv' : Invalid argument
+[Jul 23 16:52:03] WARNING[118][C-00000005] format_wav.c: Not a supported wav file format (65534). Only PCM encoded, 16 bit, mono, 8kHz/16kHz files are supported with a lowercase '.wav' extension.
+[Jul 23 16:52:03] WARNING[118][C-00000005] file.c: Unable to open format wav
+[Jul 23 16:52:03] WARNING[118][C-00000005] file.c: Unable to open beep (format (ulaw)): No such file or directory
+[Jul 23 16:52:03] WARNING[118][C-00000005] app_playback.c: Playback failed on PJSIP/1001-00000004 for beep
+[Jul 23 16:52:03] WARNING[118][C-00000005] format_wav.c: Not in mono 2
+[Jul 23 16:52:03] WARNING[118][C-00000005] file.c: Unable to open format wav
+[Jul 23 16:52:03] WARNING[118][C-00000005] file.c: Unable to open ivr-options (format (ulaw)): No such file or directory
+[Jul 23 16:52:03] WARNING[118][C-00000005] pbx_builtins.c: ast_streamfile failed on PJSIP/1001-00000004 for ivr-options
+[Jul 23 16:52:08] WARNING[118][C-00000005] format_wav.c: Not in mono 2
+[Jul 23 16:52:08] WARNING[118][C-00000005] file.c: Unable to open format wav
+[Jul 23 16:52:08] WARNING[118][C-00000005] file.c: Unable to open please-wait-connect-call (format (ulaw)): No such file or directory
+[Jul 23 16:52:08] WARNING[118][C-00000005] app_playback.c: Playback failed on PJSIP/1001-00000004 for please-wait-connect-call
+[Jul 23 16:52:08] ERROR[31] cdr_csv.c: Unable to open file /var/log/asterisk//cdr-csv//Master.csv : No such file or directory
+[Jul 23 16:52:08] WARNING[31] cdr_csv.c: Unable to write CSV record to master '/var/log/asterisk//cdr-csv//Master.csv' : Invalid argument
+[Jul 23 16:52:18] WARNING[119][C-00000006] format_wav.c: Not a supported wav file format (65534). Only PCM encoded, 16 bit, mono, 8kHz/16kHz files are supported with a lowercase '.wav' extension.
+[Jul 23 16:52:18] WARNING[119][C-00000006] file.c: Unable to open format wav
+[Jul 23 16:52:18] WARNING[119][C-00000006] file.c: Unable to open beep (format (ulaw)): No such file or directory
+[Jul 23 16:52:18] WARNING[119][C-00000006] app_playback.c: Playback failed on PJSIP/1001-00000005 for beep
+[Jul 23 16:52:18] WARNING[119][C-00000006] format_wav.c: Not in mono 2
+[Jul 23 16:52:18] WARNING[119][C-00000006] file.c: Unable to open format wav
+[Jul 23 16:52:18] WARNING[119][C-00000006] file.c: Unable to open ivr-options (format (ulaw)): No such file or directory
+[Jul 23 16:52:18] WARNING[119][C-00000006] pbx_builtins.c: ast_streamfile failed on PJSIP/1001-00000005 for ivr-options
+[Jul 23 16:52:23] WARNING[119][C-00000006] format_wav.c: Not in mono 2
+[Jul 23 16:52:23] WARNING[119][C-00000006] file.c: Unable to open format wav
+[Jul 23 16:52:23] WARNING[119][C-00000006] file.c: Unable to open please-wait-connect-call (format (ulaw)): No such file or directory
+[Jul 23 16:52:23] WARNING[119][C-00000006] app_playback.c: Playback failed on PJSIP/1001-00000005 for please-wait-connect-call
+[Jul 23 16:52:23] ERROR[31] cdr_csv.c: Unable to open file /var/log/asterisk//cdr-csv//Master.csv : No such file or directory
+[Jul 23 16:52:23] WARNING[31] cdr_csv.c: Unable to write CSV record to master '/var/log/asterisk//cdr-csv//Master.csv' : Invalid argument
+[Jul 23 16:53:02] NOTICE[103] sorcery.c: Type 'system' is not reloadable, maintaining previous values
+[Jul 23 16:53:02] ERROR[103] res_pjsip/config_system.c: There are no local system nameservers configured, resorting to system resolution
+[Jul 23 16:53:04] WARNING[102] pbx.c: Context 'local' tries to include nonexistent context 'iaxtel700'
+[Jul 23 16:53:13] WARNING[129][C-00000007] format_wav.c: Not a supported wav file format (65534). Only PCM encoded, 16 bit, mono, 8kHz/16kHz files are supported with a lowercase '.wav' extension.
+[Jul 23 16:53:13] WARNING[129][C-00000007] file.c: Unable to open format wav
+[Jul 23 16:53:13] WARNING[129][C-00000007] file.c: Unable to open beep (format (ulaw)): No such file or directory
+[Jul 23 16:53:13] WARNING[129][C-00000007] app_playback.c: Playback failed on PJSIP/1001-00000006 for beep
+[Jul 23 16:53:13] WARNING[129][C-00000007] format_wav.c: Not in mono 2
+[Jul 23 16:53:13] WARNING[129][C-00000007] file.c: Unable to open format wav
+[Jul 23 16:53:13] WARNING[129][C-00000007] file.c: Unable to open ivr-options (format (ulaw)): No such file or directory
+[Jul 23 16:53:13] WARNING[129][C-00000007] pbx_builtins.c: ast_streamfile failed on PJSIP/1001-00000006 for ivr-options
+[Jul 23 16:53:18] WARNING[129][C-00000007] format_wav.c: Not in mono 2
+[Jul 23 16:53:18] WARNING[129][C-00000007] file.c: Unable to open format wav
+[Jul 23 16:53:18] WARNING[129][C-00000007] file.c: Unable to open please-wait-connect-call (format (ulaw)): No such file or directory
+[Jul 23 16:53:18] WARNING[129][C-00000007] app_playback.c: Playback failed on PJSIP/1001-00000006 for please-wait-connect-call
+[Jul 23 16:53:18] ERROR[31] cdr_csv.c: Unable to open file /var/log/asterisk//cdr-csv//Master.csv : No such file or directory
+[Jul 23 16:53:18] WARNING[31] cdr_csv.c: Unable to write CSV record to master '/var/log/asterisk//cdr-csv//Master.csv' : Invalid argument
+[Jul 23 16:55:52] WARNING[131][C-00000008] format_wav.c: Not a supported wav file format (65534). Only PCM encoded, 16 bit, mono, 8kHz/16kHz files are supported with a lowercase '.wav' extension.
+[Jul 23 16:55:52] WARNING[131][C-00000008] file.c: Unable to open format wav
+[Jul 23 16:55:52] WARNING[131][C-00000008] file.c: Unable to open beep (format (ulaw)): No such file or directory
+[Jul 23 16:55:52] WARNING[131][C-00000008] app_playback.c: Playback failed on PJSIP/1001-00000007 for beep
+[Jul 23 16:56:01] WARNING[131][C-00000008] pbx.c: Invalid extension '12', but no rule 'i' or 'e' in context 'ivrmenu'
+[Jul 23 16:56:01] ERROR[31] cdr_csv.c: Unable to open file /var/log/asterisk//cdr-csv//Master.csv : No such file or directory
+[Jul 23 16:56:01] WARNING[31] cdr_csv.c: Unable to write CSV record to master '/var/log/asterisk//cdr-csv//Master.csv' : Invalid argument
+[Jul 23 16:56:07] WARNING[132][C-00000009] format_wav.c: Not a supported wav file format (65534). Only PCM encoded, 16 bit, mono, 8kHz/16kHz files are supported with a lowercase '.wav' extension.
+[Jul 23 16:56:07] WARNING[132][C-00000009] file.c: Unable to open format wav
+[Jul 23 16:56:07] WARNING[132][C-00000009] file.c: Unable to open beep (format (ulaw)): No such file or directory
+[Jul 23 16:56:07] WARNING[132][C-00000009] app_playback.c: Playback failed on PJSIP/1001-00000008 for beep
+[Jul 23 16:56:13] WARNING[132][C-00000009] format_wav.c: Not a supported wav file format (65534). Only PCM encoded, 16 bit, mono, 8kHz/16kHz files are supported with a lowercase '.wav' extension.
+[Jul 23 16:56:13] WARNING[132][C-00000009] file.c: Unable to open format wav
+[Jul 23 16:56:13] WARNING[132][C-00000009] file.c: Unable to open beep (format (ulaw)): No such file or directory
+[Jul 23 16:56:13] WARNING[132][C-00000009] app_playback.c: Playback failed on PJSIP/1001-00000008 for beep
+[Jul 23 16:56:13] WARNING[132][C-00000009] format_wav.c: Not a supported wav file format (65534). Only PCM encoded, 16 bit, mono, 8kHz/16kHz files are supported with a lowercase '.wav' extension.
+[Jul 23 16:56:13] WARNING[132][C-00000009] file.c: Unable to open format wav
+[Jul 23 16:56:13] WARNING[132][C-00000009] file.c: Unable to open beep (format (ulaw)): No such file or directory
+[Jul 23 16:56:13] WARNING[132][C-00000009] app_record.c: ast_streamfile(beep) failed on PJSIP/1001-00000008
+[Jul 23 16:56:22] ERROR[31] cdr_csv.c: Unable to open file /var/log/asterisk//cdr-csv//Master.csv : No such file or directory
+[Jul 23 16:56:22] WARNING[31] cdr_csv.c: Unable to write CSV record to master '/var/log/asterisk//cdr-csv//Master.csv' : Invalid argument
+[Jul 23 16:57:37] WARNING[149][C-0000000a] format_wav.c: Not a supported wav file format (65534). Only PCM encoded, 16 bit, mono, 8kHz/16kHz files are supported with a lowercase '.wav' extension.
+[Jul 23 16:57:37] WARNING[149][C-0000000a] file.c: Unable to open format wav
+[Jul 23 16:57:37] WARNING[149][C-0000000a] file.c: Unable to open beep (format (ulaw)): No such file or directory
+[Jul 23 16:57:37] WARNING[149][C-0000000a] app_playback.c: Playback failed on PJSIP/1001-00000009 for beep
+[Jul 23 16:57:52] ERROR[31] cdr_csv.c: Unable to open file /var/log/asterisk//cdr-csv//Master.csv : No such file or directory
+[Jul 23 16:57:52] WARNING[31] cdr_csv.c: Unable to write CSV record to master '/var/log/asterisk//cdr-csv//Master.csv' : Invalid argument
+[Jul 23 16:59:38] WARNING[196][C-0000000b] format_wav.c: Not a supported wav file format (65534). Only PCM encoded, 16 bit, mono, 8kHz/16kHz files are supported with a lowercase '.wav' extension.
+[Jul 23 16:59:38] WARNING[196][C-0000000b] file.c: Unable to open format wav
+[Jul 23 16:59:38] WARNING[196][C-0000000b] file.c: Unable to open beep (format (ulaw)): No such file or directory
+[Jul 23 16:59:38] WARNING[196][C-0000000b] app_playback.c: Playback failed on PJSIP/1001-0000000a for beep
+[Jul 23 16:59:43] WARNING[196][C-0000000b] pbx.c: Invalid extension '12', but no rule 'i' or 'e' in context 'ivrmenu'
+[Jul 23 16:59:43] ERROR[31] cdr_csv.c: Unable to open file /var/log/asterisk//cdr-csv//Master.csv : No such file or directory
+[Jul 23 16:59:43] WARNING[31] cdr_csv.c: Unable to write CSV record to master '/var/log/asterisk//cdr-csv//Master.csv' : Invalid argument

@@ -1,0 +1,251 @@
+[Jul 23 04:13:48] Asterisk 18.11.2 built by buildozer @ build-3-16-x86_64 on a x86_64 running Linux on 2022-04-28 07:42:40 UTC
+[Jul 23 04:13:48] NOTICE[1] loader.c: 313 modules will be loaded.
+[Jul 23 04:13:48] NOTICE[1] cdr.c: CDR simple logging enabled.
+[Jul 23 04:13:48] ERROR[36] res_pjsip/config_system.c: There are no local system nameservers configured, resorting to system resolution
+[Jul 23 04:13:48] ERROR[36] res_pjsip/config_system.c: There are no local system nameservers configured, resorting to system resolution
+[Jul 23 04:13:48] NOTICE[1] res_smdi.c: No SMDI interfaces are available to listen on, not starting SMDI listener.
+[Jul 23 04:13:48] ERROR[1] file.c: Error opening directory - /var/lib/asterisk/moh: No such file or directory
+[Jul 23 04:13:48] WARNING[1] res_musiconhold.c: No music on hold classes configured, disabling music on hold.
+[Jul 23 04:13:48] WARNING[1] res_phoneprov.c: Unable to find a valid server address or name.
+[Jul 23 04:13:48] NOTICE[1] chan_skinny.c: Configuring skinny from skinny.conf
+[Jul 23 04:13:48] ERROR[1] ari/config.c: No configured users for ARI
+[Jul 23 04:13:48] NOTICE[1] confbridge/conf_config_parser.c: Adding default_menu menu to app_confbridge
+[Jul 23 04:13:48] NOTICE[1] cel_custom.c: No mappings found in cel_custom.conf. Not logging CEL to custom CSVs.
+[Jul 23 04:13:48] WARNING[1] pbx.c: Context 'local' tries to include nonexistent context 'iaxtel700'
+[Jul 23 04:13:48] WARNING[1] pbx.c: Context 'local' tries to include nonexistent context 'iaxtel700'
+[Jul 23 04:13:48] WARNING[1] loader.c: Some non-required modules failed to load.
+[Jul 23 04:13:48] WARNING[1] loader.c: The deprecated module 'res_monitor.so' has been loaded and is running, it may be removed in a future version
+[Jul 23 04:13:48] WARNING[1] loader.c: The deprecated module 'res_adsi.so' has been loaded and is running, it may be removed in a future version
+[Jul 23 04:13:48] WARNING[1] loader.c: The deprecated module 'chan_oss.so' has been loaded and is running, it may be removed in a future version
+[Jul 23 04:13:48] WARNING[1] loader.c: The deprecated module 'app_image.so' has been loaded and is running, it may be removed in a future version
+[Jul 23 04:13:48] WARNING[1] loader.c: The deprecated module 'app_ices.so' has been loaded and is running, it may be removed in a future version
+[Jul 23 04:13:48] WARNING[1] loader.c: The deprecated module 'app_url.so' has been loaded and is running, it may be removed in a future version
+[Jul 23 04:13:48] WARNING[1] loader.c: The deprecated module 'app_getcpeid.so' has been loaded and is running, it may be removed in a future version
+[Jul 23 04:13:48] WARNING[1] loader.c: The deprecated module 'app_adsiprog.so' has been loaded and is running, it may be removed in a future version
+[Jul 23 04:13:48] WARNING[1] loader.c: The deprecated module 'app_nbscat.so' has been loaded and is running, it may be removed in a future version
+[Jul 23 04:13:48] ERROR[1] loader.c: Failed to resolve dependencies for res_stir_shaken
+[Jul 23 04:13:48] ERROR[1] loader.c: res_stir_shaken declined to load.
+[Jul 23 04:13:48] ERROR[1] loader.c: cdr_sqlite3_custom declined to load.
+[Jul 23 04:13:48] ERROR[1] loader.c: cel_sqlite3_custom declined to load.
+[Jul 23 04:13:48] ERROR[1] loader.c: Failed to resolve dependencies for res_http_media_cache
+[Jul 23 04:13:48] ERROR[1] loader.c: res_http_media_cache declined to load.
+[Jul 23 04:13:48] ERROR[1] loader.c: Failed to resolve dependencies for res_pjsip_stir_shaken
+[Jul 23 04:13:48] ERROR[1] loader.c: res_pjsip_stir_shaken declined to load.
+[Jul 23 04:21:13] WARNING[132] pbx.c: Context 'local' tries to include nonexistent context 'iaxtel700'
+[Jul 23 04:25:07] NOTICE[140] sorcery.c: Type 'system' is not reloadable, maintaining previous values
+[Jul 23 04:25:07] ERROR[140] res_pjsip/config_system.c: There are no local system nameservers configured, resorting to system resolution
+[Jul 23 04:25:31] WARNING[139] pbx.c: Context 'local' tries to include nonexistent context 'iaxtel700'
+[Jul 23 04:26:19] NOTICE[148] res_pjsip/pjsip_distributor.c: Request 'REGISTER' from '<sip:1000@192.168.1.9>' failed for '192.168.1.9:41216' (callid: lRVnXgu_lPN3IpE49gETgQ..) - No matching endpoint found
+[Jul 23 04:26:19] NOTICE[148] res_pjsip/pjsip_distributor.c: Request 'REGISTER' from '<sip:1000@192.168.1.9>' failed for '192.168.1.9:41216' (callid: lRVnXgu_lPN3IpE49gETgQ..) - No matching endpoint found
+[Jul 23 04:26:19] NOTICE[148] res_pjsip/pjsip_distributor.c: Request 'REGISTER' from '<sip:1000@192.168.1.9>' failed for '192.168.1.9:41216' (callid: lRVnXgu_lPN3IpE49gETgQ..) - Failed to authenticate
+[Jul 23 04:26:23] NOTICE[148] res_pjsip/pjsip_distributor.c: Request 'REGISTER' from '<sip:1000@192.168.1.9>' failed for '192.168.1.9:41216' (callid: ElUI1vdiwTtph7bszndUFg..) - No matching endpoint found
+[Jul 23 04:26:23] NOTICE[148] res_pjsip/pjsip_distributor.c: Request 'REGISTER' from '<sip:1000@192.168.1.9>' failed for '192.168.1.9:41216' (callid: ElUI1vdiwTtph7bszndUFg..) - No matching endpoint found
+[Jul 23 04:26:23] NOTICE[148] res_pjsip/pjsip_distributor.c: Request 'REGISTER' from '<sip:1000@192.168.1.9>' failed for '192.168.1.9:41216' (callid: ElUI1vdiwTtph7bszndUFg..) - Failed to authenticate
+[Jul 23 04:26:31] NOTICE[148] res_pjsip/pjsip_distributor.c: Request 'REGISTER' from '<sip:1000@192.168.1.9>' failed for '192.168.1.9:41216' (callid: 39ccegf_Oah_MhqtpESBIA..) - No matching endpoint found
+[Jul 23 04:26:31] NOTICE[148] res_pjsip/pjsip_distributor.c: Request 'REGISTER' from '<sip:1000@192.168.1.9>' failed for '192.168.1.9:41216' (callid: 39ccegf_Oah_MhqtpESBIA..) - No matching endpoint found
+[Jul 23 04:26:31] NOTICE[148] res_pjsip/pjsip_distributor.c: Request 'REGISTER' from '<sip:1000@192.168.1.9>' failed for '192.168.1.9:41216' (callid: 39ccegf_Oah_MhqtpESBIA..) - Failed to authenticate
+[Jul 23 04:26:47] NOTICE[148] res_pjsip/pjsip_distributor.c: Request 'REGISTER' from '<sip:1000@192.168.1.9>' failed for '192.168.1.9:41216' (callid: cMsPJdFIbLQbdy8ZKxtI_g..) - No matching endpoint found
+[Jul 23 04:26:48] NOTICE[148] res_pjsip/pjsip_distributor.c: Request 'REGISTER' from '<sip:1000@192.168.1.9>' failed for '192.168.1.9:41216' (callid: cMsPJdFIbLQbdy8ZKxtI_g..) - No matching endpoint found
+[Jul 23 04:26:48] NOTICE[148] res_pjsip/pjsip_distributor.c: Request 'REGISTER' from '<sip:1000@192.168.1.9>' failed for '192.168.1.9:41216' (callid: cMsPJdFIbLQbdy8ZKxtI_g..) - Failed to authenticate
+[Jul 23 04:26:48] NOTICE[148] res_pjsip/pjsip_distributor.c: Request 'REGISTER' from '<sip:1000@192.168.1.9>' failed for '192.168.1.9:41216' (callid: cMsPJdFIbLQbdy8ZKxtI_g..) - No matching endpoint found
+[Jul 23 04:26:48] NOTICE[148] res_pjsip/pjsip_distributor.c: Request 'REGISTER' from '<sip:1000@192.168.1.9>' failed for '192.168.1.9:41216' (callid: cMsPJdFIbLQbdy8ZKxtI_g..) - Failed to authenticate
+[Jul 23 04:29:59] WARNING[154][C-00000001] file.c: File welcome does not exist in any format
+[Jul 23 04:29:59] WARNING[154][C-00000001] file.c: Unable to open welcome (format (ulaw)): Invalid argument
+[Jul 23 04:29:59] WARNING[154][C-00000001] pbx_builtins.c: ast_streamfile failed on PJSIP/1001-00000000 for welcome
+[Jul 23 04:30:04] WARNING[154][C-00000001] format_wav.c: Not in mono 2
+[Jul 23 04:30:04] WARNING[154][C-00000001] file.c: Unable to open format wav
+[Jul 23 04:30:04] WARNING[154][C-00000001] file.c: Unable to open please-wait-connect-call (format (ulaw)): No such file or directory
+[Jul 23 04:30:04] WARNING[154][C-00000001] app_playback.c: Playback failed on PJSIP/1001-00000000 for please-wait-connect-call
+[Jul 23 04:30:11] WARNING[156][C-00000002] file.c: File welcome does not exist in any format
+[Jul 23 04:30:11] WARNING[156][C-00000002] file.c: Unable to open welcome (format (ulaw)): Invalid argument
+[Jul 23 04:30:11] WARNING[156][C-00000002] pbx_builtins.c: ast_streamfile failed on PJSIP/1001-00000001 for welcome
+[Jul 23 04:30:16] WARNING[156][C-00000002] format_wav.c: Not in mono 2
+[Jul 23 04:30:16] WARNING[156][C-00000002] file.c: Unable to open format wav
+[Jul 23 04:30:16] WARNING[156][C-00000002] file.c: Unable to open please-wait-connect-call (format (ulaw)): No such file or directory
+[Jul 23 04:30:16] WARNING[156][C-00000002] app_playback.c: Playback failed on PJSIP/1001-00000001 for please-wait-connect-call
+[Jul 23 04:30:22] WARNING[157][C-00000003] file.c: File welcome does not exist in any format
+[Jul 23 04:30:22] WARNING[157][C-00000003] file.c: Unable to open welcome (format (ulaw)): Invalid argument
+[Jul 23 04:30:22] WARNING[157][C-00000003] pbx_builtins.c: ast_streamfile failed on PJSIP/1001-00000002 for welcome
+[Jul 23 04:30:27] WARNING[157][C-00000003] pbx.c: Invalid extension '12', but no rule 'i' or 'e' in context 'ivrmenu'
+[Jul 23 04:30:33] WARNING[158][C-00000004] file.c: File welcome does not exist in any format
+[Jul 23 04:30:33] WARNING[158][C-00000004] file.c: Unable to open welcome (format (ulaw)): Invalid argument
+[Jul 23 04:30:33] WARNING[158][C-00000004] pbx_builtins.c: ast_streamfile failed on PJSIP/1001-00000003 for welcome
+[Jul 23 04:30:38] WARNING[158][C-00000004] format_wav.c: Not in mono 2
+[Jul 23 04:30:38] WARNING[158][C-00000004] file.c: Unable to open format wav
+[Jul 23 04:30:38] WARNING[158][C-00000004] file.c: Unable to open please-wait-connect-call (format (ulaw)): No such file or directory
+[Jul 23 04:30:38] WARNING[158][C-00000004] app_playback.c: Playback failed on PJSIP/1001-00000003 for please-wait-connect-call
+[Jul 23 04:30:57] WARNING[159][C-00000005] file.c: File welcome does not exist in any format
+[Jul 23 04:30:57] WARNING[159][C-00000005] file.c: Unable to open welcome (format (ulaw)): Invalid argument
+[Jul 23 04:30:57] WARNING[159][C-00000005] pbx_builtins.c: ast_streamfile failed on PJSIP/1001-00000004 for welcome
+[Jul 23 04:31:06] WARNING[159][C-00000005] file.c: File beep does not exist in any format
+[Jul 23 04:31:06] WARNING[159][C-00000005] file.c: Unable to open beep (format (ulaw)): Invalid argument
+[Jul 23 04:31:06] WARNING[159][C-00000005] app_playback.c: Playback failed on PJSIP/1001-00000004 for beep
+[Jul 23 04:31:06] WARNING[159][C-00000005] file.c: File beep does not exist in any format
+[Jul 23 04:31:06] WARNING[159][C-00000005] file.c: Unable to open beep (format (ulaw)): Invalid argument
+[Jul 23 04:31:06] WARNING[159][C-00000005] app_record.c: ast_streamfile(beep) failed on PJSIP/1001-00000004
+[Jul 23 04:32:33] NOTICE[148] sorcery.c: Type 'system' is not reloadable, maintaining previous values
+[Jul 23 04:32:33] ERROR[148] res_pjsip/config_system.c: There are no local system nameservers configured, resorting to system resolution
+[Jul 23 04:32:37] WARNING[164] pbx.c: Context 'local' tries to include nonexistent context 'iaxtel700'
+[Jul 23 04:32:51] WARNING[172][C-00000006] format_wav.c: Not in mono 2
+[Jul 23 04:32:51] WARNING[172][C-00000006] file.c: Unable to open format wav
+[Jul 23 04:32:51] WARNING[172][C-00000006] file.c: Unable to open welcome1 (format (ulaw)): No such file or directory
+[Jul 23 04:32:51] WARNING[172][C-00000006] pbx_builtins.c: ast_streamfile failed on PJSIP/1001-00000005 for welcome1
+[Jul 23 04:33:01] WARNING[172][C-00000006] file.c: File beep does not exist in any format
+[Jul 23 04:33:01] WARNING[172][C-00000006] file.c: Unable to open beep (format (ulaw)): Invalid argument
+[Jul 23 04:33:01] WARNING[172][C-00000006] app_playback.c: Playback failed on PJSIP/1001-00000005 for beep
+[Jul 23 04:33:01] WARNING[172][C-00000006] file.c: File beep does not exist in any format
+[Jul 23 04:33:01] WARNING[172][C-00000006] file.c: Unable to open beep (format (ulaw)): Invalid argument
+[Jul 23 04:33:01] WARNING[172][C-00000006] app_record.c: ast_streamfile(beep) failed on PJSIP/1001-00000005
+[Jul 23 04:38:02] WARNING[174][C-00000007] format_wav.c: Not in mono 2
+[Jul 23 04:38:02] WARNING[174][C-00000007] file.c: Unable to open format wav
+[Jul 23 04:38:02] WARNING[174][C-00000007] file.c: Unable to open please-wait-connect-call (format (ulaw)): No such file or directory
+[Jul 23 04:38:02] WARNING[174][C-00000007] app_playback.c: Playback failed on PJSIP/1001-00000006 for please-wait-connect-call
+[Jul 23 04:38:17] WARNING[175][C-00000008] file.c: File beep does not exist in any format
+[Jul 23 04:38:17] WARNING[175][C-00000008] file.c: Unable to open beep (format (ulaw)): Invalid argument
+[Jul 23 04:38:17] WARNING[175][C-00000008] app_playback.c: Playback failed on PJSIP/1001-00000007 for beep
+[Jul 23 04:38:17] WARNING[175][C-00000008] file.c: File beep does not exist in any format
+[Jul 23 04:38:17] WARNING[175][C-00000008] file.c: Unable to open beep (format (ulaw)): Invalid argument
+[Jul 23 04:38:17] WARNING[175][C-00000008] app_record.c: ast_streamfile(beep) failed on PJSIP/1001-00000007
+[Jul 23 04:43:15] WARNING[177][C-00000009] pbx.c: Invalid extension '12', but no rule 'i' or 'e' in context 'ivrmenu'
+[Jul 23 04:45:33] WARNING[180] pbx.c: Context 'local' tries to include nonexistent context 'iaxtel700'
+[Jul 23 04:46:03] WARNING[182][C-0000000a] file.c: File beep does not exist in any format
+[Jul 23 04:46:03] WARNING[182][C-0000000a] file.c: Unable to open beep (format (ulaw)): Invalid argument
+[Jul 23 04:46:03] WARNING[182][C-0000000a] app_record.c: ast_streamfile(beep) failed on PJSIP/1001-00000009
+[Jul 23 04:47:36] NOTICE[148] sorcery.c: Type 'system' is not reloadable, maintaining previous values
+[Jul 23 04:47:36] ERROR[148] res_pjsip/config_system.c: There are no local system nameservers configured, resorting to system resolution
+[Jul 23 04:47:39] WARNING[185] pbx.c: Context 'local' tries to include nonexistent context 'iaxtel700'
+[Jul 23 04:54:29] NOTICE[148] sorcery.c: Type 'system' is not reloadable, maintaining previous values
+[Jul 23 04:54:29] ERROR[148] res_pjsip/config_system.c: There are no local system nameservers configured, resorting to system resolution
+[Jul 23 04:54:31] WARNING[211] pbx.c: Context 'local' tries to include nonexistent context 'iaxtel700'
+[Jul 23 04:56:58] NOTICE[148] sorcery.c: Type 'system' is not reloadable, maintaining previous values
+[Jul 23 04:56:58] ERROR[148] res_pjsip/config_system.c: There are no local system nameservers configured, resorting to system resolution
+[Jul 23 04:57:00] WARNING[223] pbx.c: Context 'local' tries to include nonexistent context 'iaxtel700'
+[Jul 23 04:59:00] NOTICE[148] sorcery.c: Type 'system' is not reloadable, maintaining previous values
+[Jul 23 04:59:00] ERROR[148] res_pjsip/config_system.c: There are no local system nameservers configured, resorting to system resolution
+[Jul 23 04:59:02] WARNING[238] pbx.c: Context 'local' tries to include nonexistent context 'iaxtel700'
+[Jul 23 05:02:49] NOTICE[148] sorcery.c: Type 'system' is not reloadable, maintaining previous values
+[Jul 23 05:02:49] ERROR[148] res_pjsip/config_system.c: There are no local system nameservers configured, resorting to system resolution
+[Jul 23 05:02:50] WARNING[251] pbx.c: Context 'local' tries to include nonexistent context 'iaxtel700'
+[Jul 23 05:03:07] WARNING[260][C-00000012] pbx_builtins.c: Timeout but no rule 't' or 'e' in context 'ivrmenu'
+[Jul 23 05:04:40] NOTICE[148] sorcery.c: Type 'system' is not reloadable, maintaining previous values
+[Jul 23 05:04:40] ERROR[148] res_pjsip/config_system.c: There are no local system nameservers configured, resorting to system resolution
+[Jul 23 05:04:41] WARNING[265] pbx.c: Context 'local' tries to include nonexistent context 'iaxtel700'
+[Jul 23 05:10:13] NOTICE[148] sorcery.c: Type 'system' is not reloadable, maintaining previous values
+[Jul 23 05:10:13] ERROR[148] res_pjsip/config_system.c: There are no local system nameservers configured, resorting to system resolution
+[Jul 23 05:10:15] WARNING[277] pbx.c: Context 'local' tries to include nonexistent context 'iaxtel700'
+[Jul 23 05:15:05] WARNING[299][C-00000017] format_wav.c: Not a supported wav file format (65534). Only PCM encoded, 16 bit, mono, 8kHz/16kHz files are supported with a lowercase '.wav' extension.
+[Jul 23 05:15:05] WARNING[299][C-00000017] file.c: Unable to open format wav
+[Jul 23 05:15:05] WARNING[299][C-00000017] file.c: Unable to open beep (format (ulaw)): No such file or directory
+[Jul 23 05:15:05] WARNING[299][C-00000017] app_playback.c: Playback failed on PJSIP/1001-00000016 for beep
+[Jul 23 05:15:05] WARNING[299][C-00000017] format_wav.c: Not a supported wav file format (65534). Only PCM encoded, 16 bit, mono, 8kHz/16kHz files are supported with a lowercase '.wav' extension.
+[Jul 23 05:15:05] WARNING[299][C-00000017] file.c: Unable to open format wav
+[Jul 23 05:15:05] WARNING[299][C-00000017] file.c: Unable to open beep (format (ulaw)): No such file or directory
+[Jul 23 05:15:05] WARNING[299][C-00000017] app_record.c: ast_streamfile(beep) failed on PJSIP/1001-00000016
+[Jul 23 05:15:43] WARNING[301][C-00000019] format_wav.c: Not a supported wav file format (65534). Only PCM encoded, 16 bit, mono, 8kHz/16kHz files are supported with a lowercase '.wav' extension.
+[Jul 23 05:15:43] WARNING[301][C-00000019] file.c: Unable to open format wav
+[Jul 23 05:15:43] WARNING[301][C-00000019] file.c: Unable to open beep (format (ulaw)): No such file or directory
+[Jul 23 05:15:43] WARNING[301][C-00000019] app_playback.c: Playback failed on PJSIP/1001-00000018 for beep
+[Jul 23 05:15:43] WARNING[301][C-00000019] format_wav.c: Not a supported wav file format (65534). Only PCM encoded, 16 bit, mono, 8kHz/16kHz files are supported with a lowercase '.wav' extension.
+[Jul 23 05:15:43] WARNING[301][C-00000019] file.c: Unable to open format wav
+[Jul 23 05:15:43] WARNING[301][C-00000019] file.c: Unable to open beep (format (ulaw)): No such file or directory
+[Jul 23 05:15:43] WARNING[301][C-00000019] app_record.c: ast_streamfile(beep) failed on PJSIP/1001-00000018
+[Jul 23 05:17:25] WARNING[308][C-0000001a] format_wav.c: Not a supported wav file format (65534). Only PCM encoded, 16 bit, mono, 8kHz/16kHz files are supported with a lowercase '.wav' extension.
+[Jul 23 05:17:25] WARNING[308][C-0000001a] file.c: Unable to open format wav
+[Jul 23 05:17:25] WARNING[308][C-0000001a] file.c: Unable to open beep (format (ulaw)): No such file or directory
+[Jul 23 05:17:25] WARNING[308][C-0000001a] app_playback.c: Playback failed on PJSIP/1001-00000019 for beep
+[Jul 23 05:17:25] WARNING[308][C-0000001a] format_wav.c: Not a supported wav file format (65534). Only PCM encoded, 16 bit, mono, 8kHz/16kHz files are supported with a lowercase '.wav' extension.
+[Jul 23 05:17:25] WARNING[308][C-0000001a] file.c: Unable to open format wav
+[Jul 23 05:17:25] WARNING[308][C-0000001a] file.c: Unable to open beep (format (ulaw)): No such file or directory
+[Jul 23 05:17:25] WARNING[308][C-0000001a] app_record.c: ast_streamfile(beep) failed on PJSIP/1001-00000019
+[Jul 23 05:28:25] NOTICE[148] sorcery.c: Type 'system' is not reloadable, maintaining previous values
+[Jul 23 05:28:25] ERROR[148] res_pjsip/config_system.c: There are no local system nameservers configured, resorting to system resolution
+[Jul 23 05:28:28] WARNING[313] pbx.c: Context 'local' tries to include nonexistent context 'iaxtel700'
+[Jul 23 05:28:36] WARNING[322][C-0000001b] format_wav.c: Not a supported wav file format (65534). Only PCM encoded, 16 bit, mono, 8kHz/16kHz files are supported with a lowercase '.wav' extension.
+[Jul 23 05:28:36] WARNING[322][C-0000001b] file.c: Unable to open format wav
+[Jul 23 05:28:36] WARNING[322][C-0000001b] file.c: Unable to open beep (format (ulaw)): No such file or directory
+[Jul 23 05:28:36] WARNING[322][C-0000001b] app_playback.c: Playback failed on PJSIP/1001-0000001a for beep
+[Jul 23 05:28:43] WARNING[322][C-0000001b] format_wav.c: Not a supported wav file format (65534). Only PCM encoded, 16 bit, mono, 8kHz/16kHz files are supported with a lowercase '.wav' extension.
+[Jul 23 05:28:43] WARNING[322][C-0000001b] file.c: Unable to open format wav
+[Jul 23 05:28:43] WARNING[322][C-0000001b] file.c: Unable to open beep (format (ulaw)): No such file or directory
+[Jul 23 05:28:43] WARNING[322][C-0000001b] app_playback.c: Playback failed on PJSIP/1001-0000001a for beep
+[Jul 23 05:28:43] WARNING[322][C-0000001b] format_wav.c: Not a supported wav file format (65534). Only PCM encoded, 16 bit, mono, 8kHz/16kHz files are supported with a lowercase '.wav' extension.
+[Jul 23 05:28:43] WARNING[322][C-0000001b] file.c: Unable to open format wav
+[Jul 23 05:28:43] WARNING[322][C-0000001b] file.c: Unable to open beep (format (ulaw)): No such file or directory
+[Jul 23 05:28:43] WARNING[322][C-0000001b] app_record.c: ast_streamfile(beep) failed on PJSIP/1001-0000001a
+[Jul 23 05:31:51] NOTICE[316] sorcery.c: Type 'system' is not reloadable, maintaining previous values
+[Jul 23 05:31:51] ERROR[316] res_pjsip/config_system.c: There are no local system nameservers configured, resorting to system resolution
+[Jul 23 05:31:53] WARNING[325] pbx.c: Context 'local' tries to include nonexistent context 'iaxtel700'
+[Jul 23 05:32:11] WARNING[332][C-0000001c] format_wav.c: Not a supported wav file format (65534). Only PCM encoded, 16 bit, mono, 8kHz/16kHz files are supported with a lowercase '.wav' extension.
+[Jul 23 05:32:11] WARNING[332][C-0000001c] file.c: Unable to open format wav
+[Jul 23 05:32:11] WARNING[332][C-0000001c] file.c: Unable to open beep (format (ulaw)): No such file or directory
+[Jul 23 05:32:11] WARNING[332][C-0000001c] app_playback.c: Playback failed on PJSIP/1001-0000001b for beep
+[Jul 23 05:32:23] WARNING[332][C-0000001c] format_wav.c: Not a supported wav file format (65534). Only PCM encoded, 16 bit, mono, 8kHz/16kHz files are supported with a lowercase '.wav' extension.
+[Jul 23 05:32:23] WARNING[332][C-0000001c] file.c: Unable to open format wav
+[Jul 23 05:32:23] WARNING[332][C-0000001c] file.c: Unable to open beep (format (ulaw)): No such file or directory
+[Jul 23 05:32:23] WARNING[332][C-0000001c] app_playback.c: Playback failed on PJSIP/1001-0000001b for beep
+[Jul 23 05:32:23] WARNING[332][C-0000001c] format_wav.c: Not a supported wav file format (65534). Only PCM encoded, 16 bit, mono, 8kHz/16kHz files are supported with a lowercase '.wav' extension.
+[Jul 23 05:32:23] WARNING[332][C-0000001c] file.c: Unable to open format wav
+[Jul 23 05:32:23] WARNING[332][C-0000001c] file.c: Unable to open beep (format (ulaw)): No such file or directory
+[Jul 23 05:32:23] WARNING[332][C-0000001c] app_record.c: ast_streamfile(beep) failed on PJSIP/1001-0000001b
+[Jul 23 06:34:06] WARNING[339][C-0000001d] format_wav.c: Not a supported wav file format (65534). Only PCM encoded, 16 bit, mono, 8kHz/16kHz files are supported with a lowercase '.wav' extension.
+[Jul 23 06:34:06] WARNING[339][C-0000001d] file.c: Unable to open format wav
+[Jul 23 06:34:06] WARNING[339][C-0000001d] file.c: Unable to open beep (format (ulaw)): No such file or directory
+[Jul 23 06:34:06] WARNING[339][C-0000001d] app_playback.c: Playback failed on PJSIP/1001-0000001c for beep
+[Jul 23 06:34:13] WARNING[339][C-0000001d] format_wav.c: Not a supported wav file format (65534). Only PCM encoded, 16 bit, mono, 8kHz/16kHz files are supported with a lowercase '.wav' extension.
+[Jul 23 06:34:13] WARNING[339][C-0000001d] file.c: Unable to open format wav
+[Jul 23 06:34:13] WARNING[339][C-0000001d] file.c: Unable to open beep (format (ulaw)): No such file or directory
+[Jul 23 06:34:13] WARNING[339][C-0000001d] app_playback.c: Playback failed on PJSIP/1001-0000001c for beep
+[Jul 23 06:34:13] WARNING[339][C-0000001d] format_wav.c: Not a supported wav file format (65534). Only PCM encoded, 16 bit, mono, 8kHz/16kHz files are supported with a lowercase '.wav' extension.
+[Jul 23 06:34:13] WARNING[339][C-0000001d] file.c: Unable to open format wav
+[Jul 23 06:34:13] WARNING[339][C-0000001d] file.c: Unable to open beep (format (ulaw)): No such file or directory
+[Jul 23 06:34:13] WARNING[339][C-0000001d] app_record.c: ast_streamfile(beep) failed on PJSIP/1001-0000001c
+[Jul 23 06:55:05] WARNING[361][C-0000001e] format_wav.c: Not a supported wav file format (65534). Only PCM encoded, 16 bit, mono, 8kHz/16kHz files are supported with a lowercase '.wav' extension.
+[Jul 23 06:55:05] WARNING[361][C-0000001e] file.c: Unable to open format wav
+[Jul 23 06:55:05] WARNING[361][C-0000001e] file.c: Unable to open beep (format (ulaw)): No such file or directory
+[Jul 23 06:55:05] WARNING[361][C-0000001e] app_playback.c: Playback failed on PJSIP/1001-0000001d for beep
+[Jul 23 06:55:17] WARNING[361][C-0000001e] format_wav.c: Not a supported wav file format (65534). Only PCM encoded, 16 bit, mono, 8kHz/16kHz files are supported with a lowercase '.wav' extension.
+[Jul 23 06:55:17] WARNING[361][C-0000001e] file.c: Unable to open format wav
+[Jul 23 06:55:17] WARNING[361][C-0000001e] file.c: Unable to open beep (format (ulaw)): No such file or directory
+[Jul 23 06:55:17] WARNING[361][C-0000001e] app_playback.c: Playback failed on PJSIP/1001-0000001d for beep
+[Jul 23 06:55:17] WARNING[361][C-0000001e] format_wav.c: Not a supported wav file format (65534). Only PCM encoded, 16 bit, mono, 8kHz/16kHz files are supported with a lowercase '.wav' extension.
+[Jul 23 06:55:17] WARNING[361][C-0000001e] file.c: Unable to open format wav
+[Jul 23 06:55:17] WARNING[361][C-0000001e] file.c: Unable to open beep (format (ulaw)): No such file or directory
+[Jul 23 06:55:17] WARNING[361][C-0000001e] app_record.c: ast_streamfile(beep) failed on PJSIP/1001-0000001d
+[2025-07-23 07:41:41] Asterisk 18.11.2 built by buildozer @ build-3-16-x86_64 on a x86_64 running Linux on 2022-04-28 07:42:40 UTC
+[2025-07-23 07:41:55] Asterisk 18.11.2 built by buildozer @ build-3-16-x86_64 on a x86_64 running Linux on 2022-04-28 07:42:40 UTC
+[2025-07-23 07:43:38] WARNING[373][C-0000001f] format_wav.c: Not a supported wav file format (65534). Only PCM encoded, 16 bit, mono, 8kHz/16kHz files are supported with a lowercase '.wav' extension.
+[2025-07-23 07:43:38] WARNING[373][C-0000001f] file.c: Unable to open format wav
+[2025-07-23 07:43:38] WARNING[373][C-0000001f] file.c: Unable to open beep (format (ulaw)): No such file or directory
+[2025-07-23 07:43:38] WARNING[373][C-0000001f] app_playback.c: Playback failed on PJSIP/1001-0000001e for beep
+[2025-07-23 07:43:49] WARNING[373][C-0000001f] format_wav.c: Not a supported wav file format (65534). Only PCM encoded, 16 bit, mono, 8kHz/16kHz files are supported with a lowercase '.wav' extension.
+[2025-07-23 07:43:49] WARNING[373][C-0000001f] file.c: Unable to open format wav
+[2025-07-23 07:43:49] WARNING[373][C-0000001f] file.c: Unable to open beep (format (ulaw)): No such file or directory
+[2025-07-23 07:43:49] WARNING[373][C-0000001f] app_playback.c: Playback failed on PJSIP/1001-0000001e for beep
+[2025-07-23 07:43:49] WARNING[373][C-0000001f] format_wav.c: Not a supported wav file format (65534). Only PCM encoded, 16 bit, mono, 8kHz/16kHz files are supported with a lowercase '.wav' extension.
+[2025-07-23 07:43:49] WARNING[373][C-0000001f] file.c: Unable to open format wav
+[2025-07-23 07:43:49] WARNING[373][C-0000001f] file.c: Unable to open beep (format (ulaw)): No such file or directory
+[2025-07-23 07:43:49] WARNING[373][C-0000001f] app_record.c: ast_streamfile(beep) failed on PJSIP/1001-0000001e
+[2025-07-23 07:44:08] WARNING[374][C-00000020] format_wav.c: Not a supported wav file format (65534). Only PCM encoded, 16 bit, mono, 8kHz/16kHz files are supported with a lowercase '.wav' extension.
+[2025-07-23 07:44:08] WARNING[374][C-00000020] file.c: Unable to open format wav
+[2025-07-23 07:44:08] WARNING[374][C-00000020] file.c: Unable to open beep (format (ulaw)): No such file or directory
+[2025-07-23 07:44:08] WARNING[374][C-00000020] app_playback.c: Playback failed on PJSIP/1001-0000001f for beep
+[2025-07-23 07:44:14] WARNING[374][C-00000020] format_wav.c: Not a supported wav file format (65534). Only PCM encoded, 16 bit, mono, 8kHz/16kHz files are supported with a lowercase '.wav' extension.
+[2025-07-23 07:44:14] WARNING[374][C-00000020] file.c: Unable to open format wav
+[2025-07-23 07:44:14] WARNING[374][C-00000020] file.c: Unable to open beep (format (ulaw)): No such file or directory
+[2025-07-23 07:44:14] WARNING[374][C-00000020] app_playback.c: Playback failed on PJSIP/1001-0000001f for beep
+[2025-07-23 07:44:14] WARNING[374][C-00000020] format_wav.c: Not a supported wav file format (65534). Only PCM encoded, 16 bit, mono, 8kHz/16kHz files are supported with a lowercase '.wav' extension.
+[2025-07-23 07:44:14] WARNING[374][C-00000020] file.c: Unable to open format wav
+[2025-07-23 07:44:14] WARNING[374][C-00000020] file.c: Unable to open beep (format (ulaw)): No such file or directory
+[2025-07-23 07:44:14] WARNING[374][C-00000020] app_record.c: ast_streamfile(beep) failed on PJSIP/1001-0000001f
+[2025-07-23 07:45:37] WARNING[376][C-00000021] format_wav.c: Not a supported wav file format (65534). Only PCM encoded, 16 bit, mono, 8kHz/16kHz files are supported with a lowercase '.wav' extension.
+[2025-07-23 07:45:37] WARNING[376][C-00000021] file.c: Unable to open format wav
+[2025-07-23 07:45:37] WARNING[376][C-00000021] file.c: Unable to open beep (format (ulaw)): No such file or directory
+[2025-07-23 07:45:37] WARNING[376][C-00000021] app_playback.c: Playback failed on PJSIP/1001-00000020 for beep
+[2025-07-23 07:45:43] WARNING[376][C-00000021] format_wav.c: Not a supported wav file format (65534). Only PCM encoded, 16 bit, mono, 8kHz/16kHz files are supported with a lowercase '.wav' extension.
+[2025-07-23 07:45:43] WARNING[376][C-00000021] file.c: Unable to open format wav
+[2025-07-23 07:45:43] WARNING[376][C-00000021] file.c: Unable to open beep (format (ulaw)): No such file or directory
+[2025-07-23 07:45:43] WARNING[376][C-00000021] app_playback.c: Playback failed on PJSIP/1001-00000020 for beep
+[2025-07-23 07:45:43] WARNING[376][C-00000021] format_wav.c: Not a supported wav file format (65534). Only PCM encoded, 16 bit, mono, 8kHz/16kHz files are supported with a lowercase '.wav' extension.
+[2025-07-23 07:45:43] WARNING[376][C-00000021] file.c: Unable to open format wav
+[2025-07-23 07:45:43] WARNING[376][C-00000021] file.c: Unable to open beep (format (ulaw)): No such file or directory
+[2025-07-23 07:45:43] WARNING[376][C-00000021] app_record.c: ast_streamfile(beep) failed on PJSIP/1001-00000020

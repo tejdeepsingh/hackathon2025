@@ -1,0 +1,1228 @@
+[2025-07-23 07:41:41] Asterisk 18.11.2 built by buildozer @ build-3-16-x86_64 on a x86_64 running Linux on 2022-04-28 07:42:40 UTC
+[Jul 23 07:41:41] DEBUG[368] config.c: Parsing /etc/asterisk/logger.conf
+[2025-07-23 07:41:41] VERBOSE[368] logger.c: Asterisk Queue Logger restarted
+[2025-07-23 07:41:41] VERBOSE[368] asterisk.c: Remote UNIX connection disconnected
+[2025-07-23 07:41:48] DEBUG[47] res_pjsip_registrar.c: Expiring 0 contacts
+[2025-07-23 07:41:51] VERBOSE[18] asterisk.c: Remote UNIX connection
+[2025-07-23 07:41:55] Asterisk 18.11.2 built by buildozer @ build-3-16-x86_64 on a x86_64 running Linux on 2022-04-28 07:42:40 UTC
+[2025-07-23 07:41:55] DEBUG[370] config.c: Parsing /etc/asterisk/logger.conf
+[2025-07-23 07:41:55] VERBOSE[370] logger.c: Asterisk Queue Logger restarted
+[2025-07-23 07:42:05] DEBUG[35] res_pjsip/pjsip_distributor.c: Could not find matching transaction for Request msg REGISTER/cseq=441 (rdata0x7f8d8f428048)
+[2025-07-23 07:42:05] DEBUG[35] res_pjsip/pjsip_distributor.c: Calculated serializer pjsip/distributor-00000024 to use for Request msg REGISTER/cseq=441 (rdata0x7f8d8f428048)
+[2025-07-23 07:42:05] DEBUG[316] res_pjsip_endpoint_identifier_ip.c: No identify sections to match against
+[2025-07-23 07:42:05] DEBUG[316] res_pjsip_endpoint_identifier_user.c: Attempting identify by From username '1001' domain '192.168.1.9'
+[2025-07-23 07:42:05] DEBUG[316] res_pjsip_endpoint_identifier_user.c: Identified by From username '1001' domain '192.168.1.9'
+[2025-07-23 07:42:05] DEBUG[316] res_pjsip_authenticator_digest.c: Using default realm 'asterisk' on incoming auth '1001-auth'.
+[2025-07-23 07:42:05] DEBUG[316] res_pjsip_authenticator_digest.c: Realm: asterisk  Username: 1001  Result: STALE
+[2025-07-23 07:42:06] DEBUG[35] res_pjsip/pjsip_distributor.c: Could not find matching transaction for Request msg REGISTER/cseq=442 (rdata0x7f8d8f428058)
+[2025-07-23 07:42:06] DEBUG[35] res_pjsip/pjsip_distributor.c: Calculated serializer pjsip/distributor-00000024 to use for Request msg REGISTER/cseq=442 (rdata0x7f8d8f428058)
+[2025-07-23 07:42:06] DEBUG[316] res_pjsip_endpoint_identifier_ip.c: No identify sections to match against
+[2025-07-23 07:42:06] DEBUG[316] res_pjsip_endpoint_identifier_user.c: Attempting identify by From username '1001' domain '192.168.1.9'
+[2025-07-23 07:42:06] DEBUG[316] res_pjsip_endpoint_identifier_user.c: Identified by From username '1001' domain '192.168.1.9'
+[2025-07-23 07:42:06] DEBUG[316] res_pjsip_authenticator_digest.c: Using default realm 'asterisk' on incoming auth '1001-auth'.
+[2025-07-23 07:42:06] DEBUG[316] res_pjsip_authenticator_digest.c: Calculated nonce 1753256525/0368e16bf9137a11d3eab57b73e3d00d. Actual nonce is 1753256525/0368e16bf9137a11d3eab57b73e3d00d
+[2025-07-23 07:42:06] DEBUG[316] res_pjsip_authenticator_digest.c: Realm: asterisk  Username: 1001  Result: SUCCESS
+[2025-07-23 07:42:06] DEBUG[316] res_pjsip_registrar.c: Matched id '1001' to aor '1001'
+[2025-07-23 07:42:06] DEBUG[316] res_pjsip_registrar.c: Matched aor '1001' by To username
+[2025-07-23 07:42:06] DEBUG[316] config.c: extract double from [3.0] in [-inf, inf] gives [3.000000](0)
+[2025-07-23 07:42:06] DEBUG[316] config.c: extract uint from [0] in [0, 4294967295] gives [0](0)
+[2025-07-23 07:42:06] DEBUG[316] config.c: extract double from [3.000000] in [-inf, inf] gives [3.000000](0)
+[2025-07-23 07:42:06] DEBUG[316] config.c: extract uint from [41216] in [0, 4294967295] gives [41216](0)
+[2025-07-23 07:42:06] DEBUG[316] config.c: extract uint from [0] in [0, 86400] gives [0](0)
+[2025-07-23 07:42:06] DEBUG[316] config.c: extract double from [3.0] in [-inf, inf] gives [3.000000](0)
+[2025-07-23 07:42:06] DEBUG[316] config.c: extract uint from [0] in [0, 4294967295] gives [0](0)
+[2025-07-23 07:42:06] DEBUG[316] config.c: extract double from [3.000000] in [-inf, inf] gives [3.000000](0)
+[2025-07-23 07:42:06] DEBUG[316] config.c: extract uint from [41216] in [0, 4294967295] gives [41216](0)
+[2025-07-23 07:42:06] DEBUG[316] config.c: extract uint from [0] in [0, 86400] gives [0](0)
+[2025-07-23 07:42:06] DEBUG[316] res_pjsip_registrar.c: Refreshed contact 'sip:1001@192.168.1.9:41216;transport=UDP;rinstance=53c5260e820da1aa' on AOR '1001' with new expiration of 60 seconds
+[2025-07-23 07:42:18] DEBUG[47] res_pjsip_registrar.c: Expiring 0 contacts
+[2025-07-23 07:42:48] DEBUG[47] res_pjsip_registrar.c: Expiring 0 contacts
+[2025-07-23 07:42:59] DEBUG[35] res_pjsip/pjsip_distributor.c: Could not find matching transaction for Request msg REGISTER/cseq=443 (rdata0x7f8d8f3e9058)
+[2025-07-23 07:42:59] DEBUG[35] res_pjsip/pjsip_distributor.c: Calculated serializer pjsip/distributor-00000024 to use for Request msg REGISTER/cseq=443 (rdata0x7f8d8f3e9058)
+[2025-07-23 07:42:59] DEBUG[316] res_pjsip_endpoint_identifier_ip.c: No identify sections to match against
+[2025-07-23 07:42:59] DEBUG[316] res_pjsip_endpoint_identifier_user.c: Attempting identify by From username '1001' domain '192.168.1.9'
+[2025-07-23 07:42:59] DEBUG[316] res_pjsip_endpoint_identifier_user.c: Identified by From username '1001' domain '192.168.1.9'
+[2025-07-23 07:42:59] DEBUG[316] res_pjsip_authenticator_digest.c: Using default realm 'asterisk' on incoming auth '1001-auth'.
+[2025-07-23 07:42:59] DEBUG[316] res_pjsip_authenticator_digest.c: Realm: asterisk  Username: 1001  Result: STALE
+[2025-07-23 07:42:59] DEBUG[35] res_pjsip/pjsip_distributor.c: Could not find matching transaction for Request msg REGISTER/cseq=444 (rdata0x7f8d8f3e9068)
+[2025-07-23 07:42:59] DEBUG[35] res_pjsip/pjsip_distributor.c: Calculated serializer pjsip/distributor-00000024 to use for Request msg REGISTER/cseq=444 (rdata0x7f8d8f3e9068)
+[2025-07-23 07:42:59] DEBUG[316] res_pjsip_endpoint_identifier_ip.c: No identify sections to match against
+[2025-07-23 07:42:59] DEBUG[316] res_pjsip_endpoint_identifier_user.c: Attempting identify by From username '1001' domain '192.168.1.9'
+[2025-07-23 07:42:59] DEBUG[316] res_pjsip_endpoint_identifier_user.c: Identified by From username '1001' domain '192.168.1.9'
+[2025-07-23 07:42:59] DEBUG[316] res_pjsip_authenticator_digest.c: Using default realm 'asterisk' on incoming auth '1001-auth'.
+[2025-07-23 07:42:59] DEBUG[316] res_pjsip_authenticator_digest.c: Calculated nonce 1753256579/a13aec94a3ac360fa580afe60de79b35. Actual nonce is 1753256579/a13aec94a3ac360fa580afe60de79b35
+[2025-07-23 07:42:59] DEBUG[316] res_pjsip_authenticator_digest.c: Realm: asterisk  Username: 1001  Result: SUCCESS
+[2025-07-23 07:42:59] DEBUG[316] res_pjsip_registrar.c: Matched id '1001' to aor '1001'
+[2025-07-23 07:42:59] DEBUG[316] res_pjsip_registrar.c: Matched aor '1001' by To username
+[2025-07-23 07:42:59] DEBUG[316] config.c: extract double from [3.0] in [-inf, inf] gives [3.000000](0)
+[2025-07-23 07:42:59] DEBUG[316] config.c: extract uint from [0] in [0, 4294967295] gives [0](0)
+[2025-07-23 07:42:59] DEBUG[316] config.c: extract double from [3.000000] in [-inf, inf] gives [3.000000](0)
+[2025-07-23 07:42:59] DEBUG[316] config.c: extract uint from [41216] in [0, 4294967295] gives [41216](0)
+[2025-07-23 07:42:59] DEBUG[316] config.c: extract uint from [0] in [0, 86400] gives [0](0)
+[2025-07-23 07:42:59] DEBUG[316] config.c: extract double from [3.0] in [-inf, inf] gives [3.000000](0)
+[2025-07-23 07:42:59] DEBUG[316] config.c: extract uint from [0] in [0, 4294967295] gives [0](0)
+[2025-07-23 07:42:59] DEBUG[316] config.c: extract double from [3.000000] in [-inf, inf] gives [3.000000](0)
+[2025-07-23 07:42:59] DEBUG[316] config.c: extract uint from [41216] in [0, 4294967295] gives [41216](0)
+[2025-07-23 07:42:59] DEBUG[316] config.c: extract uint from [0] in [0, 86400] gives [0](0)
+[2025-07-23 07:42:59] DEBUG[316] res_pjsip_registrar.c: Refreshed contact 'sip:1001@192.168.1.9:41216;transport=UDP;rinstance=53c5260e820da1aa' on AOR '1001' with new expiration of 60 seconds
+[2025-07-23 07:43:18] DEBUG[47] res_pjsip_registrar.c: Expiring 0 contacts
+[2025-07-23 07:43:20] VERBOSE[370] asterisk.c: Remote UNIX connection disconnected
+[2025-07-23 07:43:37] DEBUG[35] res_pjsip/pjsip_distributor.c: Could not find matching transaction for Request msg INVITE/cseq=1 (rdata0x7f8d8f428098)
+[2025-07-23 07:43:37] DEBUG[35] res_pjsip/pjsip_distributor.c: Calculated serializer pjsip/distributor-0000001a to use for Request msg INVITE/cseq=1 (rdata0x7f8d8f428098)
+[2025-07-23 07:43:37] DEBUG[316] res_pjsip_endpoint_identifier_ip.c: No identify sections to match against
+[2025-07-23 07:43:37] DEBUG[316] res_pjsip_endpoint_identifier_user.c: Attempting identify by From username '1001' domain '192.168.1.9'
+[2025-07-23 07:43:37] DEBUG[316] res_pjsip_endpoint_identifier_user.c: Identified by From username '1001' domain '192.168.1.9'
+[2025-07-23 07:43:37] DEBUG[316] res_pjsip_authenticator_digest.c: Using default realm 'asterisk' on incoming auth '1001-auth'.
+[2025-07-23 07:43:37] DEBUG[316] res_pjsip_authenticator_digest.c: Realm: asterisk  Username: 1001  Result: NOAUTH
+[2025-07-23 07:43:37] DEBUG[35] res_pjsip/pjsip_distributor.c: Could not find matching transaction for Request msg ACK/cseq=1 (rdata0x7f8d8f4280a8)
+[2025-07-23 07:43:37] DEBUG[35] res_pjsip/pjsip_distributor.c: Calculated serializer pjsip/distributor-0000001a to use for Request msg ACK/cseq=1 (rdata0x7f8d8f4280a8)
+[2025-07-23 07:43:37] DEBUG[316] res_pjsip_endpoint_identifier_ip.c: No identify sections to match against
+[2025-07-23 07:43:37] DEBUG[316] res_pjsip_endpoint_identifier_user.c: Attempting identify by From username '1001' domain '192.168.1.9'
+[2025-07-23 07:43:37] DEBUG[316] res_pjsip_endpoint_identifier_user.c: Identified by From username '1001' domain '192.168.1.9'
+[2025-07-23 07:43:37] DEBUG[35] res_pjsip/pjsip_distributor.c: Could not find matching transaction for Request msg INVITE/cseq=2 (rdata0x7f8d8f4280b8)
+[2025-07-23 07:43:37] DEBUG[35] res_pjsip/pjsip_distributor.c: Calculated serializer pjsip/distributor-0000001a to use for Request msg INVITE/cseq=2 (rdata0x7f8d8f4280b8)
+[2025-07-23 07:43:37] DEBUG[316] res_pjsip_endpoint_identifier_ip.c: No identify sections to match against
+[2025-07-23 07:43:37] DEBUG[316] res_pjsip_endpoint_identifier_user.c: Attempting identify by From username '1001' domain '192.168.1.9'
+[2025-07-23 07:43:37] DEBUG[316] res_pjsip_endpoint_identifier_user.c: Identified by From username '1001' domain '192.168.1.9'
+[2025-07-23 07:43:37] DEBUG[316] res_pjsip_authenticator_digest.c: Using default realm 'asterisk' on incoming auth '1001-auth'.
+[2025-07-23 07:43:37] DEBUG[316] res_pjsip_authenticator_digest.c: Calculated nonce 1753256617/3bda61468c5a19080cb23fe877aae56f. Actual nonce is 1753256617/3bda61468c5a19080cb23fe877aae56f
+[2025-07-23 07:43:37] DEBUG[316] res_pjsip_authenticator_digest.c: Realm: asterisk  Username: 1001  Result: SUCCESS
+[2025-07-23 07:43:37] DEBUG[316] res_pjsip_session.c:  (null session) Request: INVITE 
+[2025-07-23 07:43:37] DEBUG[316] res_pjsip_session.c:  Request: 
+[2025-07-23 07:43:37] DEBUG[316] res_pjsip/pjsip_distributor.c: Calculated serializer pjsip/distributor-0000001a to use for Request msg INVITE/cseq=2 (rdata0x7f8d8f42a038)
+[2025-07-23 07:43:37] DEBUG[316] chan_pjsip.c:  1001
+[2025-07-23 07:43:37] DEBUG[316] chan_pjsip.c:  Direct media no glare mitigation
+[2025-07-23 07:43:37] DEBUG[316] res_pjsip_session.c:  1001
+[2025-07-23 07:43:37] DEBUG[316] res_pjsip_session.c:  1001: Call (UDP:192.168.1.9:41216) to extension '1001' sending 100 Trying
+[2025-07-23 07:43:37] DEBUG[316] res_pjsip_session.c:  1001: Method is INVITE, Response is 100 Trying
+[2025-07-23 07:43:37] DEBUG[316] res_pjsip_session.c:  1001
+[2025-07-23 07:43:37] DEBUG[316] res_pjsip_session.c:  1001 Event: TSX_STATE  Inv State: INCOMING
+[2025-07-23 07:43:37] DEBUG[316] res_pjsip_session.c: 1001: Source of transaction state change is TX_MSG
+[2025-07-23 07:43:37] DEBUG[316] res_pjsip_session.c:  
+[2025-07-23 07:43:37] DEBUG[316] res_pjsip_session.c:  1001 TSX State: Proceeding  Inv State: INCOMING
+[2025-07-23 07:43:37] DEBUG[316] res_pjsip_session.c:  Nothing delayed
+[2025-07-23 07:43:37] DEBUG[316] res_pjsip_session.c:  1001 TSX State: Proceeding  Inv State: INCOMING
+[2025-07-23 07:43:37] DEBUG[316] res_pjsip_session.c:  Topology: Pending: (null topology)  Active: (null topology)
+[2025-07-23 07:43:37] DEBUG[316] res_pjsip_session.c:  
+[2025-07-23 07:43:37] DEBUG[316] res_pjsip_session.c:  1001: Media count: 1
+[2025-07-23 07:43:37] DEBUG[316] res_pjsip_session.c:  1001 Adding position 0
+[2025-07-23 07:43:37] DEBUG[316] res_pjsip_session.c:  Creating new media session
+[2025-07-23 07:43:37] DEBUG[316] res_pjsip_session.c:  Setting media session as default for audio
+[2025-07-23 07:43:37] DEBUG[316] res_pjsip_session.c:  Done
+[2025-07-23 07:43:37] DEBUG[316] res_pjsip_sdp_rtp.c:  1001
+[2025-07-23 07:43:37] DEBUG[316] res_pjsip_sdp_rtp.c: Transport transport-udp bound to 0.0.0.0: Using it for RTP media.
+[2025-07-23 07:43:37] DEBUG[316] rtp_engine.c: Using engine 'asterisk' for RTP instance '0x7f8d8f3fc6d0'
+[2025-07-23 07:43:37] DEBUG[316] res_rtp_asterisk.c: (0x7f8d8f3fc6d0) RTP allocated port 17044
+[2025-07-23 07:43:37] DEBUG[316] res_rtp_asterisk.c: (0x7f8d8f3fc6d0) ICE creating session 0.0.0.0:17044 (17044)
+[2025-07-23 07:43:37] DEBUG[316] res_rtp_asterisk.c: (0x7f8d8f3fc6d0) ICE create
+[2025-07-23 07:43:37] DEBUG[316] res_rtp_asterisk.c: (0x7f8d8f3fc6d0) ICE add system candidates
+[2025-07-23 07:43:37] DEBUG[316] res_rtp_asterisk.c: (0x7f8d8f3fc6d0) ICE add candidate: 172.17.0.2:17044, 2130706431
+[2025-07-23 07:43:37] DEBUG[316] rtp_engine.c: RTP instance '0x7f8d8f3fc6d0' is setup and ready to go
+[2025-07-23 07:43:37] DEBUG[316] res_rtp_asterisk.c: (0x7f8d8f3fc6d0) ICE stopped
+[2025-07-23 07:43:37] DEBUG[316] res_rtp_asterisk.c: (0x7f8d8f3fc6d0) RTCP setup on RTP instance
+[2025-07-23 07:43:37] DEBUG[316] res_pjsip_sdp_rtp.c:  1001
+[2025-07-23 07:43:37] DEBUG[316] res_pjsip_sdp_rtp.c:  1001
+[2025-07-23 07:43:37] DEBUG[316] rtp_engine.c: Setting tx payload type 9 based on m type on 0x7f8d8d096180
+[2025-07-23 07:43:37] DEBUG[316] rtp_engine.c: Setting tx payload type 0 based on m type on 0x7f8d8d096180
+[2025-07-23 07:43:37] DEBUG[316] rtp_engine.c: Setting tx payload type 8 based on m type on 0x7f8d8d096180
+[2025-07-23 07:43:37] DEBUG[316] rtp_engine.c: Setting tx payload type 3 based on m type on 0x7f8d8d096180
+[2025-07-23 07:43:37] DEBUG[316] res_pjsip_sdp_rtp.c:  
+[2025-07-23 07:43:37] DEBUG[316] res_pjsip_session/pjsip_session_caps.c: '1001' Caps for incoming audio call with pref 'local' - remote: (opus|g722|ulaw|alaw|gsm) local: (ulaw) joint: (ulaw)
+[2025-07-23 07:43:37] DEBUG[316] rtp_engine.c: Crossover copying tx to rx payload mapping 0 (0x7f8d8f131338) from 0x7f8d8d096180 to 0x7f8d8d096180
+[2025-07-23 07:43:37] DEBUG[316] rtp_engine.c: Crossover copying tx to rx payload mapping 3 (0x7f8d8f131388) from 0x7f8d8d096180 to 0x7f8d8d096180
+[2025-07-23 07:43:37] DEBUG[316] rtp_engine.c: Crossover copying tx to rx payload mapping 8 (0x7f8d8f131518) from 0x7f8d8d096180 to 0x7f8d8d096180
+[2025-07-23 07:43:37] DEBUG[316] rtp_engine.c: Crossover copying tx to rx payload mapping 9 (0x7f8d8f131568) from 0x7f8d8d096180 to 0x7f8d8d096180
+[2025-07-23 07:43:37] DEBUG[316] rtp_engine.c: Crossover copying tx to rx payload mapping 101 (0x7f8d8bcbfe78) from 0x7f8d8d096180 to 0x7f8d8d096180
+[2025-07-23 07:43:37] DEBUG[316] rtp_engine.c: Crossover copying tx to rx payload mapping 106 (0x7f8d8f43d9e8) from 0x7f8d8d096180 to 0x7f8d8d096180
+[2025-07-23 07:43:37] DEBUG[316] rtp_engine.c: Copying rx payload mapping 0 (0x7f8d8f131338) from 0x7f8d8d096180 to 0x7f8d8f3fc8a8
+[2025-07-23 07:43:37] DEBUG[316] rtp_engine.c: Copying rx payload mapping 3 (0x7f8d8f131388) from 0x7f8d8d096180 to 0x7f8d8f3fc8a8
+[2025-07-23 07:43:37] DEBUG[316] rtp_engine.c: Copying rx payload mapping 8 (0x7f8d8f131518) from 0x7f8d8d096180 to 0x7f8d8f3fc8a8
+[2025-07-23 07:43:37] DEBUG[316] rtp_engine.c: Copying rx payload mapping 9 (0x7f8d8f131568) from 0x7f8d8d096180 to 0x7f8d8f3fc8a8
+[2025-07-23 07:43:37] DEBUG[316] rtp_engine.c: Copying rx payload mapping 101 (0x7f8d8bcbfe78) from 0x7f8d8d096180 to 0x7f8d8f3fc8a8
+[2025-07-23 07:43:37] DEBUG[316] rtp_engine.c: Copying rx payload mapping 106 (0x7f8d8f43d9e8) from 0x7f8d8d096180 to 0x7f8d8f3fc8a8
+[2025-07-23 07:43:37] DEBUG[316] rtp_engine.c: Copying tx payload mapping 0 (0x7f8d8f131338) from 0x7f8d8d096180 to 0x7f8d8f3fc8a8
+[2025-07-23 07:43:37] DEBUG[316] rtp_engine.c: Copying tx payload mapping 3 (0x7f8d8f131388) from 0x7f8d8d096180 to 0x7f8d8f3fc8a8
+[2025-07-23 07:43:37] DEBUG[316] rtp_engine.c: Copying tx payload mapping 8 (0x7f8d8f131518) from 0x7f8d8d096180 to 0x7f8d8f3fc8a8
+[2025-07-23 07:43:37] DEBUG[316] rtp_engine.c: Copying tx payload mapping 9 (0x7f8d8f131568) from 0x7f8d8d096180 to 0x7f8d8f3fc8a8
+[2025-07-23 07:43:37] DEBUG[316] rtp_engine.c: Copying tx payload mapping 101 (0x7f8d8bcbfe78) from 0x7f8d8d096180 to 0x7f8d8f3fc8a8
+[2025-07-23 07:43:37] DEBUG[316] rtp_engine.c: Copying tx payload mapping 106 (0x7f8d8f43d9e8) from 0x7f8d8d096180 to 0x7f8d8f3fc8a8
+[2025-07-23 07:43:37] DEBUG[316] res_pjsip_sdp_rtp.c:  
+[2025-07-23 07:43:37] DEBUG[316] res_pjsip_sdp_rtp.c:  
+[2025-07-23 07:43:37] DEBUG[316] res_pjsip_session.c:  1001: Handled? yes
+[2025-07-23 07:43:37] DEBUG[316] res_pjsip_session.c:  1001
+[2025-07-23 07:43:37] DEBUG[316] res_pjsip_session.c:  1001: Processing streams
+[2025-07-23 07:43:37] DEBUG[316] res_pjsip_session.c:  1001 Adding position 0
+[2025-07-23 07:43:37] DEBUG[316] res_pjsip_session.c:  Using existing media_session
+[2025-07-23 07:43:37] DEBUG[316] res_pjsip_session.c:  1001 Stream: 0:audio-0:audio:sendrecv (ulaw)
+[2025-07-23 07:43:37] DEBUG[316] res_pjsip_sdp_rtp.c:  1001 Type: audio 0:audio-0:audio:sendrecv (ulaw)
+[2025-07-23 07:43:37] DEBUG[316] res_rtp_asterisk.c: (0x7f8d8f3fc6d0) RTCP ignoring duplicate property
+[2025-07-23 07:43:37] DEBUG[316] res_pjsip_sdp_rtp.c:  RC: 1
+[2025-07-23 07:43:37] DEBUG[316] res_pjsip_session.c:  Had handler
+[2025-07-23 07:43:37] DEBUG[316] res_pjsip_session.c:  1001: Adding bundle groups (if available)
+[2025-07-23 07:43:37] DEBUG[316] res_pjsip_session.c:  1001: Copying connection details
+[2025-07-23 07:43:37] DEBUG[316] res_pjsip_session.c:  1001
+[2025-07-23 07:43:37] DEBUG[316] res_pjsip_session.c:  1001: Method is INVITE
+[2025-07-23 07:43:37] DEBUG[316] chan_pjsip.c:  1001
+[2025-07-23 07:43:37] DEBUG[316] chan_pjsip.c:  1001
+[2025-07-23 07:43:37] DEBUG[316] channel_internal_api.c:  <initializing>: Formats: (none)
+[2025-07-23 07:43:37] DEBUG[316] channel_internal_api.c:  Channel is being initialized or destroyed
+[2025-07-23 07:43:37] DEBUG[316] stasis.c: Creating topic. name: channel:1753256617.60, detail: 
+[2025-07-23 07:43:37] DEBUG[316] stasis.c: Topic 'channel:1753256617.60': 0x7f8d8f408c30 created
+[2025-07-23 07:43:37] DEBUG[316] channel.c: Channel 0x7f8d8f42d120 'PJSIP/1001-0000001e' allocated
+[2025-07-23 07:43:37] DEBUG[316] chan_pjsip.c:  Topology:  <0:audio-0:audio:sendrecv (ulaw)> Formats: (ulaw)
+[2025-07-23 07:43:37] DEBUG[316] chan_pjsip.c:  Compatible? yes
+[2025-07-23 07:43:37] DEBUG[316] channel_internal_api.c:  PJSIP/1001-0000001e: MultistreamFormats: (ulaw)
+[2025-07-23 07:43:37] DEBUG[11] threadpool.c: Increasing threadpool stasis/pool's size by 1
+[2025-07-23 07:43:37] DEBUG[316] channel_internal_api.c:  Set native formats but not topology
+[2025-07-23 07:43:37] DEBUG[316] channel_internal_api.c:  PJSIP/1001-0000001e:  <0:audio-0:audio:sendrecv (ulaw)>
+[2025-07-23 07:43:37] DEBUG[316] channel_internal_api.c:  Used provided topology
+[2025-07-23 07:43:37] DEBUG[316] chan_pjsip.c:  
+[2025-07-23 07:43:37] DEBUG[316] chan_pjsip.c:  PJSIP/1001-0000001e
+[2025-07-23 07:43:37] DEBUG[316] chan_pjsip.c:  PJSIP/1001-0000001e
+[2025-07-23 07:43:37] DEBUG[316] chan_pjsip.c: Started PBX on new PJSIP channel PJSIP/1001-0000001e
+[2025-07-23 07:43:37] DEBUG[316] chan_pjsip.c:  RC: 0
+[2025-07-23 07:43:37] DEBUG[316] res_pjsip_session.c:  PJSIP/1001-0000001e
+[2025-07-23 07:43:37] DEBUG[316] res_pjsip_session.c:  PJSIP/1001-0000001e
+[2025-07-23 07:43:37] DEBUG[316] res_pjsip_session.c:  Request:  Session: PJSIP/1001-0000001e
+[2025-07-23 07:43:37] DEBUG[316] res_pjsip_session.c:  (null session) Handled request INVITE  ? yes
+[2025-07-23 07:43:37] DEBUG[373][C-0000001f] pbx.c: Launching 'Answer'
+[2025-07-23 07:43:37] VERBOSE[373][C-0000001f] pbx.c: Executing [1001@ivrmenu:1] Answer("PJSIP/1001-0000001e", "") in new stack
+[2025-07-23 07:43:37] DEBUG[373][C-0000001f] chan_pjsip.c:  PJSIP/1001-0000001e
+[2025-07-23 07:43:37] DEBUG[23] devicestate.c: Changing state for PJSIP/1001 - state 2 (In use)
+[2025-07-23 07:43:37] DEBUG[316] chan_pjsip.c:  PJSIP/1001-0000001e
+[2025-07-23 07:43:37] DEBUG[85] app_queue.c: Device 'PJSIP/1001' changed to state '2' (In use) but we don't care because they're not a member of any queue.
+[2025-07-23 07:43:37] DEBUG[316] res_pjsip_session.c:  PJSIP/1001-0000001e
+[2025-07-23 07:43:37] DEBUG[316] res_pjsip_session.c:  PJSIP/1001-0000001e
+[2025-07-23 07:43:37] DEBUG[316] res_pjsip_session.c:  PJSIP/1001-0000001e
+[2025-07-23 07:43:37] DEBUG[316] res_pjsip_sdp_rtp.c:  PJSIP/1001-0000001e Stream: 0:audio-0:audio:sendrecv (ulaw)
+[2025-07-23 07:43:37] DEBUG[316] res_rtp_asterisk.c: (0x7f8d8f3fc6d0) RTCP ignoring duplicate property
+[2025-07-23 07:43:37] DEBUG[316] acl.c: For destination '192.168.1.9', our source address is '172.17.0.2'.
+[2025-07-23 07:43:37] DEBUG[316] res_rtp_asterisk.c: (0x7f8d8f3fc6d0) RTCP setting address on RTP instance
+[2025-07-23 07:43:37] DEBUG[316] res_pjsip_sdp_rtp.c:  PJSIP/1001-0000001e ANSWER
+[2025-07-23 07:43:37] DEBUG[316] res_pjsip_sdp_rtp.c:  PJSIP/1001-0000001e
+[2025-07-23 07:43:37] DEBUG[316] rtp_engine.c: Setting tx payload type 9 based on m type on 0x7f8d8d0960a0
+[2025-07-23 07:43:37] DEBUG[316] rtp_engine.c: Setting tx payload type 0 based on m type on 0x7f8d8d0960a0
+[2025-07-23 07:43:37] DEBUG[316] rtp_engine.c: Setting tx payload type 8 based on m type on 0x7f8d8d0960a0
+[2025-07-23 07:43:37] DEBUG[316] rtp_engine.c: Setting tx payload type 3 based on m type on 0x7f8d8d0960a0
+[2025-07-23 07:43:37] DEBUG[316] res_pjsip_sdp_rtp.c:  
+[2025-07-23 07:43:37] DEBUG[316] rtp_engine.c: Copying tx payload mapping 0 (0x7f8d8f131338) from 0x7f8d8d0960a0 to 0x7f8d8f3fc8a8
+[2025-07-23 07:43:37] DEBUG[316] rtp_engine.c: Copying tx payload mapping 3 (0x7f8d8f131388) from 0x7f8d8d0960a0 to 0x7f8d8f3fc8a8
+[2025-07-23 07:43:37] DEBUG[316] rtp_engine.c: Copying tx payload mapping 8 (0x7f8d8f131518) from 0x7f8d8d0960a0 to 0x7f8d8f3fc8a8
+[2025-07-23 07:43:37] DEBUG[316] rtp_engine.c: Copying tx payload mapping 9 (0x7f8d8f131568) from 0x7f8d8d0960a0 to 0x7f8d8f3fc8a8
+[2025-07-23 07:43:37] DEBUG[316] rtp_engine.c: Copying tx payload mapping 101 (0x7f8d8ce6f368) from 0x7f8d8d0960a0 to 0x7f8d8f3fc8a8
+[2025-07-23 07:43:37] DEBUG[316] rtp_engine.c: Copying tx payload mapping 106 (0x7f8d8bcc1468) from 0x7f8d8d0960a0 to 0x7f8d8f3fc8a8
+[2025-07-23 07:43:37] DEBUG[316] channel_internal_api.c:  PJSIP/1001-0000001e: MultistreamFormats: (ulaw)
+[2025-07-23 07:43:37] DEBUG[316] channel_internal_api.c:  Set native formats but not topology
+[2025-07-23 07:43:37] DEBUG[316] channel.c: Channel PJSIP/1001-0000001e setting read format path: ulaw -> ulaw
+[2025-07-23 07:43:37] DEBUG[316] channel.c: Channel PJSIP/1001-0000001e setting write format path: ulaw -> ulaw
+[2025-07-23 07:43:37] DEBUG[316] res_pjsip_sdp_rtp.c:  
+[2025-07-23 07:43:37] DEBUG[316] res_rtp_asterisk.c: (0x7f8d8f3fc6d0) DTLS - ast_rtp_activate rtp=0x7f8d8f3e4080 - setup and perform DTLS'
+[2025-07-23 07:43:37] DEBUG[316] res_rtp_asterisk.c: (0x7f8d8f3e4080) DTLS perform handshake - ssl = 0, setup = 0
+[2025-07-23 07:43:37] DEBUG[316] res_rtp_asterisk.c: (0x7f8d8f3e4080) DTLS perform handshake - ssl = 0, setup = 0
+[2025-07-23 07:43:37] DEBUG[316] res_pjsip_sdp_rtp.c:  Handled
+[2025-07-23 07:43:37] DEBUG[316] res_pjsip_session.c:  PJSIP/1001-0000001e: Applied negotiated SDP media stream 'audio' using audio SDP handler
+[2025-07-23 07:43:37] DEBUG[316] channel_internal_api.c:  PJSIP/1001-0000001e:  <0:audio-0:audio:sendrecv (ulaw)>
+[2025-07-23 07:43:37] DEBUG[316] channel_internal_api.c:  Used provided topology
+[2025-07-23 07:43:37] DEBUG[316] res_pjsip_session.c:  
+[2025-07-23 07:43:37] DEBUG[316] res_pjsip_session.c:  PJSIP/1001-0000001e
+[2025-07-23 07:43:37] DEBUG[316] res_pjsip_session.c:  PJSIP/1001-0000001e: Method is INVITE, Response is 200 OK
+[2025-07-23 07:43:37] DEBUG[316] res_pjsip_session.c:  PJSIP/1001-0000001e
+[2025-07-23 07:43:37] DEBUG[316] res_pjsip_session.c:  PJSIP/1001-0000001e Event: TSX_STATE  Inv State: CONNECTING
+[2025-07-23 07:43:37] DEBUG[316] res_pjsip_session.c: PJSIP/1001-0000001e: Source of transaction state change is TX_MSG
+[2025-07-23 07:43:37] DEBUG[316] res_pjsip_session.c:  
+[2025-07-23 07:43:37] DEBUG[316] res_pjsip_session.c:  PJSIP/1001-0000001e TSX State: Completed  Inv State: CONNECTING
+[2025-07-23 07:43:37] DEBUG[316] res_pjsip_session.c:  Nothing delayed
+[2025-07-23 07:43:37] DEBUG[316] res_pjsip_session.c:  PJSIP/1001-0000001e TSX State: Completed  Inv State: CONNECTING
+[2025-07-23 07:43:37] DEBUG[316] res_pjsip_session.c:  Topology: Pending: (null topology)  Active:  <0:audio-0:audio:sendrecv (ulaw)>
+[2025-07-23 07:43:37] DEBUG[316] res_pjsip_session.c:  
+[2025-07-23 07:43:37] DEBUG[316] chan_pjsip.c:  
+[2025-07-23 07:43:37] DEBUG[373][C-0000001f] chan_pjsip.c:  
+[2025-07-23 07:43:37] DEBUG[373][C-0000001f] chan_pjsip.c:  PJSIP/1001-0000001e: Indicated Stop generators
+[2025-07-23 07:43:37] DEBUG[373][C-0000001f] chan_pjsip.c:  PJSIP/1001-0000001e
+[2025-07-23 07:43:37] DEBUG[373][C-0000001f] res_rtp_asterisk.c: (0x7f8d8f3fc6d0) RTP 0x7f8d8f3e4080 -- Received packet from 172.17.0.1:57211, dropping due to strict RTP protection. Qualifying new stream.
+[2025-07-23 07:43:37] DEBUG[35] res_pjsip/pjsip_distributor.c: Searching for serializer associated with dialog dlg0x7f8d8f312378 for Request msg ACK/cseq=2 (rdata0x7f8d8f4280c8)
+[2025-07-23 07:43:37] DEBUG[35] res_pjsip/pjsip_distributor.c: Found serializer pjsip/distributor-0000001a associated with dialog dlg0x7f8d8f312378
+[2025-07-23 07:43:37] DEBUG[316] res_pjsip_session.c:  PJSIP/1001-0000001e TSX State: Terminated  Inv State: CONNECTING
+[2025-07-23 07:43:37] DEBUG[316] res_pjsip_session.c:  Nothing delayed
+[2025-07-23 07:43:37] DEBUG[316] res_pjsip_session.c:  PJSIP/1001-0000001e TSX State: Terminated  Inv State: CONNECTING
+[2025-07-23 07:43:37] DEBUG[316] res_pjsip_session.c:  Topology: Pending: (null topology)  Active:  <0:audio-0:audio:sendrecv (ulaw)>
+[2025-07-23 07:43:37] DEBUG[316] res_pjsip_session.c:  
+[2025-07-23 07:43:37] DEBUG[316] res_pjsip_session.c:  PJSIP/1001-0000001e Event: RX_MSG  Inv State: CONFIRMED
+[2025-07-23 07:43:37] DEBUG[316] res_pjsip_session.c: PJSIP/1001-0000001e: Received request
+[2025-07-23 07:43:37] DEBUG[316] res_pjsip_session.c:  PJSIP/1001-0000001e: Method is ACK
+[2025-07-23 07:43:37] DEBUG[316] chan_pjsip.c:  PJSIP/1001-0000001e
+[2025-07-23 07:43:37] DEBUG[316] chan_pjsip.c:  PJSIP/1001-0000001e: Queueing SRCCHANGE
+[2025-07-23 07:43:37] DEBUG[316] chan_pjsip.c:  PJSIP/1001-0000001e
+[2025-07-23 07:43:37] DEBUG[316] res_pjsip_session.c:  PJSIP/1001-0000001e
+[2025-07-23 07:43:37] DEBUG[316] res_pjsip_session.c:  
+[2025-07-23 07:43:37] DEBUG[316] res_pjsip_session.c:  PJSIP/1001-0000001e Request: ACK 
+[2025-07-23 07:43:37] DEBUG[316] res_pjsip_session.c:  PJSIP/1001-0000001e Handled request ACK  ? yes
+[2025-07-23 07:43:37] DEBUG[373][C-0000001f] res_rtp_asterisk.c: (0x7f8d8f3fc6d0) RTP 0x7f8d8f3e4080 -- Received packet from 172.17.0.1:57211, dropping due to strict RTP protection. Will switch to it in 3 packets.
+[2025-07-23 07:43:37] DEBUG[373][C-0000001f] res_rtp_asterisk.c: (0x7f8d8f3fc6d0) RTP 0x7f8d8f3e4080 -- Received packet from 172.17.0.1:57211, dropping due to strict RTP protection. Will switch to it in 2 packets.
+[2025-07-23 07:43:37] DEBUG[373][C-0000001f] res_rtp_asterisk.c: (0x7f8d8f3fc6d0) RTP 0x7f8d8f3e4080 -- Received packet from 172.17.0.1:57211, dropping due to strict RTP protection. Will switch to it in 1 packets.
+[2025-07-23 07:43:37] DEBUG[373][C-0000001f] pbx.c: Launching 'Wait'
+[2025-07-23 07:43:37] VERBOSE[373][C-0000001f] pbx.c: Executing [1001@ivrmenu:2] Wait("PJSIP/1001-0000001e", "1") in new stack
+[2025-07-23 07:43:38] DEBUG[373][C-0000001f] pbx.c: Launching 'Playback'
+[2025-07-23 07:43:38] VERBOSE[373][C-0000001f] pbx.c: Executing [1001@ivrmenu:3] Playback("PJSIP/1001-0000001e", "beep") in new stack
+[2025-07-23 07:43:38] DEBUG[373][C-0000001f] channel.c: Channel PJSIP/1001-0000001e setting write format path: slin -> ulaw
+[2025-07-23 07:43:38] WARNING[373][C-0000001f] format_wav.c: Not a supported wav file format (65534). Only PCM encoded, 16 bit, mono, 8kHz/16kHz files are supported with a lowercase '.wav' extension.
+[2025-07-23 07:43:38] WARNING[373][C-0000001f] file.c: Unable to open format wav
+[2025-07-23 07:43:38] WARNING[373][C-0000001f] file.c: Unable to open beep (format (ulaw)): No such file or directory
+[2025-07-23 07:43:38] WARNING[373][C-0000001f] app_playback.c: Playback failed on PJSIP/1001-0000001e for beep
+[2025-07-23 07:43:38] DEBUG[373][C-0000001f] pbx.c: Launching 'BackGround'
+[2025-07-23 07:43:38] VERBOSE[373][C-0000001f] pbx.c: Executing [1001@ivrmenu:4] BackGround("PJSIP/1001-0000001e", "ivr-options") in new stack
+[2025-07-23 07:43:38] DEBUG[373][C-0000001f] format_wav.c: Skipping unknown block 'LIST'
+[2025-07-23 07:43:38] DEBUG[373][C-0000001f] res_rtp_asterisk.c: (0x7f8d8f3fc6d0) RTP ooh, format changed from none to ulaw
+[2025-07-23 07:43:38] DEBUG[373][C-0000001f] channel.c: Scheduling timer at (50 requested / 50 actual) timer ticks per second
+[2025-07-23 07:43:38] VERBOSE[373][C-0000001f] file.c: <PJSIP/1001-0000001e> Playing 'ivr-options.slin' (language 'en')
+[2025-07-23 07:43:40] DEBUG[373][C-0000001f] res_rtp_asterisk.c: (0x7f8d8f3fc6d0) RTCP got report of 52 bytes from 172.17.0.1:57211
+[2025-07-23 07:43:42] DEBUG[373][C-0000001f] res_rtp_asterisk.c: (0x7f8d8f3fc6d0) RTCP got report of 52 bytes from 172.17.0.1:57211
+[2025-07-23 07:43:44] DEBUG[373][C-0000001f] channel.c: Scheduling timer at (66 requested / 66 actual) timer ticks per second
+[2025-07-23 07:43:44] DEBUG[373][C-0000001f] channel.c: Scheduling timer at (0 requested / 0 actual) timer ticks per second
+[2025-07-23 07:43:44] DEBUG[373][C-0000001f] channel.c: Scheduling timer at (0 requested / 0 actual) timer ticks per second
+[2025-07-23 07:43:44] DEBUG[373][C-0000001f] channel.c: Scheduling timer at (0 requested / 0 actual) timer ticks per second
+[2025-07-23 07:43:44] DEBUG[373][C-0000001f] pbx.c: Launching 'WaitExten'
+[2025-07-23 07:43:44] VERBOSE[373][C-0000001f] pbx.c: Executing [1001@ivrmenu:5] WaitExten("PJSIP/1001-0000001e", "5") in new stack
+[2025-07-23 07:43:44] DEBUG[373][C-0000001f] res_rtp_asterisk.c: (0x7f8d8f3fc6d0) RTP creating BEGIN DTMF Frame: 49 (1), at 192.168.1.9:57211
+[2025-07-23 07:43:44] DTMF[373][C-0000001f] channel.c: DTMF begin '1' received on PJSIP/1001-0000001e
+[2025-07-23 07:43:44] DTMF[373][C-0000001f] channel.c: DTMF begin ignored '1' on PJSIP/1001-0000001e
+[2025-07-23 07:43:44] DEBUG[373][C-0000001f] res_rtp_asterisk.c: (0x7f8d8f3fc6d0) RTP creating END DTMF Frame: 49 (1), at 192.168.1.9:57211
+[2025-07-23 07:43:44] DTMF[373][C-0000001f] channel.c: DTMF end '1' received on PJSIP/1001-0000001e, duration 120 ms
+[2025-07-23 07:43:44] DTMF[373][C-0000001f] channel.c: DTMF end passthrough '1' on PJSIP/1001-0000001e
+[2025-07-23 07:43:44] DEBUG[373][C-0000001f] pbx.c: Oooh, got something to jump out with ('1')!
+[2025-07-23 07:43:47] DEBUG[373][C-0000001f] res_rtp_asterisk.c: (0x7f8d8f3fc6d0) RTCP got report of 52 bytes from 172.17.0.1:57211
+[2025-07-23 07:43:48] DEBUG[47] res_pjsip_registrar.c: Expiring 0 contacts
+[2025-07-23 07:43:49] DEBUG[373][C-0000001f] pbx.c: Launching 'Playback'
+[2025-07-23 07:43:49] VERBOSE[373][C-0000001f] pbx.c: Executing [1@ivrmenu:1] Playback("PJSIP/1001-0000001e", "beep") in new stack
+[2025-07-23 07:43:49] WARNING[373][C-0000001f] format_wav.c: Not a supported wav file format (65534). Only PCM encoded, 16 bit, mono, 8kHz/16kHz files are supported with a lowercase '.wav' extension.
+[2025-07-23 07:43:49] WARNING[373][C-0000001f] file.c: Unable to open format wav
+[2025-07-23 07:43:49] WARNING[373][C-0000001f] file.c: Unable to open beep (format (ulaw)): No such file or directory
+[2025-07-23 07:43:49] WARNING[373][C-0000001f] app_playback.c: Playback failed on PJSIP/1001-0000001e for beep
+[2025-07-23 07:43:49] DEBUG[373][C-0000001f] pbx_variables.c: Function CALLERID(num) result is '1001'
+[2025-07-23 07:43:49] DEBUG[373][C-0000001f] pbx_variables.c: Function STRFTIME(1753256629,,%Y%m%d-%H%M%S) result is '20250723-074349'
+[2025-07-23 07:43:49] DEBUG[373][C-0000001f] pbx.c: Launching 'Record'
+[2025-07-23 07:43:49] VERBOSE[373][C-0000001f] pbx.c: Executing [1@ivrmenu:2] Record("PJSIP/1001-0000001e", "/var/spool/asterisk/recording/recording-1001-20250723-074349-name.wav,5,30,k") in new stack
+[2025-07-23 07:43:49] WARNING[373][C-0000001f] format_wav.c: Not a supported wav file format (65534). Only PCM encoded, 16 bit, mono, 8kHz/16kHz files are supported with a lowercase '.wav' extension.
+[2025-07-23 07:43:49] WARNING[373][C-0000001f] file.c: Unable to open format wav
+[2025-07-23 07:43:49] WARNING[373][C-0000001f] file.c: Unable to open beep (format (ulaw)): No such file or directory
+[2025-07-23 07:43:49] WARNING[373][C-0000001f] app_record.c: ast_streamfile(beep) failed on PJSIP/1001-0000001e
+[2025-07-23 07:43:49] DEBUG[373][C-0000001f] channel.c: Channel PJSIP/1001-0000001e setting read format path: ulaw -> slin
+[2025-07-23 07:43:49] DEBUG[373][C-0000001f] dsp.c: Setup tone 1100 Hz, 500 ms, block_size=160, hits_required=21
+[2025-07-23 07:43:49] DEBUG[373][C-0000001f] dsp.c: Setup tone 2100 Hz, 2600 ms, block_size=160, hits_required=116
+[2025-07-23 07:43:49] DEBUG[373][C-0000001f] chan_pjsip.c:  PJSIP/1001-0000001e: Indicated Video Update
+[2025-07-23 07:43:49] DEBUG[373][C-0000001f] chan_pjsip.c:  PJSIP/1001-0000001e
+[2025-07-23 07:43:50] DEBUG[373][C-0000001f] res_rtp_asterisk.c: (0x7f8d8f3fc6d0) RTP creating BEGIN DTMF Frame: 50 (2), at 192.168.1.9:57211
+[2025-07-23 07:43:50] DTMF[373][C-0000001f] channel.c: DTMF begin '2' received on PJSIP/1001-0000001e
+[2025-07-23 07:43:50] DTMF[373][C-0000001f] channel.c: DTMF begin passthrough '2' on PJSIP/1001-0000001e
+[2025-07-23 07:43:50] DEBUG[373][C-0000001f] res_rtp_asterisk.c: (0x7f8d8f3fc6d0) RTP creating END DTMF Frame: 50 (2), at 192.168.1.9:57211
+[2025-07-23 07:43:50] DTMF[373][C-0000001f] channel.c: DTMF end '2' received on PJSIP/1001-0000001e, duration 120 ms
+[2025-07-23 07:43:50] DTMF[373][C-0000001f] channel.c: DTMF end accepted with begin '2' on PJSIP/1001-0000001e
+[2025-07-23 07:43:50] DTMF[373][C-0000001f] channel.c: DTMF end passthrough '2' on PJSIP/1001-0000001e
+[2025-07-23 07:43:52] DEBUG[35] res_pjsip/pjsip_distributor.c: Could not find matching transaction for Request msg REGISTER/cseq=445 (rdata0x7f8d8f4280d8)
+[2025-07-23 07:43:52] DEBUG[35] res_pjsip/pjsip_distributor.c: Calculated serializer pjsip/distributor-00000024 to use for Request msg REGISTER/cseq=445 (rdata0x7f8d8f4280d8)
+[2025-07-23 07:43:52] DEBUG[316] res_pjsip_endpoint_identifier_ip.c: No identify sections to match against
+[2025-07-23 07:43:52] DEBUG[316] res_pjsip_endpoint_identifier_user.c: Attempting identify by From username '1001' domain '192.168.1.9'
+[2025-07-23 07:43:52] DEBUG[316] res_pjsip_endpoint_identifier_user.c: Identified by From username '1001' domain '192.168.1.9'
+[2025-07-23 07:43:52] DEBUG[316] res_pjsip_authenticator_digest.c: Using default realm 'asterisk' on incoming auth '1001-auth'.
+[2025-07-23 07:43:52] DEBUG[316] res_pjsip_authenticator_digest.c: Realm: asterisk  Username: 1001  Result: STALE
+[2025-07-23 07:43:52] DEBUG[35] res_pjsip/pjsip_distributor.c: Could not find matching transaction for Request msg REGISTER/cseq=446 (rdata0x7f8d8f428038)
+[2025-07-23 07:43:52] DEBUG[35] res_pjsip/pjsip_distributor.c: Calculated serializer pjsip/distributor-00000024 to use for Request msg REGISTER/cseq=446 (rdata0x7f8d8f428038)
+[2025-07-23 07:43:52] DEBUG[316] res_pjsip_endpoint_identifier_ip.c: No identify sections to match against
+[2025-07-23 07:43:52] DEBUG[316] res_pjsip_endpoint_identifier_user.c: Attempting identify by From username '1001' domain '192.168.1.9'
+[2025-07-23 07:43:52] DEBUG[316] res_pjsip_endpoint_identifier_user.c: Identified by From username '1001' domain '192.168.1.9'
+[2025-07-23 07:43:52] DEBUG[316] res_pjsip_authenticator_digest.c: Using default realm 'asterisk' on incoming auth '1001-auth'.
+[2025-07-23 07:43:52] DEBUG[316] res_pjsip_authenticator_digest.c: Calculated nonce 1753256632/f01daf8aa094ff24d7a5538d8721b6ba. Actual nonce is 1753256632/f01daf8aa094ff24d7a5538d8721b6ba
+[2025-07-23 07:43:52] DEBUG[316] res_pjsip_authenticator_digest.c: Realm: asterisk  Username: 1001  Result: SUCCESS
+[2025-07-23 07:43:52] DEBUG[316] res_pjsip_registrar.c: Matched id '1001' to aor '1001'
+[2025-07-23 07:43:52] DEBUG[316] res_pjsip_registrar.c: Matched aor '1001' by To username
+[2025-07-23 07:43:52] DEBUG[316] config.c: extract double from [3.0] in [-inf, inf] gives [3.000000](0)
+[2025-07-23 07:43:52] DEBUG[316] config.c: extract uint from [0] in [0, 4294967295] gives [0](0)
+[2025-07-23 07:43:52] DEBUG[316] config.c: extract double from [3.000000] in [-inf, inf] gives [3.000000](0)
+[2025-07-23 07:43:52] DEBUG[316] config.c: extract uint from [41216] in [0, 4294967295] gives [41216](0)
+[2025-07-23 07:43:52] DEBUG[316] config.c: extract uint from [0] in [0, 86400] gives [0](0)
+[2025-07-23 07:43:52] DEBUG[316] config.c: extract double from [3.0] in [-inf, inf] gives [3.000000](0)
+[2025-07-23 07:43:52] DEBUG[316] config.c: extract uint from [0] in [0, 4294967295] gives [0](0)
+[2025-07-23 07:43:52] DEBUG[316] config.c: extract double from [3.000000] in [-inf, inf] gives [3.000000](0)
+[2025-07-23 07:43:52] DEBUG[316] config.c: extract uint from [41216] in [0, 4294967295] gives [41216](0)
+[2025-07-23 07:43:52] DEBUG[316] config.c: extract uint from [0] in [0, 86400] gives [0](0)
+[2025-07-23 07:43:52] DEBUG[316] res_pjsip_registrar.c: Refreshed contact 'sip:1001@192.168.1.9:41216;transport=UDP;rinstance=53c5260e820da1aa' on AOR '1001' with new expiration of 60 seconds
+[2025-07-23 07:43:53] DEBUG[373][C-0000001f] res_rtp_asterisk.c: (0x7f8d8f3fc6d0) RTCP got report of 28 bytes from 172.17.0.1:57211
+[2025-07-23 07:43:55] DEBUG[373][C-0000001f] channel.c: Channel PJSIP/1001-0000001e setting read format path: ulaw -> ulaw
+[2025-07-23 07:43:55] DEBUG[373][C-0000001f] pbx.c: Launching 'Playback'
+[2025-07-23 07:43:55] VERBOSE[373][C-0000001f] pbx.c: Executing [1@ivrmenu:3] Playback("PJSIP/1001-0000001e", "please-wait-connect-call") in new stack
+[2025-07-23 07:43:55] DEBUG[373][C-0000001f] format_wav.c: Skipping unknown block 'LIST'
+[2025-07-23 07:43:55] DEBUG[373][C-0000001f] res_rtp_asterisk.c: (0x7f8d8f3fc6d0) RTP audio difference is 89024, ms is 11148
+[2025-07-23 07:43:55] DEBUG[373][C-0000001f] channel.c: Scheduling timer at (50 requested / 50 actual) timer ticks per second
+[2025-07-23 07:43:55] VERBOSE[373][C-0000001f] file.c: <PJSIP/1001-0000001e> Playing 'please-wait-connect-call.slin' (language 'en')
+[2025-07-23 07:43:58] DEBUG[373][C-0000001f] channel.c: Scheduling timer at (66 requested / 66 actual) timer ticks per second
+[2025-07-23 07:43:58] DEBUG[373][C-0000001f] channel.c: Scheduling timer at (0 requested / 0 actual) timer ticks per second
+[2025-07-23 07:43:58] DEBUG[373][C-0000001f] channel.c: Scheduling timer at (0 requested / 0 actual) timer ticks per second
+[2025-07-23 07:43:58] DEBUG[373][C-0000001f] channel.c: Scheduling timer at (0 requested / 0 actual) timer ticks per second
+[2025-07-23 07:43:58] DEBUG[373][C-0000001f] pbx.c: Launching 'Hangup'
+[2025-07-23 07:43:58] VERBOSE[373][C-0000001f] pbx.c: Executing [1@ivrmenu:4] Hangup("PJSIP/1001-0000001e", "") in new stack
+[2025-07-23 07:43:58] DEBUG[373][C-0000001f] channel.c: Soft-Hanging (0x20) up channel 'PJSIP/1001-0000001e'
+[2025-07-23 07:43:58] DEBUG[373][C-0000001f] pbx.c: Spawn extension (ivrmenu,1,4) exited non-zero on 'PJSIP/1001-0000001e'
+[2025-07-23 07:43:58] VERBOSE[373][C-0000001f] pbx.c: Spawn extension (ivrmenu, 1, 4) exited non-zero on 'PJSIP/1001-0000001e'
+[2025-07-23 07:43:58] DEBUG[373][C-0000001f] channel.c: Soft-Hanging (0x10) up channel 'PJSIP/1001-0000001e'
+[2025-07-23 07:43:58] DEBUG[373][C-0000001f] channel.c: Channel 0x7f8d8f42d120 'PJSIP/1001-0000001e' hanging up.  Refs: 2
+[2025-07-23 07:43:58] DEBUG[373][C-0000001f] chan_pjsip.c:  PJSIP/1001-0000001e
+[2025-07-23 07:43:58] DEBUG[373][C-0000001f] chan_pjsip.c: AST hangup cause 16 (no match found in PJSIP)
+[2025-07-23 07:43:58] DEBUG[373][C-0000001f] chan_pjsip.c:  Cause: 0
+[2025-07-23 07:43:58] DEBUG[316] chan_pjsip.c:  PJSIP/1001-0000001e
+[2025-07-23 07:43:58] DEBUG[316] res_pjsip_session.c:  PJSIP/1001-0000001e Response 0
+[2025-07-23 07:43:58] DEBUG[316] res_rtp_asterisk.c: (0x7f8d8f3fc6d0) DTLS srtp - stopped timeout timer'
+[2025-07-23 07:43:58] DEBUG[316] res_rtp_asterisk.c: (0x7f8d8f3fc6d0) DTLS srtp - stopped timeout timer'
+[2025-07-23 07:43:58] DEBUG[316] res_rtp_asterisk.c: (0x7f8d8f3fc6d0) DTLS stop
+[2025-07-23 07:43:58] DEBUG[316] res_rtp_asterisk.c: (0x7f8d8f3fc6d0) DTLS srtp - stopped timeout timer'
+[2025-07-23 07:43:58] DEBUG[316] res_rtp_asterisk.c: (0x7f8d8f3fc6d0) DTLS srtp - stopped timeout timer'
+[2025-07-23 07:43:58] DEBUG[316] res_rtp_asterisk.c: (0x7f8d8f3fc6d0) ICE RTP transport deallocating
+[2025-07-23 07:43:58] DEBUG[316] rtp_engine.c: Destroyed RTP instance '0x7f8d8f3fc6d0'
+[2025-07-23 07:43:58] DEBUG[316] res_pjsip_session.c:  PJSIP/1001-0000001e: Method is BYE
+[2025-07-23 07:43:58] DEBUG[316] res_pjsip_session.c:  PJSIP/1001-0000001e
+[2025-07-23 07:43:58] DEBUG[316] res_pjsip/pjsip_resolver.c: Performing SIP DNS resolution of target '192.168.1.9'
+[2025-07-23 07:43:58] DEBUG[316] res_pjsip/pjsip_resolver.c: Transport type for target '192.168.1.9' is 'UDP transport'
+[2025-07-23 07:43:58] DEBUG[316] res_pjsip/pjsip_resolver.c: Target '192.168.1.9' is an IP address, skipping resolution
+[2025-07-23 07:43:58] DEBUG[316] res_pjsip_session.c:  PJSIP/1001-0000001e TSX State: Calling  Inv State: CONFIRMED
+[2025-07-23 07:43:58] DEBUG[316] res_pjsip_session.c:  Nothing delayed
+[2025-07-23 07:43:58] DEBUG[316] res_pjsip_session.c:  PJSIP/1001-0000001e TSX State: Calling  Inv State: CONFIRMED
+[2025-07-23 07:43:58] DEBUG[316] res_pjsip_session.c:  Topology: Pending: (null topology)  Active: (null topology)
+[2025-07-23 07:43:58] DEBUG[316] res_pjsip_session.c:  
+[2025-07-23 07:43:58] DEBUG[316] res_pjsip_session.c:  
+[2025-07-23 07:43:58] DEBUG[316] channel.c: Channel 0x7f8d8f42d120 'PJSIP/1001-0000001e' destroying
+[2025-07-23 07:43:58] DEBUG[316] stasis.c: Destroying topic. name: channel:1753256617.60, detail: 
+[2025-07-23 07:43:58] DEBUG[316] stasis.c: Topic 'channel:1753256617.60': 0x7f8d8f408c30 destroyed
+[2025-07-23 07:43:58] DEBUG[31] cdr.c: Finalized CDR for PJSIP/1001-0000001e - start 1753256617.210441 answer 1753256617.210819 end 1753256638.943044 dur 21.732 bill 21.732 dispo ANSWERED
+[2025-07-23 07:43:58] DEBUG[23] devicestate.c: Changing state for PJSIP/1001 - state 1 (Not in use)
+[2025-07-23 07:43:58] DEBUG[31] stasis.c: Creating topic. name: channel:1753256638.61, detail: 
+[2025-07-23 07:43:58] DEBUG[31] stasis.c: Topic 'channel:1753256638.61': 0x7f8d8f40b9b0 created
+[2025-07-23 07:43:58] DEBUG[31] stasis.c: Destroying topic. name: channel:1753256638.61, detail: 
+[2025-07-23 07:43:58] DEBUG[31] stasis.c: Topic 'channel:1753256638.61': 0x7f8d8f40b9b0 destroyed
+[2025-07-23 07:43:58] DEBUG[316] channel_internal_api.c:  <initializing>: MultistreamFormats: (nothing)
+[2025-07-23 07:43:58] DEBUG[316] channel_internal_api.c:  Channel is being initialized or destroyed
+[2025-07-23 07:43:58] DEBUG[316] chan_pjsip.c:  
+[2025-07-23 07:43:58] DEBUG[85] app_queue.c: Device 'PJSIP/1001' changed to state '1' (Not in use) but we don't care because they're not a member of any queue.
+[2025-07-23 07:43:58] DEBUG[35] res_pjsip/pjsip_distributor.c: Searching for serializer associated with dialog dlg0x7f8d8f312378 for Response msg 200/BYE/cseq=31772 (rdata0x7f8d8f428048)
+[2025-07-23 07:43:58] DEBUG[35] res_pjsip/pjsip_distributor.c: Found serializer pjsip/distributor-0000001a associated with dialog dlg0x7f8d8f312378
+[2025-07-23 07:43:58] DEBUG[316] res_pjsip_session.c:  1001 Method: BYE Status: 200
+[2025-07-23 07:43:58] DEBUG[316] res_pjsip_session.c:  
+[2025-07-23 07:43:58] DEBUG[316] res_pjsip_session.c:  1001 Event: TSX_STATE  Inv State: DISCONNCTD
+[2025-07-23 07:43:58] DEBUG[316] res_pjsip_session.c: 1001: Source of transaction state change is RX_MSG
+[2025-07-23 07:43:58] DEBUG[316] res_pjsip_session.c: 1001: Received response
+[2025-07-23 07:43:58] DEBUG[316] res_pjsip_session.c:  1001: Response is 200 OK
+[2025-07-23 07:43:58] DEBUG[316] res_pjsip_session.c:  1001
+[2025-07-23 07:43:58] DEBUG[316] res_pjsip_session.c:  
+[2025-07-23 07:43:58] DEBUG[316] res_pjsip_session.c:  1001 TSX State: Completed  Inv State: DISCONNCTD
+[2025-07-23 07:43:58] DEBUG[316] res_pjsip_session.c:  1001: Response is 200 OK
+[2025-07-23 07:43:58] DEBUG[316] res_pjsip_session.c:  1001
+[2025-07-23 07:43:58] DEBUG[316] res_pjsip_session.c: 1001: BYE received final response code 200
+[2025-07-23 07:43:58] DEBUG[316] res_pjsip_session.c:  Nothing delayed
+[2025-07-23 07:43:58] DEBUG[316] res_pjsip_session.c:  1001 TSX State: Completed  Inv State: DISCONNCTD
+[2025-07-23 07:43:58] DEBUG[316] res_pjsip_session.c:  Topology: Pending: (null topology)  Active: (null topology)
+[2025-07-23 07:43:58] DEBUG[316] res_pjsip_session.c:  
+[2025-07-23 07:43:58] DEBUG[316] chan_pjsip.c:  1001
+[2025-07-23 07:43:58] DEBUG[316] chan_pjsip.c:  No channel
+[2025-07-23 07:44:03] DEBUG[35] res_pjsip_session.c:  1001 TSX State: Terminated  Inv State: DISCONNCTD
+[2025-07-23 07:44:03] DEBUG[35] res_pjsip_session.c:  Disconnected
+[2025-07-23 07:44:03] DEBUG[35] res_pjsip_session.c:  (null session) TSX State: Terminated  Inv State: DISCONNCTD
+[2025-07-23 07:44:03] DEBUG[35] res_pjsip_session.c:  
+[2025-07-23 07:44:03] DEBUG[316] res_pjsip_session.c: 1001: Destroying SIP session
+[2025-07-23 07:44:07] DEBUG[35] res_pjsip/pjsip_distributor.c: Could not find matching transaction for Request msg INVITE/cseq=1 (rdata0x7f8d8f3d2078)
+[2025-07-23 07:44:07] DEBUG[35] res_pjsip/pjsip_distributor.c: Calculated serializer pjsip/distributor-00000027 to use for Request msg INVITE/cseq=1 (rdata0x7f8d8f3d2078)
+[2025-07-23 07:44:07] DEBUG[316] res_pjsip_endpoint_identifier_ip.c: No identify sections to match against
+[2025-07-23 07:44:07] DEBUG[316] res_pjsip_endpoint_identifier_user.c: Attempting identify by From username '1001' domain '192.168.1.9'
+[2025-07-23 07:44:07] DEBUG[316] res_pjsip_endpoint_identifier_user.c: Identified by From username '1001' domain '192.168.1.9'
+[2025-07-23 07:44:07] DEBUG[316] res_pjsip_authenticator_digest.c: Using default realm 'asterisk' on incoming auth '1001-auth'.
+[2025-07-23 07:44:07] DEBUG[316] res_pjsip_authenticator_digest.c: Realm: asterisk  Username: 1001  Result: NOAUTH
+[2025-07-23 07:44:07] DEBUG[35] res_pjsip/pjsip_distributor.c: Could not find matching transaction for Request msg ACK/cseq=1 (rdata0x7f8d8f3d2088)
+[2025-07-23 07:44:07] DEBUG[35] res_pjsip/pjsip_distributor.c: Calculated serializer pjsip/distributor-00000027 to use for Request msg ACK/cseq=1 (rdata0x7f8d8f3d2088)
+[2025-07-23 07:44:07] DEBUG[316] res_pjsip_endpoint_identifier_ip.c: No identify sections to match against
+[2025-07-23 07:44:07] DEBUG[316] res_pjsip_endpoint_identifier_user.c: Attempting identify by From username '1001' domain '192.168.1.9'
+[2025-07-23 07:44:07] DEBUG[316] res_pjsip_endpoint_identifier_user.c: Identified by From username '1001' domain '192.168.1.9'
+[2025-07-23 07:44:07] DEBUG[35] res_pjsip/pjsip_distributor.c: Could not find matching transaction for Request msg INVITE/cseq=2 (rdata0x7f8d8f42a088)
+[2025-07-23 07:44:07] DEBUG[35] res_pjsip/pjsip_distributor.c: Calculated serializer pjsip/distributor-00000027 to use for Request msg INVITE/cseq=2 (rdata0x7f8d8f42a088)
+[2025-07-23 07:44:07] DEBUG[316] res_pjsip_endpoint_identifier_ip.c: No identify sections to match against
+[2025-07-23 07:44:07] DEBUG[316] res_pjsip_endpoint_identifier_user.c: Attempting identify by From username '1001' domain '192.168.1.9'
+[2025-07-23 07:44:07] DEBUG[316] res_pjsip_endpoint_identifier_user.c: Identified by From username '1001' domain '192.168.1.9'
+[2025-07-23 07:44:07] DEBUG[316] res_pjsip_authenticator_digest.c: Using default realm 'asterisk' on incoming auth '1001-auth'.
+[2025-07-23 07:44:07] DEBUG[316] res_pjsip_authenticator_digest.c: Calculated nonce 1753256647/055034630438e907b80b82a9c595578c. Actual nonce is 1753256647/055034630438e907b80b82a9c595578c
+[2025-07-23 07:44:07] DEBUG[316] res_pjsip_authenticator_digest.c: Realm: asterisk  Username: 1001  Result: SUCCESS
+[2025-07-23 07:44:07] DEBUG[316] res_pjsip_session.c:  (null session) Request: INVITE 
+[2025-07-23 07:44:07] DEBUG[316] res_pjsip_session.c:  Request: 
+[2025-07-23 07:44:07] DEBUG[316] res_pjsip/pjsip_distributor.c: Calculated serializer pjsip/distributor-00000027 to use for Request msg INVITE/cseq=2 (rdata0x7f8d8f3d2098)
+[2025-07-23 07:44:07] DEBUG[316] chan_pjsip.c:  1001
+[2025-07-23 07:44:07] DEBUG[316] chan_pjsip.c:  Direct media no glare mitigation
+[2025-07-23 07:44:07] DEBUG[316] res_pjsip_session.c:  1001
+[2025-07-23 07:44:07] DEBUG[316] res_pjsip_session.c:  1001: Call (UDP:192.168.1.9:41216) to extension '1001' sending 100 Trying
+[2025-07-23 07:44:07] DEBUG[316] res_pjsip_session.c:  1001: Method is INVITE, Response is 100 Trying
+[2025-07-23 07:44:07] DEBUG[316] res_pjsip_session.c:  1001
+[2025-07-23 07:44:07] DEBUG[316] res_pjsip_session.c:  1001 Event: TSX_STATE  Inv State: INCOMING
+[2025-07-23 07:44:07] DEBUG[316] res_pjsip_session.c: 1001: Source of transaction state change is TX_MSG
+[2025-07-23 07:44:07] DEBUG[316] res_pjsip_session.c:  
+[2025-07-23 07:44:07] DEBUG[316] res_pjsip_session.c:  1001 TSX State: Proceeding  Inv State: INCOMING
+[2025-07-23 07:44:07] DEBUG[316] res_pjsip_session.c:  Nothing delayed
+[2025-07-23 07:44:07] DEBUG[316] res_pjsip_session.c:  1001 TSX State: Proceeding  Inv State: INCOMING
+[2025-07-23 07:44:07] DEBUG[316] res_pjsip_session.c:  Topology: Pending: (null topology)  Active: (null topology)
+[2025-07-23 07:44:07] DEBUG[316] res_pjsip_session.c:  
+[2025-07-23 07:44:07] DEBUG[316] res_pjsip_session.c:  1001: Media count: 1
+[2025-07-23 07:44:07] DEBUG[316] res_pjsip_session.c:  1001 Adding position 0
+[2025-07-23 07:44:07] DEBUG[316] res_pjsip_session.c:  Creating new media session
+[2025-07-23 07:44:07] DEBUG[316] res_pjsip_session.c:  Setting media session as default for audio
+[2025-07-23 07:44:07] DEBUG[316] res_pjsip_session.c:  Done
+[2025-07-23 07:44:07] DEBUG[316] res_pjsip_sdp_rtp.c:  1001
+[2025-07-23 07:44:07] DEBUG[316] res_pjsip_sdp_rtp.c: Transport transport-udp bound to 0.0.0.0: Using it for RTP media.
+[2025-07-23 07:44:07] DEBUG[316] rtp_engine.c: Using engine 'asterisk' for RTP instance '0x7f8d8f2db7c0'
+[2025-07-23 07:44:07] DEBUG[316] res_rtp_asterisk.c: (0x7f8d8f2db7c0) RTP allocated port 18602
+[2025-07-23 07:44:07] DEBUG[316] res_rtp_asterisk.c: (0x7f8d8f2db7c0) ICE creating session 0.0.0.0:18602 (18602)
+[2025-07-23 07:44:07] DEBUG[316] res_rtp_asterisk.c: (0x7f8d8f2db7c0) ICE create
+[2025-07-23 07:44:07] DEBUG[316] res_rtp_asterisk.c: (0x7f8d8f2db7c0) ICE add system candidates
+[2025-07-23 07:44:07] DEBUG[316] res_rtp_asterisk.c: (0x7f8d8f2db7c0) ICE add candidate: 172.17.0.2:18602, 2130706431
+[2025-07-23 07:44:07] DEBUG[316] rtp_engine.c: RTP instance '0x7f8d8f2db7c0' is setup and ready to go
+[2025-07-23 07:44:07] DEBUG[316] res_rtp_asterisk.c: (0x7f8d8f2db7c0) ICE stopped
+[2025-07-23 07:44:07] DEBUG[316] res_rtp_asterisk.c: (0x7f8d8f2db7c0) RTCP setup on RTP instance
+[2025-07-23 07:44:07] DEBUG[316] res_pjsip_sdp_rtp.c:  1001
+[2025-07-23 07:44:07] DEBUG[316] res_pjsip_sdp_rtp.c:  1001
+[2025-07-23 07:44:07] DEBUG[316] rtp_engine.c: Setting tx payload type 9 based on m type on 0x7f8d8d096180
+[2025-07-23 07:44:07] DEBUG[316] rtp_engine.c: Setting tx payload type 0 based on m type on 0x7f8d8d096180
+[2025-07-23 07:44:07] DEBUG[316] rtp_engine.c: Setting tx payload type 8 based on m type on 0x7f8d8d096180
+[2025-07-23 07:44:07] DEBUG[316] rtp_engine.c: Setting tx payload type 3 based on m type on 0x7f8d8d096180
+[2025-07-23 07:44:07] DEBUG[316] res_pjsip_sdp_rtp.c:  
+[2025-07-23 07:44:07] DEBUG[316] res_pjsip_session/pjsip_session_caps.c: '1001' Caps for incoming audio call with pref 'local' - remote: (opus|g722|ulaw|alaw|gsm) local: (ulaw) joint: (ulaw)
+[2025-07-23 07:44:07] DEBUG[316] rtp_engine.c: Crossover copying tx to rx payload mapping 0 (0x7f8d8f131338) from 0x7f8d8d096180 to 0x7f8d8d096180
+[2025-07-23 07:44:07] DEBUG[316] rtp_engine.c: Crossover copying tx to rx payload mapping 3 (0x7f8d8f131388) from 0x7f8d8d096180 to 0x7f8d8d096180
+[2025-07-23 07:44:07] DEBUG[316] rtp_engine.c: Crossover copying tx to rx payload mapping 8 (0x7f8d8f131518) from 0x7f8d8d096180 to 0x7f8d8d096180
+[2025-07-23 07:44:07] DEBUG[316] rtp_engine.c: Crossover copying tx to rx payload mapping 9 (0x7f8d8f131568) from 0x7f8d8d096180 to 0x7f8d8d096180
+[2025-07-23 07:44:07] DEBUG[316] rtp_engine.c: Crossover copying tx to rx payload mapping 101 (0x7f8d8d3361a8) from 0x7f8d8d096180 to 0x7f8d8d096180
+[2025-07-23 07:44:07] DEBUG[316] rtp_engine.c: Crossover copying tx to rx payload mapping 106 (0x7f8d8f43d748) from 0x7f8d8d096180 to 0x7f8d8d096180
+[2025-07-23 07:44:07] DEBUG[316] rtp_engine.c: Copying rx payload mapping 0 (0x7f8d8f131338) from 0x7f8d8d096180 to 0x7f8d8f2db998
+[2025-07-23 07:44:07] DEBUG[316] rtp_engine.c: Copying rx payload mapping 3 (0x7f8d8f131388) from 0x7f8d8d096180 to 0x7f8d8f2db998
+[2025-07-23 07:44:07] DEBUG[316] rtp_engine.c: Copying rx payload mapping 8 (0x7f8d8f131518) from 0x7f8d8d096180 to 0x7f8d8f2db998
+[2025-07-23 07:44:07] DEBUG[316] rtp_engine.c: Copying rx payload mapping 9 (0x7f8d8f131568) from 0x7f8d8d096180 to 0x7f8d8f2db998
+[2025-07-23 07:44:07] DEBUG[316] rtp_engine.c: Copying rx payload mapping 101 (0x7f8d8d3361a8) from 0x7f8d8d096180 to 0x7f8d8f2db998
+[2025-07-23 07:44:07] DEBUG[316] rtp_engine.c: Copying rx payload mapping 106 (0x7f8d8f43d748) from 0x7f8d8d096180 to 0x7f8d8f2db998
+[2025-07-23 07:44:07] DEBUG[316] rtp_engine.c: Copying tx payload mapping 0 (0x7f8d8f131338) from 0x7f8d8d096180 to 0x7f8d8f2db998
+[2025-07-23 07:44:07] DEBUG[316] rtp_engine.c: Copying tx payload mapping 3 (0x7f8d8f131388) from 0x7f8d8d096180 to 0x7f8d8f2db998
+[2025-07-23 07:44:07] DEBUG[316] rtp_engine.c: Copying tx payload mapping 8 (0x7f8d8f131518) from 0x7f8d8d096180 to 0x7f8d8f2db998
+[2025-07-23 07:44:07] DEBUG[316] rtp_engine.c: Copying tx payload mapping 9 (0x7f8d8f131568) from 0x7f8d8d096180 to 0x7f8d8f2db998
+[2025-07-23 07:44:07] DEBUG[316] rtp_engine.c: Copying tx payload mapping 101 (0x7f8d8d3361a8) from 0x7f8d8d096180 to 0x7f8d8f2db998
+[2025-07-23 07:44:07] DEBUG[316] rtp_engine.c: Copying tx payload mapping 106 (0x7f8d8f43d748) from 0x7f8d8d096180 to 0x7f8d8f2db998
+[2025-07-23 07:44:07] DEBUG[316] res_pjsip_sdp_rtp.c:  
+[2025-07-23 07:44:07] DEBUG[316] res_pjsip_sdp_rtp.c:  
+[2025-07-23 07:44:07] DEBUG[316] res_pjsip_session.c:  1001: Handled? yes
+[2025-07-23 07:44:07] DEBUG[316] res_pjsip_session.c:  1001
+[2025-07-23 07:44:07] DEBUG[316] res_pjsip_session.c:  1001: Processing streams
+[2025-07-23 07:44:07] DEBUG[316] res_pjsip_session.c:  1001 Adding position 0
+[2025-07-23 07:44:07] DEBUG[316] res_pjsip_session.c:  Using existing media_session
+[2025-07-23 07:44:07] DEBUG[316] res_pjsip_session.c:  1001 Stream: 0:audio-0:audio:sendrecv (ulaw)
+[2025-07-23 07:44:07] DEBUG[316] res_pjsip_sdp_rtp.c:  1001 Type: audio 0:audio-0:audio:sendrecv (ulaw)
+[2025-07-23 07:44:07] DEBUG[316] res_rtp_asterisk.c: (0x7f8d8f2db7c0) RTCP ignoring duplicate property
+[2025-07-23 07:44:07] DEBUG[316] res_pjsip_sdp_rtp.c:  RC: 1
+[2025-07-23 07:44:07] DEBUG[316] res_pjsip_session.c:  Had handler
+[2025-07-23 07:44:07] DEBUG[316] res_pjsip_session.c:  1001: Adding bundle groups (if available)
+[2025-07-23 07:44:07] DEBUG[316] res_pjsip_session.c:  1001: Copying connection details
+[2025-07-23 07:44:07] DEBUG[316] res_pjsip_session.c:  1001
+[2025-07-23 07:44:07] DEBUG[316] res_pjsip_session.c:  1001: Method is INVITE
+[2025-07-23 07:44:07] DEBUG[316] chan_pjsip.c:  1001
+[2025-07-23 07:44:07] DEBUG[316] chan_pjsip.c:  1001
+[2025-07-23 07:44:07] DEBUG[316] channel_internal_api.c:  <initializing>: Formats: (none)
+[2025-07-23 07:44:07] DEBUG[316] channel_internal_api.c:  Channel is being initialized or destroyed
+[2025-07-23 07:44:07] DEBUG[316] stasis.c: Creating topic. name: channel:1753256647.62, detail: 
+[2025-07-23 07:44:07] DEBUG[316] stasis.c: Topic 'channel:1753256647.62': 0x7f8d8f40bd70 created
+[2025-07-23 07:44:07] DEBUG[316] channel.c: Channel 0x7f8d8f3e4080 'PJSIP/1001-0000001f' allocated
+[2025-07-23 07:44:07] DEBUG[316] chan_pjsip.c:  Topology:  <0:audio-0:audio:sendrecv (ulaw)> Formats: (ulaw)
+[2025-07-23 07:44:07] DEBUG[316] chan_pjsip.c:  Compatible? yes
+[2025-07-23 07:44:07] DEBUG[316] channel_internal_api.c:  PJSIP/1001-0000001f: MultistreamFormats: (ulaw)
+[2025-07-23 07:44:07] DEBUG[316] channel_internal_api.c:  Set native formats but not topology
+[2025-07-23 07:44:07] DEBUG[316] channel_internal_api.c:  PJSIP/1001-0000001f:  <0:audio-0:audio:sendrecv (ulaw)>
+[2025-07-23 07:44:07] DEBUG[316] channel_internal_api.c:  Used provided topology
+[2025-07-23 07:44:07] DEBUG[316] chan_pjsip.c:  
+[2025-07-23 07:44:07] DEBUG[316] chan_pjsip.c:  PJSIP/1001-0000001f
+[2025-07-23 07:44:07] DEBUG[316] chan_pjsip.c:  PJSIP/1001-0000001f
+[2025-07-23 07:44:07] DEBUG[316] chan_pjsip.c: Started PBX on new PJSIP channel PJSIP/1001-0000001f
+[2025-07-23 07:44:07] DEBUG[316] chan_pjsip.c:  RC: 0
+[2025-07-23 07:44:07] DEBUG[316] res_pjsip_session.c:  PJSIP/1001-0000001f
+[2025-07-23 07:44:07] DEBUG[316] res_pjsip_session.c:  PJSIP/1001-0000001f
+[2025-07-23 07:44:07] DEBUG[316] res_pjsip_session.c:  Request:  Session: PJSIP/1001-0000001f
+[2025-07-23 07:44:07] DEBUG[316] res_pjsip_session.c:  (null session) Handled request INVITE  ? yes
+[2025-07-23 07:44:07] DEBUG[374][C-00000020] pbx.c: Launching 'Answer'
+[2025-07-23 07:44:07] VERBOSE[374][C-00000020] pbx.c: Executing [1001@ivrmenu:1] Answer("PJSIP/1001-0000001f", "") in new stack
+[2025-07-23 07:44:07] DEBUG[374][C-00000020] chan_pjsip.c:  PJSIP/1001-0000001f
+[2025-07-23 07:44:07] DEBUG[23] devicestate.c: Changing state for PJSIP/1001 - state 2 (In use)
+[2025-07-23 07:44:07] DEBUG[316] chan_pjsip.c:  PJSIP/1001-0000001f
+[2025-07-23 07:44:07] DEBUG[85] app_queue.c: Device 'PJSIP/1001' changed to state '2' (In use) but we don't care because they're not a member of any queue.
+[2025-07-23 07:44:07] DEBUG[316] res_pjsip_session.c:  PJSIP/1001-0000001f
+[2025-07-23 07:44:07] DEBUG[316] res_pjsip_session.c:  PJSIP/1001-0000001f
+[2025-07-23 07:44:07] DEBUG[316] res_pjsip_session.c:  PJSIP/1001-0000001f
+[2025-07-23 07:44:07] DEBUG[316] res_pjsip_sdp_rtp.c:  PJSIP/1001-0000001f Stream: 0:audio-0:audio:sendrecv (ulaw)
+[2025-07-23 07:44:07] DEBUG[316] res_rtp_asterisk.c: (0x7f8d8f2db7c0) RTCP ignoring duplicate property
+[2025-07-23 07:44:07] DEBUG[316] acl.c: For destination '192.168.1.9', our source address is '172.17.0.2'.
+[2025-07-23 07:44:07] DEBUG[316] res_rtp_asterisk.c: (0x7f8d8f2db7c0) RTCP setting address on RTP instance
+[2025-07-23 07:44:07] DEBUG[316] res_pjsip_sdp_rtp.c:  PJSIP/1001-0000001f ANSWER
+[2025-07-23 07:44:07] DEBUG[316] res_pjsip_sdp_rtp.c:  PJSIP/1001-0000001f
+[2025-07-23 07:44:07] DEBUG[316] rtp_engine.c: Setting tx payload type 9 based on m type on 0x7f8d8d0960a0
+[2025-07-23 07:44:07] DEBUG[316] rtp_engine.c: Setting tx payload type 0 based on m type on 0x7f8d8d0960a0
+[2025-07-23 07:44:07] DEBUG[316] rtp_engine.c: Setting tx payload type 8 based on m type on 0x7f8d8d0960a0
+[2025-07-23 07:44:07] DEBUG[316] rtp_engine.c: Setting tx payload type 3 based on m type on 0x7f8d8d0960a0
+[2025-07-23 07:44:07] DEBUG[316] res_pjsip_sdp_rtp.c:  
+[2025-07-23 07:44:07] DEBUG[316] rtp_engine.c: Copying tx payload mapping 0 (0x7f8d8f131338) from 0x7f8d8d0960a0 to 0x7f8d8f2db998
+[2025-07-23 07:44:07] DEBUG[316] rtp_engine.c: Copying tx payload mapping 3 (0x7f8d8f131388) from 0x7f8d8d0960a0 to 0x7f8d8f2db998
+[2025-07-23 07:44:07] DEBUG[316] rtp_engine.c: Copying tx payload mapping 8 (0x7f8d8f131518) from 0x7f8d8d0960a0 to 0x7f8d8f2db998
+[2025-07-23 07:44:07] DEBUG[316] rtp_engine.c: Copying tx payload mapping 9 (0x7f8d8f131568) from 0x7f8d8d0960a0 to 0x7f8d8f2db998
+[2025-07-23 07:44:07] DEBUG[316] rtp_engine.c: Copying tx payload mapping 101 (0x7f8d8bcbfa18) from 0x7f8d8d0960a0 to 0x7f8d8f2db998
+[2025-07-23 07:44:07] DEBUG[316] rtp_engine.c: Copying tx payload mapping 106 (0x7f8d8bcbf838) from 0x7f8d8d0960a0 to 0x7f8d8f2db998
+[2025-07-23 07:44:07] DEBUG[316] channel_internal_api.c:  PJSIP/1001-0000001f: MultistreamFormats: (ulaw)
+[2025-07-23 07:44:07] DEBUG[316] channel_internal_api.c:  Set native formats but not topology
+[2025-07-23 07:44:07] DEBUG[316] channel.c: Channel PJSIP/1001-0000001f setting read format path: ulaw -> ulaw
+[2025-07-23 07:44:07] DEBUG[316] channel.c: Channel PJSIP/1001-0000001f setting write format path: ulaw -> ulaw
+[2025-07-23 07:44:07] DEBUG[316] res_pjsip_sdp_rtp.c:  
+[2025-07-23 07:44:07] DEBUG[316] res_rtp_asterisk.c: (0x7f8d8f2db7c0) DTLS - ast_rtp_activate rtp=0x7f8d8f3e8090 - setup and perform DTLS'
+[2025-07-23 07:44:07] DEBUG[316] res_rtp_asterisk.c: (0x7f8d8f3e8090) DTLS perform handshake - ssl = 0, setup = 0
+[2025-07-23 07:44:07] DEBUG[316] res_rtp_asterisk.c: (0x7f8d8f3e8090) DTLS perform handshake - ssl = 0, setup = 0
+[2025-07-23 07:44:07] DEBUG[316] res_pjsip_sdp_rtp.c:  Handled
+[2025-07-23 07:44:07] DEBUG[316] res_pjsip_session.c:  PJSIP/1001-0000001f: Applied negotiated SDP media stream 'audio' using audio SDP handler
+[2025-07-23 07:44:07] DEBUG[316] channel_internal_api.c:  PJSIP/1001-0000001f:  <0:audio-0:audio:sendrecv (ulaw)>
+[2025-07-23 07:44:07] DEBUG[316] channel_internal_api.c:  Used provided topology
+[2025-07-23 07:44:07] DEBUG[316] res_pjsip_session.c:  
+[2025-07-23 07:44:07] DEBUG[316] res_pjsip_session.c:  PJSIP/1001-0000001f
+[2025-07-23 07:44:07] DEBUG[316] res_pjsip_session.c:  PJSIP/1001-0000001f: Method is INVITE, Response is 200 OK
+[2025-07-23 07:44:07] DEBUG[316] res_pjsip_session.c:  PJSIP/1001-0000001f
+[2025-07-23 07:44:07] DEBUG[316] res_pjsip_session.c:  PJSIP/1001-0000001f Event: TSX_STATE  Inv State: CONNECTING
+[2025-07-23 07:44:07] DEBUG[316] res_pjsip_session.c: PJSIP/1001-0000001f: Source of transaction state change is TX_MSG
+[2025-07-23 07:44:07] DEBUG[316] res_pjsip_session.c:  
+[2025-07-23 07:44:07] DEBUG[316] res_pjsip_session.c:  PJSIP/1001-0000001f TSX State: Completed  Inv State: CONNECTING
+[2025-07-23 07:44:07] DEBUG[316] res_pjsip_session.c:  Nothing delayed
+[2025-07-23 07:44:07] DEBUG[316] res_pjsip_session.c:  PJSIP/1001-0000001f TSX State: Completed  Inv State: CONNECTING
+[2025-07-23 07:44:07] DEBUG[316] res_pjsip_session.c:  Topology: Pending: (null topology)  Active:  <0:audio-0:audio:sendrecv (ulaw)>
+[2025-07-23 07:44:07] DEBUG[316] res_pjsip_session.c:  
+[2025-07-23 07:44:07] DEBUG[316] chan_pjsip.c:  
+[2025-07-23 07:44:07] DEBUG[374][C-00000020] chan_pjsip.c:  
+[2025-07-23 07:44:07] DEBUG[374][C-00000020] chan_pjsip.c:  PJSIP/1001-0000001f: Indicated Stop generators
+[2025-07-23 07:44:07] DEBUG[374][C-00000020] chan_pjsip.c:  PJSIP/1001-0000001f
+[2025-07-23 07:44:07] DEBUG[374][C-00000020] res_rtp_asterisk.c: (0x7f8d8f2db7c0) RTP 0x7f8d8f3e8090 -- Received packet from 172.17.0.1:48024, dropping due to strict RTP protection. Qualifying new stream.
+[2025-07-23 07:44:07] DEBUG[35] res_pjsip/pjsip_distributor.c: Searching for serializer associated with dialog dlg0x7f8d8f312378 for Request msg ACK/cseq=2 (rdata0x7f8d8f428098)
+[2025-07-23 07:44:07] DEBUG[35] res_pjsip/pjsip_distributor.c: Found serializer pjsip/distributor-00000027 associated with dialog dlg0x7f8d8f312378
+[2025-07-23 07:44:07] DEBUG[316] res_pjsip_session.c:  PJSIP/1001-0000001f TSX State: Terminated  Inv State: CONNECTING
+[2025-07-23 07:44:07] DEBUG[316] res_pjsip_session.c:  Nothing delayed
+[2025-07-23 07:44:07] DEBUG[316] res_pjsip_session.c:  PJSIP/1001-0000001f TSX State: Terminated  Inv State: CONNECTING
+[2025-07-23 07:44:07] DEBUG[316] res_pjsip_session.c:  Topology: Pending: (null topology)  Active:  <0:audio-0:audio:sendrecv (ulaw)>
+[2025-07-23 07:44:07] DEBUG[316] res_pjsip_session.c:  
+[2025-07-23 07:44:07] DEBUG[316] res_pjsip_session.c:  PJSIP/1001-0000001f Event: RX_MSG  Inv State: CONFIRMED
+[2025-07-23 07:44:07] DEBUG[316] res_pjsip_session.c: PJSIP/1001-0000001f: Received request
+[2025-07-23 07:44:07] DEBUG[316] res_pjsip_session.c:  PJSIP/1001-0000001f: Method is ACK
+[2025-07-23 07:44:07] DEBUG[316] chan_pjsip.c:  PJSIP/1001-0000001f
+[2025-07-23 07:44:07] DEBUG[316] chan_pjsip.c:  PJSIP/1001-0000001f: Queueing SRCCHANGE
+[2025-07-23 07:44:07] DEBUG[316] chan_pjsip.c:  PJSIP/1001-0000001f
+[2025-07-23 07:44:07] DEBUG[316] res_pjsip_session.c:  PJSIP/1001-0000001f
+[2025-07-23 07:44:07] DEBUG[316] res_pjsip_session.c:  
+[2025-07-23 07:44:07] DEBUG[316] res_pjsip_session.c:  PJSIP/1001-0000001f Request: ACK 
+[2025-07-23 07:44:07] DEBUG[316] res_pjsip_session.c:  PJSIP/1001-0000001f Handled request ACK  ? yes
+[2025-07-23 07:44:07] DEBUG[374][C-00000020] res_rtp_asterisk.c: (0x7f8d8f2db7c0) RTP 0x7f8d8f3e8090 -- Received packet from 172.17.0.1:48024, dropping due to strict RTP protection. Will switch to it in 3 packets.
+[2025-07-23 07:44:07] DEBUG[374][C-00000020] res_rtp_asterisk.c: (0x7f8d8f2db7c0) RTP 0x7f8d8f3e8090 -- Received packet from 172.17.0.1:48024, dropping due to strict RTP protection. Will switch to it in 2 packets.
+[2025-07-23 07:44:07] DEBUG[374][C-00000020] res_rtp_asterisk.c: (0x7f8d8f2db7c0) RTP 0x7f8d8f3e8090 -- Received packet from 172.17.0.1:48024, dropping due to strict RTP protection. Will switch to it in 1 packets.
+[2025-07-23 07:44:07] DEBUG[374][C-00000020] pbx.c: Launching 'Wait'
+[2025-07-23 07:44:07] VERBOSE[374][C-00000020] pbx.c: Executing [1001@ivrmenu:2] Wait("PJSIP/1001-0000001f", "1") in new stack
+[2025-07-23 07:44:08] DEBUG[374][C-00000020] pbx.c: Launching 'Playback'
+[2025-07-23 07:44:08] VERBOSE[374][C-00000020] pbx.c: Executing [1001@ivrmenu:3] Playback("PJSIP/1001-0000001f", "beep") in new stack
+[2025-07-23 07:44:08] DEBUG[374][C-00000020] channel.c: Channel PJSIP/1001-0000001f setting write format path: slin -> ulaw
+[2025-07-23 07:44:08] WARNING[374][C-00000020] format_wav.c: Not a supported wav file format (65534). Only PCM encoded, 16 bit, mono, 8kHz/16kHz files are supported with a lowercase '.wav' extension.
+[2025-07-23 07:44:08] WARNING[374][C-00000020] file.c: Unable to open format wav
+[2025-07-23 07:44:08] WARNING[374][C-00000020] file.c: Unable to open beep (format (ulaw)): No such file or directory
+[2025-07-23 07:44:08] WARNING[374][C-00000020] app_playback.c: Playback failed on PJSIP/1001-0000001f for beep
+[2025-07-23 07:44:08] DEBUG[374][C-00000020] pbx.c: Launching 'BackGround'
+[2025-07-23 07:44:08] VERBOSE[374][C-00000020] pbx.c: Executing [1001@ivrmenu:4] BackGround("PJSIP/1001-0000001f", "ivr-options") in new stack
+[2025-07-23 07:44:08] DEBUG[374][C-00000020] format_wav.c: Skipping unknown block 'LIST'
+[2025-07-23 07:44:08] DEBUG[374][C-00000020] res_rtp_asterisk.c: (0x7f8d8f2db7c0) RTP ooh, format changed from none to ulaw
+[2025-07-23 07:44:08] DEBUG[374][C-00000020] channel.c: Scheduling timer at (50 requested / 50 actual) timer ticks per second
+[2025-07-23 07:44:08] VERBOSE[374][C-00000020] file.c: <PJSIP/1001-0000001f> Playing 'ivr-options.slin' (language 'en')
+[2025-07-23 07:44:10] DEBUG[374][C-00000020] res_rtp_asterisk.c: (0x7f8d8f2db7c0) RTCP got report of 52 bytes from 172.17.0.1:48024
+[2025-07-23 07:44:14] DEBUG[374][C-00000020] channel.c: Scheduling timer at (66 requested / 66 actual) timer ticks per second
+[2025-07-23 07:44:14] DEBUG[374][C-00000020] channel.c: Scheduling timer at (0 requested / 0 actual) timer ticks per second
+[2025-07-23 07:44:14] DEBUG[374][C-00000020] channel.c: Scheduling timer at (0 requested / 0 actual) timer ticks per second
+[2025-07-23 07:44:14] DEBUG[374][C-00000020] channel.c: Scheduling timer at (0 requested / 0 actual) timer ticks per second
+[2025-07-23 07:44:14] DEBUG[374][C-00000020] pbx.c: Launching 'WaitExten'
+[2025-07-23 07:44:14] VERBOSE[374][C-00000020] pbx.c: Executing [1001@ivrmenu:5] WaitExten("PJSIP/1001-0000001f", "5") in new stack
+[2025-07-23 07:44:14] DEBUG[374][C-00000020] res_rtp_asterisk.c: (0x7f8d8f2db7c0) RTP creating BEGIN DTMF Frame: 50 (2), at 192.168.1.9:48024
+[2025-07-23 07:44:14] DTMF[374][C-00000020] channel.c: DTMF begin '2' received on PJSIP/1001-0000001f
+[2025-07-23 07:44:14] DTMF[374][C-00000020] channel.c: DTMF begin ignored '2' on PJSIP/1001-0000001f
+[2025-07-23 07:44:14] DEBUG[374][C-00000020] res_rtp_asterisk.c: (0x7f8d8f2db7c0) RTP creating END DTMF Frame: 50 (2), at 192.168.1.9:48024
+[2025-07-23 07:44:14] DTMF[374][C-00000020] channel.c: DTMF end '2' received on PJSIP/1001-0000001f, duration 120 ms
+[2025-07-23 07:44:14] DTMF[374][C-00000020] channel.c: DTMF end passthrough '2' on PJSIP/1001-0000001f
+[2025-07-23 07:44:14] DEBUG[374][C-00000020] pbx.c: Oooh, got something to jump out with ('2')!
+[2025-07-23 07:44:14] DEBUG[374][C-00000020] pbx.c: Launching 'Playback'
+[2025-07-23 07:44:14] VERBOSE[374][C-00000020] pbx.c: Executing [2@ivrmenu:1] Playback("PJSIP/1001-0000001f", "beep") in new stack
+[2025-07-23 07:44:14] WARNING[374][C-00000020] format_wav.c: Not a supported wav file format (65534). Only PCM encoded, 16 bit, mono, 8kHz/16kHz files are supported with a lowercase '.wav' extension.
+[2025-07-23 07:44:14] WARNING[374][C-00000020] file.c: Unable to open format wav
+[2025-07-23 07:44:14] WARNING[374][C-00000020] file.c: Unable to open beep (format (ulaw)): No such file or directory
+[2025-07-23 07:44:14] WARNING[374][C-00000020] app_playback.c: Playback failed on PJSIP/1001-0000001f for beep
+[2025-07-23 07:44:14] DEBUG[374][C-00000020] pbx_variables.c: Function CALLERID(num) result is '1001'
+[2025-07-23 07:44:14] DEBUG[374][C-00000020] pbx_variables.c: Function STRFTIME(1753256654,,%Y%m%d-%H%M%S) result is '20250723-074414'
+[2025-07-23 07:44:14] DEBUG[374][C-00000020] pbx.c: Launching 'Record'
+[2025-07-23 07:44:14] VERBOSE[374][C-00000020] pbx.c: Executing [2@ivrmenu:2] Record("PJSIP/1001-0000001f", "/var/spool/asterisk/recording/recording-1001-20250723-074414-number.wav,5,30,k") in new stack
+[2025-07-23 07:44:14] WARNING[374][C-00000020] format_wav.c: Not a supported wav file format (65534). Only PCM encoded, 16 bit, mono, 8kHz/16kHz files are supported with a lowercase '.wav' extension.
+[2025-07-23 07:44:14] WARNING[374][C-00000020] file.c: Unable to open format wav
+[2025-07-23 07:44:14] WARNING[374][C-00000020] file.c: Unable to open beep (format (ulaw)): No such file or directory
+[2025-07-23 07:44:14] WARNING[374][C-00000020] app_record.c: ast_streamfile(beep) failed on PJSIP/1001-0000001f
+[2025-07-23 07:44:14] DEBUG[374][C-00000020] channel.c: Channel PJSIP/1001-0000001f setting read format path: ulaw -> slin
+[2025-07-23 07:44:14] DEBUG[374][C-00000020] dsp.c: Setup tone 1100 Hz, 500 ms, block_size=160, hits_required=21
+[2025-07-23 07:44:14] DEBUG[374][C-00000020] dsp.c: Setup tone 2100 Hz, 2600 ms, block_size=160, hits_required=116
+[2025-07-23 07:44:14] DEBUG[374][C-00000020] chan_pjsip.c:  PJSIP/1001-0000001f: Indicated Video Update
+[2025-07-23 07:44:14] DEBUG[374][C-00000020] chan_pjsip.c:  PJSIP/1001-0000001f
+[2025-07-23 07:44:15] DEBUG[374][C-00000020] res_rtp_asterisk.c: (0x7f8d8f2db7c0) RTCP got report of 52 bytes from 172.17.0.1:48024
+[2025-07-23 07:44:18] DEBUG[47] res_pjsip_registrar.c: Expiring 0 contacts
+[2025-07-23 07:44:20] DEBUG[374][C-00000020] res_rtp_asterisk.c: (0x7f8d8f2db7c0) RTCP got report of 28 bytes from 172.17.0.1:48024
+[2025-07-23 07:44:24] DEBUG[374][C-00000020] res_rtp_asterisk.c: (0x7f8d8f2db7c0) RTCP got report of 28 bytes from 172.17.0.1:48024
+[2025-07-23 07:44:25] DEBUG[374][C-00000020] channel.c: Channel PJSIP/1001-0000001f setting read format path: ulaw -> ulaw
+[2025-07-23 07:44:25] DEBUG[374][C-00000020] pbx.c: Launching 'Playback'
+[2025-07-23 07:44:25] VERBOSE[374][C-00000020] pbx.c: Executing [2@ivrmenu:3] Playback("PJSIP/1001-0000001f", "please-wait-connect-call") in new stack
+[2025-07-23 07:44:25] DEBUG[374][C-00000020] format_wav.c: Skipping unknown block 'LIST'
+[2025-07-23 07:44:25] DEBUG[374][C-00000020] res_rtp_asterisk.c: (0x7f8d8f2db7c0) RTP audio difference is 87976, ms is 11017
+[2025-07-23 07:44:25] DEBUG[374][C-00000020] channel.c: Scheduling timer at (50 requested / 50 actual) timer ticks per second
+[2025-07-23 07:44:25] VERBOSE[374][C-00000020] file.c: <PJSIP/1001-0000001f> Playing 'please-wait-connect-call.slin' (language 'en')
+[2025-07-23 07:44:28] DEBUG[374][C-00000020] res_rtp_asterisk.c: (0x7f8d8f2db7c0) RTCP got report of 52 bytes from 172.17.0.1:48024
+[2025-07-23 07:44:29] DEBUG[374][C-00000020] channel.c: Scheduling timer at (66 requested / 66 actual) timer ticks per second
+[2025-07-23 07:44:29] DEBUG[374][C-00000020] channel.c: Scheduling timer at (0 requested / 0 actual) timer ticks per second
+[2025-07-23 07:44:29] DEBUG[374][C-00000020] channel.c: Scheduling timer at (0 requested / 0 actual) timer ticks per second
+[2025-07-23 07:44:29] DEBUG[374][C-00000020] channel.c: Scheduling timer at (0 requested / 0 actual) timer ticks per second
+[2025-07-23 07:44:29] DEBUG[374][C-00000020] pbx.c: Launching 'Hangup'
+[2025-07-23 07:44:29] VERBOSE[374][C-00000020] pbx.c: Executing [2@ivrmenu:4] Hangup("PJSIP/1001-0000001f", "") in new stack
+[2025-07-23 07:44:29] DEBUG[374][C-00000020] channel.c: Soft-Hanging (0x20) up channel 'PJSIP/1001-0000001f'
+[2025-07-23 07:44:29] DEBUG[374][C-00000020] pbx.c: Spawn extension (ivrmenu,2,4) exited non-zero on 'PJSIP/1001-0000001f'
+[2025-07-23 07:44:29] VERBOSE[374][C-00000020] pbx.c: Spawn extension (ivrmenu, 2, 4) exited non-zero on 'PJSIP/1001-0000001f'
+[2025-07-23 07:44:29] DEBUG[374][C-00000020] channel.c: Soft-Hanging (0x10) up channel 'PJSIP/1001-0000001f'
+[2025-07-23 07:44:29] DEBUG[374][C-00000020] channel.c: Channel 0x7f8d8f3e4080 'PJSIP/1001-0000001f' hanging up.  Refs: 2
+[2025-07-23 07:44:29] DEBUG[374][C-00000020] chan_pjsip.c:  PJSIP/1001-0000001f
+[2025-07-23 07:44:29] DEBUG[374][C-00000020] chan_pjsip.c: AST hangup cause 16 (no match found in PJSIP)
+[2025-07-23 07:44:29] DEBUG[374][C-00000020] chan_pjsip.c:  Cause: 0
+[2025-07-23 07:44:29] DEBUG[316] chan_pjsip.c:  PJSIP/1001-0000001f
+[2025-07-23 07:44:29] DEBUG[316] res_pjsip_session.c:  PJSIP/1001-0000001f Response 0
+[2025-07-23 07:44:29] DEBUG[316] res_rtp_asterisk.c: (0x7f8d8f2db7c0) DTLS srtp - stopped timeout timer'
+[2025-07-23 07:44:29] DEBUG[316] res_rtp_asterisk.c: (0x7f8d8f2db7c0) DTLS srtp - stopped timeout timer'
+[2025-07-23 07:44:29] DEBUG[316] res_rtp_asterisk.c: (0x7f8d8f2db7c0) DTLS stop
+[2025-07-23 07:44:29] DEBUG[316] res_rtp_asterisk.c: (0x7f8d8f2db7c0) DTLS srtp - stopped timeout timer'
+[2025-07-23 07:44:29] DEBUG[316] res_rtp_asterisk.c: (0x7f8d8f2db7c0) DTLS srtp - stopped timeout timer'
+[2025-07-23 07:44:29] DEBUG[316] res_rtp_asterisk.c: (0x7f8d8f2db7c0) ICE RTP transport deallocating
+[2025-07-23 07:44:29] DEBUG[316] rtp_engine.c: Destroyed RTP instance '0x7f8d8f2db7c0'
+[2025-07-23 07:44:29] DEBUG[316] res_pjsip_session.c:  PJSIP/1001-0000001f: Method is BYE
+[2025-07-23 07:44:29] DEBUG[316] res_pjsip_session.c:  PJSIP/1001-0000001f
+[2025-07-23 07:44:29] DEBUG[316] res_pjsip/pjsip_resolver.c: Performing SIP DNS resolution of target '192.168.1.9'
+[2025-07-23 07:44:29] DEBUG[316] res_pjsip/pjsip_resolver.c: Transport type for target '192.168.1.9' is 'UDP transport'
+[2025-07-23 07:44:29] DEBUG[316] res_pjsip/pjsip_resolver.c: Target '192.168.1.9' is an IP address, skipping resolution
+[2025-07-23 07:44:29] DEBUG[316] res_pjsip_session.c:  PJSIP/1001-0000001f TSX State: Calling  Inv State: CONFIRMED
+[2025-07-23 07:44:29] DEBUG[316] res_pjsip_session.c:  Nothing delayed
+[2025-07-23 07:44:29] DEBUG[316] res_pjsip_session.c:  PJSIP/1001-0000001f TSX State: Calling  Inv State: CONFIRMED
+[2025-07-23 07:44:29] DEBUG[316] res_pjsip_session.c:  Topology: Pending: (null topology)  Active: (null topology)
+[2025-07-23 07:44:29] DEBUG[316] res_pjsip_session.c:  
+[2025-07-23 07:44:29] DEBUG[316] res_pjsip_session.c:  
+[2025-07-23 07:44:29] DEBUG[316] channel.c: Channel 0x7f8d8f3e4080 'PJSIP/1001-0000001f' destroying
+[2025-07-23 07:44:29] DEBUG[316] stasis.c: Destroying topic. name: channel:1753256647.62, detail: 
+[2025-07-23 07:44:29] DEBUG[316] stasis.c: Topic 'channel:1753256647.62': 0x7f8d8f40bd70 destroyed
+[2025-07-23 07:44:29] DEBUG[31] cdr.c: Finalized CDR for PJSIP/1001-0000001f - start 1753256647.655202 answer 1753256647.655521 end 1753256669.247911 dur 21.592 bill 21.592 dispo ANSWERED
+[2025-07-23 07:44:29] DEBUG[31] stasis.c: Creating topic. name: channel:1753256669.63, detail: 
+[2025-07-23 07:44:29] DEBUG[316] channel_internal_api.c:  <initializing>: MultistreamFormats: (nothing)
+[2025-07-23 07:44:29] DEBUG[316] channel_internal_api.c:  Channel is being initialized or destroyed
+[2025-07-23 07:44:29] DEBUG[31] stasis.c: Topic 'channel:1753256669.63': 0x7f8d8f41d870 created
+[2025-07-23 07:44:29] DEBUG[316] chan_pjsip.c:  
+[2025-07-23 07:44:29] DEBUG[31] stasis.c: Destroying topic. name: channel:1753256669.63, detail: 
+[2025-07-23 07:44:29] DEBUG[31] stasis.c: Topic 'channel:1753256669.63': 0x7f8d8f41d870 destroyed
+[2025-07-23 07:44:29] DEBUG[23] devicestate.c: Changing state for PJSIP/1001 - state 1 (Not in use)
+[2025-07-23 07:44:29] DEBUG[85] app_queue.c: Device 'PJSIP/1001' changed to state '1' (Not in use) but we don't care because they're not a member of any queue.
+[2025-07-23 07:44:29] DEBUG[35] res_pjsip/pjsip_distributor.c: Searching for serializer associated with dialog dlg0x7f8d8f312378 for Response msg 200/BYE/cseq=30931 (rdata0x7f8d8f4280a8)
+[2025-07-23 07:44:29] DEBUG[35] res_pjsip/pjsip_distributor.c: Found serializer pjsip/distributor-00000027 associated with dialog dlg0x7f8d8f312378
+[2025-07-23 07:44:29] DEBUG[316] res_pjsip_session.c:  1001 Method: BYE Status: 200
+[2025-07-23 07:44:29] DEBUG[316] res_pjsip_session.c:  
+[2025-07-23 07:44:29] DEBUG[316] res_pjsip_session.c:  1001 Event: TSX_STATE  Inv State: DISCONNCTD
+[2025-07-23 07:44:29] DEBUG[316] res_pjsip_session.c: 1001: Source of transaction state change is RX_MSG
+[2025-07-23 07:44:29] DEBUG[316] res_pjsip_session.c: 1001: Received response
+[2025-07-23 07:44:29] DEBUG[316] res_pjsip_session.c:  1001: Response is 200 OK
+[2025-07-23 07:44:29] DEBUG[316] res_pjsip_session.c:  1001
+[2025-07-23 07:44:29] DEBUG[316] res_pjsip_session.c:  
+[2025-07-23 07:44:29] DEBUG[316] res_pjsip_session.c:  1001 TSX State: Completed  Inv State: DISCONNCTD
+[2025-07-23 07:44:29] DEBUG[316] res_pjsip_session.c:  1001: Response is 200 OK
+[2025-07-23 07:44:29] DEBUG[316] res_pjsip_session.c:  1001
+[2025-07-23 07:44:29] DEBUG[316] res_pjsip_session.c: 1001: BYE received final response code 200
+[2025-07-23 07:44:29] DEBUG[316] res_pjsip_session.c:  Nothing delayed
+[2025-07-23 07:44:29] DEBUG[316] res_pjsip_session.c:  1001 TSX State: Completed  Inv State: DISCONNCTD
+[2025-07-23 07:44:29] DEBUG[316] res_pjsip_session.c:  Topology: Pending: (null topology)  Active: (null topology)
+[2025-07-23 07:44:29] DEBUG[316] res_pjsip_session.c:  
+[2025-07-23 07:44:29] DEBUG[316] chan_pjsip.c:  1001
+[2025-07-23 07:44:29] DEBUG[316] chan_pjsip.c:  No channel
+[2025-07-23 07:44:34] DEBUG[35] res_pjsip_session.c:  1001 TSX State: Terminated  Inv State: DISCONNCTD
+[2025-07-23 07:44:34] DEBUG[35] res_pjsip_session.c:  Disconnected
+[2025-07-23 07:44:34] DEBUG[35] res_pjsip_session.c:  (null session) TSX State: Terminated  Inv State: DISCONNCTD
+[2025-07-23 07:44:34] DEBUG[35] res_pjsip_session.c:  
+[2025-07-23 07:44:34] DEBUG[316] res_pjsip_session.c: 1001: Destroying SIP session
+[2025-07-23 07:44:45] DEBUG[35] res_pjsip/pjsip_distributor.c: Could not find matching transaction for Request msg REGISTER/cseq=447 (rdata0x7f8d8f4280c8)
+[2025-07-23 07:44:45] DEBUG[35] res_pjsip/pjsip_distributor.c: Calculated serializer pjsip/distributor-00000024 to use for Request msg REGISTER/cseq=447 (rdata0x7f8d8f4280c8)
+[2025-07-23 07:44:45] DEBUG[316] res_pjsip_endpoint_identifier_ip.c: No identify sections to match against
+[2025-07-23 07:44:45] DEBUG[316] res_pjsip_endpoint_identifier_user.c: Attempting identify by From username '1001' domain '192.168.1.9'
+[2025-07-23 07:44:45] DEBUG[316] res_pjsip_endpoint_identifier_user.c: Identified by From username '1001' domain '192.168.1.9'
+[2025-07-23 07:44:45] DEBUG[316] res_pjsip_authenticator_digest.c: Using default realm 'asterisk' on incoming auth '1001-auth'.
+[2025-07-23 07:44:45] DEBUG[316] res_pjsip_authenticator_digest.c: Realm: asterisk  Username: 1001  Result: STALE
+[2025-07-23 07:44:45] DEBUG[35] res_pjsip/pjsip_distributor.c: Could not find matching transaction for Request msg REGISTER/cseq=448 (rdata0x7f8d8f4280d8)
+[2025-07-23 07:44:45] DEBUG[35] res_pjsip/pjsip_distributor.c: Calculated serializer pjsip/distributor-00000024 to use for Request msg REGISTER/cseq=448 (rdata0x7f8d8f4280d8)
+[2025-07-23 07:44:45] DEBUG[316] res_pjsip_endpoint_identifier_ip.c: No identify sections to match against
+[2025-07-23 07:44:45] DEBUG[316] res_pjsip_endpoint_identifier_user.c: Attempting identify by From username '1001' domain '192.168.1.9'
+[2025-07-23 07:44:45] DEBUG[316] res_pjsip_endpoint_identifier_user.c: Identified by From username '1001' domain '192.168.1.9'
+[2025-07-23 07:44:45] DEBUG[316] res_pjsip_authenticator_digest.c: Using default realm 'asterisk' on incoming auth '1001-auth'.
+[2025-07-23 07:44:45] DEBUG[316] res_pjsip_authenticator_digest.c: Calculated nonce 1753256685/83a6ea742db739f05311e2d5a2baaa8c. Actual nonce is 1753256685/83a6ea742db739f05311e2d5a2baaa8c
+[2025-07-23 07:44:45] DEBUG[316] res_pjsip_authenticator_digest.c: Realm: asterisk  Username: 1001  Result: SUCCESS
+[2025-07-23 07:44:45] DEBUG[316] res_pjsip_registrar.c: Matched id '1001' to aor '1001'
+[2025-07-23 07:44:45] DEBUG[316] res_pjsip_registrar.c: Matched aor '1001' by To username
+[2025-07-23 07:44:45] DEBUG[316] config.c: extract double from [3.0] in [-inf, inf] gives [3.000000](0)
+[2025-07-23 07:44:45] DEBUG[316] config.c: extract uint from [0] in [0, 4294967295] gives [0](0)
+[2025-07-23 07:44:45] DEBUG[316] config.c: extract double from [3.000000] in [-inf, inf] gives [3.000000](0)
+[2025-07-23 07:44:45] DEBUG[316] config.c: extract uint from [41216] in [0, 4294967295] gives [41216](0)
+[2025-07-23 07:44:45] DEBUG[316] config.c: extract uint from [0] in [0, 86400] gives [0](0)
+[2025-07-23 07:44:45] DEBUG[316] config.c: extract double from [3.0] in [-inf, inf] gives [3.000000](0)
+[2025-07-23 07:44:45] DEBUG[316] config.c: extract uint from [0] in [0, 4294967295] gives [0](0)
+[2025-07-23 07:44:45] DEBUG[316] config.c: extract double from [3.000000] in [-inf, inf] gives [3.000000](0)
+[2025-07-23 07:44:45] DEBUG[316] config.c: extract uint from [41216] in [0, 4294967295] gives [41216](0)
+[2025-07-23 07:44:45] DEBUG[316] config.c: extract uint from [0] in [0, 86400] gives [0](0)
+[2025-07-23 07:44:45] DEBUG[316] res_pjsip_registrar.c: Refreshed contact 'sip:1001@192.168.1.9:41216;transport=UDP;rinstance=53c5260e820da1aa' on AOR '1001' with new expiration of 60 seconds
+[2025-07-23 07:44:48] DEBUG[47] res_pjsip_registrar.c: Expiring 0 contacts
+[2025-07-23 07:44:49] DEBUG[372] threadpool.c: Worker thread idle timeout reached. Dying.
+[2025-07-23 07:44:49] DEBUG[11] threadpool.c: Destroying worker thread 112
+[2025-07-23 07:45:18] DEBUG[47] res_pjsip_registrar.c: Expiring 0 contacts
+[2025-07-23 07:45:35] DEBUG[35] res_pjsip/pjsip_distributor.c: Could not find matching transaction for Request msg INVITE/cseq=1 (rdata0x7f8d8f3e7078)
+[2025-07-23 07:45:35] DEBUG[35] res_pjsip/pjsip_distributor.c: Calculated serializer pjsip/distributor-00000036 to use for Request msg INVITE/cseq=1 (rdata0x7f8d8f3e7078)
+[2025-07-23 07:45:35] DEBUG[316] res_pjsip_endpoint_identifier_ip.c: No identify sections to match against
+[2025-07-23 07:45:35] DEBUG[316] res_pjsip_endpoint_identifier_user.c: Attempting identify by From username '1001' domain '192.168.1.9'
+[2025-07-23 07:45:35] DEBUG[316] res_pjsip_endpoint_identifier_user.c: Identified by From username '1001' domain '192.168.1.9'
+[2025-07-23 07:45:35] DEBUG[316] res_pjsip_authenticator_digest.c: Using default realm 'asterisk' on incoming auth '1001-auth'.
+[2025-07-23 07:45:35] DEBUG[316] res_pjsip_authenticator_digest.c: Realm: asterisk  Username: 1001  Result: NOAUTH
+[2025-07-23 07:45:35] DEBUG[35] res_pjsip/pjsip_distributor.c: Could not find matching transaction for Request msg ACK/cseq=1 (rdata0x7f8d8f3e7088)
+[2025-07-23 07:45:35] DEBUG[35] res_pjsip/pjsip_distributor.c: Calculated serializer pjsip/distributor-00000036 to use for Request msg ACK/cseq=1 (rdata0x7f8d8f3e7088)
+[2025-07-23 07:45:35] DEBUG[316] res_pjsip_endpoint_identifier_ip.c: No identify sections to match against
+[2025-07-23 07:45:35] DEBUG[316] res_pjsip_endpoint_identifier_user.c: Attempting identify by From username '1001' domain '192.168.1.9'
+[2025-07-23 07:45:35] DEBUG[316] res_pjsip_endpoint_identifier_user.c: Identified by From username '1001' domain '192.168.1.9'
+[2025-07-23 07:45:36] DEBUG[35] res_pjsip/pjsip_distributor.c: Could not find matching transaction for Request msg INVITE/cseq=2 (rdata0x7f8d8f3e7098)
+[2025-07-23 07:45:36] DEBUG[35] res_pjsip/pjsip_distributor.c: Calculated serializer pjsip/distributor-00000036 to use for Request msg INVITE/cseq=2 (rdata0x7f8d8f3e7098)
+[2025-07-23 07:45:36] DEBUG[316] res_pjsip_endpoint_identifier_ip.c: No identify sections to match against
+[2025-07-23 07:45:36] DEBUG[316] res_pjsip_endpoint_identifier_user.c: Attempting identify by From username '1001' domain '192.168.1.9'
+[2025-07-23 07:45:36] DEBUG[316] res_pjsip_endpoint_identifier_user.c: Identified by From username '1001' domain '192.168.1.9'
+[2025-07-23 07:45:36] DEBUG[316] res_pjsip_authenticator_digest.c: Using default realm 'asterisk' on incoming auth '1001-auth'.
+[2025-07-23 07:45:36] DEBUG[316] res_pjsip_authenticator_digest.c: Calculated nonce 1753256735/1f6be9353fd2252a052a37b98a29747c. Actual nonce is 1753256735/1f6be9353fd2252a052a37b98a29747c
+[2025-07-23 07:45:36] DEBUG[316] res_pjsip_authenticator_digest.c: Realm: asterisk  Username: 1001  Result: SUCCESS
+[2025-07-23 07:45:36] DEBUG[316] res_pjsip_session.c:  (null session) Request: INVITE 
+[2025-07-23 07:45:36] DEBUG[316] res_pjsip_session.c:  Request: 
+[2025-07-23 07:45:36] DEBUG[316] res_pjsip/pjsip_distributor.c: Calculated serializer pjsip/distributor-00000036 to use for Request msg INVITE/cseq=2 (rdata0x7f8d8f3e9028)
+[2025-07-23 07:45:36] DEBUG[316] chan_pjsip.c:  1001
+[2025-07-23 07:45:36] DEBUG[316] chan_pjsip.c:  Direct media no glare mitigation
+[2025-07-23 07:45:36] DEBUG[316] res_pjsip_session.c:  1001
+[2025-07-23 07:45:36] DEBUG[316] res_pjsip_session.c:  1001: Call (UDP:192.168.1.9:41216) to extension '1001' sending 100 Trying
+[2025-07-23 07:45:36] DEBUG[316] res_pjsip_session.c:  1001: Method is INVITE, Response is 100 Trying
+[2025-07-23 07:45:36] DEBUG[316] res_pjsip_session.c:  1001
+[2025-07-23 07:45:36] DEBUG[316] res_pjsip_session.c:  1001 Event: TSX_STATE  Inv State: INCOMING
+[2025-07-23 07:45:36] DEBUG[316] res_pjsip_session.c: 1001: Source of transaction state change is TX_MSG
+[2025-07-23 07:45:36] DEBUG[316] res_pjsip_session.c:  
+[2025-07-23 07:45:36] DEBUG[316] res_pjsip_session.c:  1001 TSX State: Proceeding  Inv State: INCOMING
+[2025-07-23 07:45:36] DEBUG[316] res_pjsip_session.c:  Nothing delayed
+[2025-07-23 07:45:36] DEBUG[316] res_pjsip_session.c:  1001 TSX State: Proceeding  Inv State: INCOMING
+[2025-07-23 07:45:36] DEBUG[316] res_pjsip_session.c:  Topology: Pending: (null topology)  Active: (null topology)
+[2025-07-23 07:45:36] DEBUG[316] res_pjsip_session.c:  
+[2025-07-23 07:45:36] DEBUG[316] res_pjsip_session.c:  1001: Media count: 1
+[2025-07-23 07:45:36] DEBUG[316] res_pjsip_session.c:  1001 Adding position 0
+[2025-07-23 07:45:36] DEBUG[316] res_pjsip_session.c:  Creating new media session
+[2025-07-23 07:45:36] DEBUG[316] res_pjsip_session.c:  Setting media session as default for audio
+[2025-07-23 07:45:36] DEBUG[316] res_pjsip_session.c:  Done
+[2025-07-23 07:45:36] DEBUG[316] res_pjsip_sdp_rtp.c:  1001
+[2025-07-23 07:45:36] DEBUG[316] res_pjsip_sdp_rtp.c: Transport transport-udp bound to 0.0.0.0: Using it for RTP media.
+[2025-07-23 07:45:36] DEBUG[316] rtp_engine.c: Using engine 'asterisk' for RTP instance '0x7f8d8b768710'
+[2025-07-23 07:45:36] DEBUG[316] res_rtp_asterisk.c: (0x7f8d8b768710) RTP allocated port 17628
+[2025-07-23 07:45:36] DEBUG[316] res_rtp_asterisk.c: (0x7f8d8b768710) ICE creating session 0.0.0.0:17628 (17628)
+[2025-07-23 07:45:36] DEBUG[316] res_rtp_asterisk.c: (0x7f8d8b768710) ICE create
+[2025-07-23 07:45:36] DEBUG[316] res_rtp_asterisk.c: (0x7f8d8b768710) ICE add system candidates
+[2025-07-23 07:45:36] DEBUG[316] res_rtp_asterisk.c: (0x7f8d8b768710) ICE add candidate: 172.17.0.2:17628, 2130706431
+[2025-07-23 07:45:36] DEBUG[316] rtp_engine.c: RTP instance '0x7f8d8b768710' is setup and ready to go
+[2025-07-23 07:45:36] DEBUG[316] res_rtp_asterisk.c: (0x7f8d8b768710) ICE stopped
+[2025-07-23 07:45:36] DEBUG[316] res_rtp_asterisk.c: (0x7f8d8b768710) RTCP setup on RTP instance
+[2025-07-23 07:45:36] DEBUG[316] res_pjsip_sdp_rtp.c:  1001
+[2025-07-23 07:45:36] DEBUG[316] res_pjsip_sdp_rtp.c:  1001
+[2025-07-23 07:45:36] DEBUG[316] rtp_engine.c: Setting tx payload type 9 based on m type on 0x7f8d8d096180
+[2025-07-23 07:45:36] DEBUG[316] rtp_engine.c: Setting tx payload type 0 based on m type on 0x7f8d8d096180
+[2025-07-23 07:45:36] DEBUG[316] rtp_engine.c: Setting tx payload type 8 based on m type on 0x7f8d8d096180
+[2025-07-23 07:45:36] DEBUG[316] rtp_engine.c: Setting tx payload type 3 based on m type on 0x7f8d8d096180
+[2025-07-23 07:45:36] DEBUG[316] res_pjsip_sdp_rtp.c:  
+[2025-07-23 07:45:36] DEBUG[316] res_pjsip_session/pjsip_session_caps.c: '1001' Caps for incoming audio call with pref 'local' - remote: (opus|g722|ulaw|alaw|gsm) local: (ulaw) joint: (ulaw)
+[2025-07-23 07:45:36] DEBUG[316] rtp_engine.c: Crossover copying tx to rx payload mapping 0 (0x7f8d8f131338) from 0x7f8d8d096180 to 0x7f8d8d096180
+[2025-07-23 07:45:36] DEBUG[316] rtp_engine.c: Crossover copying tx to rx payload mapping 3 (0x7f8d8f131388) from 0x7f8d8d096180 to 0x7f8d8d096180
+[2025-07-23 07:45:36] DEBUG[316] rtp_engine.c: Crossover copying tx to rx payload mapping 8 (0x7f8d8f131518) from 0x7f8d8d096180 to 0x7f8d8d096180
+[2025-07-23 07:45:36] DEBUG[316] rtp_engine.c: Crossover copying tx to rx payload mapping 9 (0x7f8d8f131568) from 0x7f8d8d096180 to 0x7f8d8d096180
+[2025-07-23 07:45:36] DEBUG[316] rtp_engine.c: Crossover copying tx to rx payload mapping 101 (0x7f8d8f43d9e8) from 0x7f8d8d096180 to 0x7f8d8d096180
+[2025-07-23 07:45:36] DEBUG[316] rtp_engine.c: Crossover copying tx to rx payload mapping 106 (0x7f8d8bcbf838) from 0x7f8d8d096180 to 0x7f8d8d096180
+[2025-07-23 07:45:36] DEBUG[316] rtp_engine.c: Copying rx payload mapping 0 (0x7f8d8f131338) from 0x7f8d8d096180 to 0x7f8d8b7688e8
+[2025-07-23 07:45:36] DEBUG[316] rtp_engine.c: Copying rx payload mapping 3 (0x7f8d8f131388) from 0x7f8d8d096180 to 0x7f8d8b7688e8
+[2025-07-23 07:45:36] DEBUG[316] rtp_engine.c: Copying rx payload mapping 8 (0x7f8d8f131518) from 0x7f8d8d096180 to 0x7f8d8b7688e8
+[2025-07-23 07:45:36] DEBUG[316] rtp_engine.c: Copying rx payload mapping 9 (0x7f8d8f131568) from 0x7f8d8d096180 to 0x7f8d8b7688e8
+[2025-07-23 07:45:36] DEBUG[316] rtp_engine.c: Copying rx payload mapping 101 (0x7f8d8f43d9e8) from 0x7f8d8d096180 to 0x7f8d8b7688e8
+[2025-07-23 07:45:36] DEBUG[316] rtp_engine.c: Copying rx payload mapping 106 (0x7f8d8bcbf838) from 0x7f8d8d096180 to 0x7f8d8b7688e8
+[2025-07-23 07:45:36] DEBUG[316] rtp_engine.c: Copying tx payload mapping 0 (0x7f8d8f131338) from 0x7f8d8d096180 to 0x7f8d8b7688e8
+[2025-07-23 07:45:36] DEBUG[316] rtp_engine.c: Copying tx payload mapping 3 (0x7f8d8f131388) from 0x7f8d8d096180 to 0x7f8d8b7688e8
+[2025-07-23 07:45:36] DEBUG[316] rtp_engine.c: Copying tx payload mapping 8 (0x7f8d8f131518) from 0x7f8d8d096180 to 0x7f8d8b7688e8
+[2025-07-23 07:45:36] DEBUG[316] rtp_engine.c: Copying tx payload mapping 9 (0x7f8d8f131568) from 0x7f8d8d096180 to 0x7f8d8b7688e8
+[2025-07-23 07:45:36] DEBUG[316] rtp_engine.c: Copying tx payload mapping 101 (0x7f8d8f43d9e8) from 0x7f8d8d096180 to 0x7f8d8b7688e8
+[2025-07-23 07:45:36] DEBUG[316] rtp_engine.c: Copying tx payload mapping 106 (0x7f8d8bcbf838) from 0x7f8d8d096180 to 0x7f8d8b7688e8
+[2025-07-23 07:45:36] DEBUG[316] res_pjsip_sdp_rtp.c:  
+[2025-07-23 07:45:36] DEBUG[316] res_pjsip_sdp_rtp.c:  
+[2025-07-23 07:45:36] DEBUG[316] res_pjsip_session.c:  1001: Handled? yes
+[2025-07-23 07:45:36] DEBUG[316] res_pjsip_session.c:  1001
+[2025-07-23 07:45:36] DEBUG[316] res_pjsip_session.c:  1001: Processing streams
+[2025-07-23 07:45:36] DEBUG[316] res_pjsip_session.c:  1001 Adding position 0
+[2025-07-23 07:45:36] DEBUG[316] res_pjsip_session.c:  Using existing media_session
+[2025-07-23 07:45:36] DEBUG[316] res_pjsip_session.c:  1001 Stream: 0:audio-0:audio:sendrecv (ulaw)
+[2025-07-23 07:45:36] DEBUG[316] res_pjsip_sdp_rtp.c:  1001 Type: audio 0:audio-0:audio:sendrecv (ulaw)
+[2025-07-23 07:45:36] DEBUG[316] res_rtp_asterisk.c: (0x7f8d8b768710) RTCP ignoring duplicate property
+[2025-07-23 07:45:36] DEBUG[316] res_pjsip_sdp_rtp.c:  RC: 1
+[2025-07-23 07:45:36] DEBUG[316] res_pjsip_session.c:  Had handler
+[2025-07-23 07:45:36] DEBUG[316] res_pjsip_session.c:  1001: Adding bundle groups (if available)
+[2025-07-23 07:45:36] DEBUG[316] res_pjsip_session.c:  1001: Copying connection details
+[2025-07-23 07:45:36] DEBUG[316] res_pjsip_session.c:  1001
+[2025-07-23 07:45:36] DEBUG[316] res_pjsip_session.c:  1001: Method is INVITE
+[2025-07-23 07:45:36] DEBUG[316] chan_pjsip.c:  1001
+[2025-07-23 07:45:36] DEBUG[316] chan_pjsip.c:  1001
+[2025-07-23 07:45:36] DEBUG[316] channel_internal_api.c:  <initializing>: Formats: (none)
+[2025-07-23 07:45:36] DEBUG[316] channel_internal_api.c:  Channel is being initialized or destroyed
+[2025-07-23 07:45:36] DEBUG[316] stasis.c: Creating topic. name: channel:1753256736.64, detail: 
+[2025-07-23 07:45:36] DEBUG[316] stasis.c: Topic 'channel:1753256736.64': 0x7f8d8f41c0f0 created
+[2025-07-23 07:45:36] DEBUG[316] channel.c: Channel 0x7f8d8f42c060 'PJSIP/1001-00000020' allocated
+[2025-07-23 07:45:36] DEBUG[316] chan_pjsip.c:  Topology:  <0:audio-0:audio:sendrecv (ulaw)> Formats: (ulaw)
+[2025-07-23 07:45:36] DEBUG[316] chan_pjsip.c:  Compatible? yes
+[2025-07-23 07:45:36] DEBUG[316] channel_internal_api.c:  PJSIP/1001-00000020: MultistreamFormats: (ulaw)
+[2025-07-23 07:45:36] DEBUG[11] threadpool.c: Increasing threadpool stasis/pool's size by 1
+[2025-07-23 07:45:36] DEBUG[316] channel_internal_api.c:  Set native formats but not topology
+[2025-07-23 07:45:36] DEBUG[316] channel_internal_api.c:  PJSIP/1001-00000020:  <0:audio-0:audio:sendrecv (ulaw)>
+[2025-07-23 07:45:36] DEBUG[316] channel_internal_api.c:  Used provided topology
+[2025-07-23 07:45:36] DEBUG[316] chan_pjsip.c:  
+[2025-07-23 07:45:36] DEBUG[316] chan_pjsip.c:  PJSIP/1001-00000020
+[2025-07-23 07:45:36] DEBUG[316] chan_pjsip.c:  PJSIP/1001-00000020
+[2025-07-23 07:45:36] DEBUG[316] chan_pjsip.c: Started PBX on new PJSIP channel PJSIP/1001-00000020
+[2025-07-23 07:45:36] DEBUG[316] chan_pjsip.c:  RC: 0
+[2025-07-23 07:45:36] DEBUG[316] res_pjsip_session.c:  PJSIP/1001-00000020
+[2025-07-23 07:45:36] DEBUG[316] res_pjsip_session.c:  PJSIP/1001-00000020
+[2025-07-23 07:45:36] DEBUG[316] res_pjsip_session.c:  Request:  Session: PJSIP/1001-00000020
+[2025-07-23 07:45:36] DEBUG[316] res_pjsip_session.c:  (null session) Handled request INVITE  ? yes
+[2025-07-23 07:45:36] DEBUG[376][C-00000021] pbx.c: Launching 'Answer'
+[2025-07-23 07:45:36] VERBOSE[376][C-00000021] pbx.c: Executing [1001@ivrmenu:1] Answer("PJSIP/1001-00000020", "") in new stack
+[2025-07-23 07:45:36] DEBUG[376][C-00000021] chan_pjsip.c:  PJSIP/1001-00000020
+[2025-07-23 07:45:36] DEBUG[316] chan_pjsip.c:  PJSIP/1001-00000020
+[2025-07-23 07:45:36] DEBUG[316] res_pjsip_session.c:  PJSIP/1001-00000020
+[2025-07-23 07:45:36] DEBUG[316] res_pjsip_session.c:  PJSIP/1001-00000020
+[2025-07-23 07:45:36] DEBUG[23] devicestate.c: Changing state for PJSIP/1001 - state 2 (In use)
+[2025-07-23 07:45:36] DEBUG[316] res_pjsip_session.c:  PJSIP/1001-00000020
+[2025-07-23 07:45:36] DEBUG[316] res_pjsip_sdp_rtp.c:  PJSIP/1001-00000020 Stream: 0:audio-0:audio:sendrecv (ulaw)
+[2025-07-23 07:45:36] DEBUG[316] res_rtp_asterisk.c: (0x7f8d8b768710) RTCP ignoring duplicate property
+[2025-07-23 07:45:36] DEBUG[85] app_queue.c: Device 'PJSIP/1001' changed to state '2' (In use) but we don't care because they're not a member of any queue.
+[2025-07-23 07:45:36] DEBUG[316] acl.c: For destination '192.168.1.9', our source address is '172.17.0.2'.
+[2025-07-23 07:45:36] DEBUG[316] res_rtp_asterisk.c: (0x7f8d8b768710) RTCP setting address on RTP instance
+[2025-07-23 07:45:36] DEBUG[316] res_pjsip_sdp_rtp.c:  PJSIP/1001-00000020 ANSWER
+[2025-07-23 07:45:36] DEBUG[316] res_pjsip_sdp_rtp.c:  PJSIP/1001-00000020
+[2025-07-23 07:45:36] DEBUG[316] rtp_engine.c: Setting tx payload type 9 based on m type on 0x7f8d8d0960a0
+[2025-07-23 07:45:36] DEBUG[316] rtp_engine.c: Setting tx payload type 0 based on m type on 0x7f8d8d0960a0
+[2025-07-23 07:45:36] DEBUG[316] rtp_engine.c: Setting tx payload type 8 based on m type on 0x7f8d8d0960a0
+[2025-07-23 07:45:36] DEBUG[316] rtp_engine.c: Setting tx payload type 3 based on m type on 0x7f8d8d0960a0
+[2025-07-23 07:45:36] DEBUG[316] res_pjsip_sdp_rtp.c:  
+[2025-07-23 07:45:36] DEBUG[316] rtp_engine.c: Copying tx payload mapping 0 (0x7f8d8f131338) from 0x7f8d8d0960a0 to 0x7f8d8b7688e8
+[2025-07-23 07:45:36] DEBUG[316] rtp_engine.c: Copying tx payload mapping 3 (0x7f8d8f131388) from 0x7f8d8d0960a0 to 0x7f8d8b7688e8
+[2025-07-23 07:45:36] DEBUG[316] rtp_engine.c: Copying tx payload mapping 8 (0x7f8d8f131518) from 0x7f8d8d0960a0 to 0x7f8d8b7688e8
+[2025-07-23 07:45:36] DEBUG[316] rtp_engine.c: Copying tx payload mapping 9 (0x7f8d8f131568) from 0x7f8d8d0960a0 to 0x7f8d8b7688e8
+[2025-07-23 07:45:36] DEBUG[316] rtp_engine.c: Copying tx payload mapping 101 (0x7f8d8bcc10a8) from 0x7f8d8d0960a0 to 0x7f8d8b7688e8
+[2025-07-23 07:45:36] DEBUG[316] rtp_engine.c: Copying tx payload mapping 106 (0x7f8d8bcbfec8) from 0x7f8d8d0960a0 to 0x7f8d8b7688e8
+[2025-07-23 07:45:36] DEBUG[316] channel_internal_api.c:  PJSIP/1001-00000020: MultistreamFormats: (ulaw)
+[2025-07-23 07:45:36] DEBUG[316] channel_internal_api.c:  Set native formats but not topology
+[2025-07-23 07:45:36] DEBUG[316] channel.c: Channel PJSIP/1001-00000020 setting read format path: ulaw -> ulaw
+[2025-07-23 07:45:36] DEBUG[316] channel.c: Channel PJSIP/1001-00000020 setting write format path: ulaw -> ulaw
+[2025-07-23 07:45:36] DEBUG[316] res_pjsip_sdp_rtp.c:  
+[2025-07-23 07:45:36] DEBUG[316] res_rtp_asterisk.c: (0x7f8d8b768710) DTLS - ast_rtp_activate rtp=0x7f8d8f3e43c0 - setup and perform DTLS'
+[2025-07-23 07:45:36] DEBUG[316] res_rtp_asterisk.c: (0x7f8d8f3e43c0) DTLS perform handshake - ssl = 0, setup = 0
+[2025-07-23 07:45:36] DEBUG[316] res_rtp_asterisk.c: (0x7f8d8f3e43c0) DTLS perform handshake - ssl = 0, setup = 0
+[2025-07-23 07:45:36] DEBUG[316] res_pjsip_sdp_rtp.c:  Handled
+[2025-07-23 07:45:36] DEBUG[316] res_pjsip_session.c:  PJSIP/1001-00000020: Applied negotiated SDP media stream 'audio' using audio SDP handler
+[2025-07-23 07:45:36] DEBUG[316] channel_internal_api.c:  PJSIP/1001-00000020:  <0:audio-0:audio:sendrecv (ulaw)>
+[2025-07-23 07:45:36] DEBUG[316] channel_internal_api.c:  Used provided topology
+[2025-07-23 07:45:36] DEBUG[316] res_pjsip_session.c:  
+[2025-07-23 07:45:36] DEBUG[316] res_pjsip_session.c:  PJSIP/1001-00000020
+[2025-07-23 07:45:36] DEBUG[316] res_pjsip_session.c:  PJSIP/1001-00000020: Method is INVITE, Response is 200 OK
+[2025-07-23 07:45:36] DEBUG[316] res_pjsip_session.c:  PJSIP/1001-00000020
+[2025-07-23 07:45:36] DEBUG[316] res_pjsip_session.c:  PJSIP/1001-00000020 Event: TSX_STATE  Inv State: CONNECTING
+[2025-07-23 07:45:36] DEBUG[316] res_pjsip_session.c: PJSIP/1001-00000020: Source of transaction state change is TX_MSG
+[2025-07-23 07:45:36] DEBUG[316] res_pjsip_session.c:  
+[2025-07-23 07:45:36] DEBUG[316] res_pjsip_session.c:  PJSIP/1001-00000020 TSX State: Completed  Inv State: CONNECTING
+[2025-07-23 07:45:36] DEBUG[316] res_pjsip_session.c:  Nothing delayed
+[2025-07-23 07:45:36] DEBUG[316] res_pjsip_session.c:  PJSIP/1001-00000020 TSX State: Completed  Inv State: CONNECTING
+[2025-07-23 07:45:36] DEBUG[316] res_pjsip_session.c:  Topology: Pending: (null topology)  Active:  <0:audio-0:audio:sendrecv (ulaw)>
+[2025-07-23 07:45:36] DEBUG[316] res_pjsip_session.c:  
+[2025-07-23 07:45:36] DEBUG[316] chan_pjsip.c:  
+[2025-07-23 07:45:36] DEBUG[376][C-00000021] chan_pjsip.c:  
+[2025-07-23 07:45:36] DEBUG[376][C-00000021] chan_pjsip.c:  PJSIP/1001-00000020: Indicated Stop generators
+[2025-07-23 07:45:36] DEBUG[376][C-00000021] chan_pjsip.c:  PJSIP/1001-00000020
+[2025-07-23 07:45:36] DEBUG[376][C-00000021] res_rtp_asterisk.c: (0x7f8d8b768710) RTP 0x7f8d8f3e43c0 -- Received packet from 172.17.0.1:45298, dropping due to strict RTP protection. Qualifying new stream.
+[2025-07-23 07:45:36] DEBUG[35] res_pjsip/pjsip_distributor.c: Searching for serializer associated with dialog dlg0x7f8d8f312378 for Request msg ACK/cseq=2 (rdata0x7f8d8f3e70a8)
+[2025-07-23 07:45:36] DEBUG[35] res_pjsip/pjsip_distributor.c: Found serializer pjsip/distributor-00000036 associated with dialog dlg0x7f8d8f312378
+[2025-07-23 07:45:36] DEBUG[316] res_pjsip_session.c:  PJSIP/1001-00000020 TSX State: Terminated  Inv State: CONNECTING
+[2025-07-23 07:45:36] DEBUG[316] res_pjsip_session.c:  Nothing delayed
+[2025-07-23 07:45:36] DEBUG[316] res_pjsip_session.c:  PJSIP/1001-00000020 TSX State: Terminated  Inv State: CONNECTING
+[2025-07-23 07:45:36] DEBUG[316] res_pjsip_session.c:  Topology: Pending: (null topology)  Active:  <0:audio-0:audio:sendrecv (ulaw)>
+[2025-07-23 07:45:36] DEBUG[316] res_pjsip_session.c:  
+[2025-07-23 07:45:36] DEBUG[316] res_pjsip_session.c:  PJSIP/1001-00000020 Event: RX_MSG  Inv State: CONFIRMED
+[2025-07-23 07:45:36] DEBUG[316] res_pjsip_session.c: PJSIP/1001-00000020: Received request
+[2025-07-23 07:45:36] DEBUG[316] res_pjsip_session.c:  PJSIP/1001-00000020: Method is ACK
+[2025-07-23 07:45:36] DEBUG[316] chan_pjsip.c:  PJSIP/1001-00000020
+[2025-07-23 07:45:36] DEBUG[316] chan_pjsip.c:  PJSIP/1001-00000020: Queueing SRCCHANGE
+[2025-07-23 07:45:36] DEBUG[316] chan_pjsip.c:  PJSIP/1001-00000020
+[2025-07-23 07:45:36] DEBUG[316] res_pjsip_session.c:  PJSIP/1001-00000020
+[2025-07-23 07:45:36] DEBUG[316] res_pjsip_session.c:  
+[2025-07-23 07:45:36] DEBUG[316] res_pjsip_session.c:  PJSIP/1001-00000020 Request: ACK 
+[2025-07-23 07:45:36] DEBUG[316] res_pjsip_session.c:  PJSIP/1001-00000020 Handled request ACK  ? yes
+[2025-07-23 07:45:36] DEBUG[376][C-00000021] res_rtp_asterisk.c: (0x7f8d8b768710) RTP 0x7f8d8f3e43c0 -- Received packet from 172.17.0.1:45298, dropping due to strict RTP protection. Will switch to it in 3 packets.
+[2025-07-23 07:45:36] DEBUG[376][C-00000021] res_rtp_asterisk.c: (0x7f8d8b768710) RTP 0x7f8d8f3e43c0 -- Received packet from 172.17.0.1:45298, dropping due to strict RTP protection. Will switch to it in 2 packets.
+[2025-07-23 07:45:36] DEBUG[376][C-00000021] res_rtp_asterisk.c: (0x7f8d8b768710) RTP 0x7f8d8f3e43c0 -- Received packet from 172.17.0.1:45298, dropping due to strict RTP protection. Will switch to it in 1 packets.
+[2025-07-23 07:45:36] DEBUG[376][C-00000021] pbx.c: Launching 'Wait'
+[2025-07-23 07:45:36] VERBOSE[376][C-00000021] pbx.c: Executing [1001@ivrmenu:2] Wait("PJSIP/1001-00000020", "1") in new stack
+[2025-07-23 07:45:37] DEBUG[376][C-00000021] pbx.c: Launching 'Playback'
+[2025-07-23 07:45:37] VERBOSE[376][C-00000021] pbx.c: Executing [1001@ivrmenu:3] Playback("PJSIP/1001-00000020", "beep") in new stack
+[2025-07-23 07:45:37] DEBUG[376][C-00000021] channel.c: Channel PJSIP/1001-00000020 setting write format path: slin -> ulaw
+[2025-07-23 07:45:37] WARNING[376][C-00000021] format_wav.c: Not a supported wav file format (65534). Only PCM encoded, 16 bit, mono, 8kHz/16kHz files are supported with a lowercase '.wav' extension.
+[2025-07-23 07:45:37] WARNING[376][C-00000021] file.c: Unable to open format wav
+[2025-07-23 07:45:37] WARNING[376][C-00000021] file.c: Unable to open beep (format (ulaw)): No such file or directory
+[2025-07-23 07:45:37] WARNING[376][C-00000021] app_playback.c: Playback failed on PJSIP/1001-00000020 for beep
+[2025-07-23 07:45:37] DEBUG[376][C-00000021] pbx.c: Launching 'BackGround'
+[2025-07-23 07:45:37] VERBOSE[376][C-00000021] pbx.c: Executing [1001@ivrmenu:4] BackGround("PJSIP/1001-00000020", "ivr-options") in new stack
+[2025-07-23 07:45:37] DEBUG[376][C-00000021] format_wav.c: Skipping unknown block 'LIST'
+[2025-07-23 07:45:37] DEBUG[376][C-00000021] res_rtp_asterisk.c: (0x7f8d8b768710) RTP ooh, format changed from none to ulaw
+[2025-07-23 07:45:37] DEBUG[376][C-00000021] channel.c: Scheduling timer at (50 requested / 50 actual) timer ticks per second
+[2025-07-23 07:45:37] VERBOSE[376][C-00000021] file.c: <PJSIP/1001-00000020> Playing 'ivr-options.slin' (language 'en')
+[2025-07-23 07:45:38] DEBUG[35] res_pjsip/pjsip_distributor.c: Could not find matching transaction for Request msg REGISTER/cseq=449 (rdata0x7f8d8f3e70b8)
+[2025-07-23 07:45:38] DEBUG[35] res_pjsip/pjsip_distributor.c: Calculated serializer pjsip/distributor-00000024 to use for Request msg REGISTER/cseq=449 (rdata0x7f8d8f3e70b8)
+[2025-07-23 07:45:38] DEBUG[316] res_pjsip_endpoint_identifier_ip.c: No identify sections to match against
+[2025-07-23 07:45:38] DEBUG[316] res_pjsip_endpoint_identifier_user.c: Attempting identify by From username '1001' domain '192.168.1.9'
+[2025-07-23 07:45:38] DEBUG[316] res_pjsip_endpoint_identifier_user.c: Identified by From username '1001' domain '192.168.1.9'
+[2025-07-23 07:45:38] DEBUG[316] res_pjsip_authenticator_digest.c: Using default realm 'asterisk' on incoming auth '1001-auth'.
+[2025-07-23 07:45:38] DEBUG[316] res_pjsip_authenticator_digest.c: Realm: asterisk  Username: 1001  Result: STALE
+[2025-07-23 07:45:38] DEBUG[35] res_pjsip/pjsip_distributor.c: Could not find matching transaction for Request msg REGISTER/cseq=450 (rdata0x7f8d8f3e70c8)
+[2025-07-23 07:45:38] DEBUG[35] res_pjsip/pjsip_distributor.c: Calculated serializer pjsip/distributor-00000024 to use for Request msg REGISTER/cseq=450 (rdata0x7f8d8f3e70c8)
+[2025-07-23 07:45:38] DEBUG[316] res_pjsip_endpoint_identifier_ip.c: No identify sections to match against
+[2025-07-23 07:45:38] DEBUG[316] res_pjsip_endpoint_identifier_user.c: Attempting identify by From username '1001' domain '192.168.1.9'
+[2025-07-23 07:45:38] DEBUG[316] res_pjsip_endpoint_identifier_user.c: Identified by From username '1001' domain '192.168.1.9'
+[2025-07-23 07:45:38] DEBUG[316] res_pjsip_authenticator_digest.c: Using default realm 'asterisk' on incoming auth '1001-auth'.
+[2025-07-23 07:45:38] DEBUG[316] res_pjsip_authenticator_digest.c: Calculated nonce 1753256738/c9791821df2d35658b887f534add8611. Actual nonce is 1753256738/c9791821df2d35658b887f534add8611
+[2025-07-23 07:45:38] DEBUG[316] res_pjsip_authenticator_digest.c: Realm: asterisk  Username: 1001  Result: SUCCESS
+[2025-07-23 07:45:38] DEBUG[316] res_pjsip_registrar.c: Matched id '1001' to aor '1001'
+[2025-07-23 07:45:38] DEBUG[316] res_pjsip_registrar.c: Matched aor '1001' by To username
+[2025-07-23 07:45:38] DEBUG[316] config.c: extract double from [3.0] in [-inf, inf] gives [3.000000](0)
+[2025-07-23 07:45:38] DEBUG[316] config.c: extract uint from [0] in [0, 4294967295] gives [0](0)
+[2025-07-23 07:45:38] DEBUG[316] config.c: extract double from [3.000000] in [-inf, inf] gives [3.000000](0)
+[2025-07-23 07:45:38] DEBUG[316] config.c: extract uint from [41216] in [0, 4294967295] gives [41216](0)
+[2025-07-23 07:45:38] DEBUG[316] config.c: extract uint from [0] in [0, 86400] gives [0](0)
+[2025-07-23 07:45:38] DEBUG[316] config.c: extract double from [3.0] in [-inf, inf] gives [3.000000](0)
+[2025-07-23 07:45:38] DEBUG[316] config.c: extract uint from [0] in [0, 4294967295] gives [0](0)
+[2025-07-23 07:45:38] DEBUG[316] config.c: extract double from [3.000000] in [-inf, inf] gives [3.000000](0)
+[2025-07-23 07:45:38] DEBUG[316] config.c: extract uint from [41216] in [0, 4294967295] gives [41216](0)
+[2025-07-23 07:45:38] DEBUG[316] config.c: extract uint from [0] in [0, 86400] gives [0](0)
+[2025-07-23 07:45:38] DEBUG[316] res_pjsip_registrar.c: Refreshed contact 'sip:1001@192.168.1.9:41216;transport=UDP;rinstance=53c5260e820da1aa' on AOR '1001' with new expiration of 60 seconds
+[2025-07-23 07:45:39] DEBUG[376][C-00000021] res_rtp_asterisk.c: (0x7f8d8b768710) RTCP got report of 52 bytes from 172.17.0.1:45298
+[2025-07-23 07:45:43] DEBUG[376][C-00000021] channel.c: Scheduling timer at (66 requested / 66 actual) timer ticks per second
+[2025-07-23 07:45:43] DEBUG[376][C-00000021] res_rtp_asterisk.c: (0x7f8d8b768710) RTP creating BEGIN DTMF Frame: 50 (2), at 192.168.1.9:45298
+[2025-07-23 07:45:43] DTMF[376][C-00000021] channel.c: DTMF begin '2' received on PJSIP/1001-00000020
+[2025-07-23 07:45:43] DTMF[376][C-00000021] channel.c: DTMF begin ignored '2' on PJSIP/1001-00000020
+[2025-07-23 07:45:43] DEBUG[376][C-00000021] channel.c: Scheduling timer at (0 requested / 0 actual) timer ticks per second
+[2025-07-23 07:45:43] DEBUG[376][C-00000021] channel.c: Scheduling timer at (0 requested / 0 actual) timer ticks per second
+[2025-07-23 07:45:43] DEBUG[376][C-00000021] channel.c: Scheduling timer at (0 requested / 0 actual) timer ticks per second
+[2025-07-23 07:45:43] DEBUG[376][C-00000021] pbx.c: Launching 'WaitExten'
+[2025-07-23 07:45:43] VERBOSE[376][C-00000021] pbx.c: Executing [1001@ivrmenu:5] WaitExten("PJSIP/1001-00000020", "5") in new stack
+[2025-07-23 07:45:43] DEBUG[376][C-00000021] res_rtp_asterisk.c: (0x7f8d8b768710) RTP creating END DTMF Frame: 50 (2), at 192.168.1.9:45298
+[2025-07-23 07:45:43] DTMF[376][C-00000021] channel.c: DTMF end '2' received on PJSIP/1001-00000020, duration 120 ms
+[2025-07-23 07:45:43] DTMF[376][C-00000021] channel.c: DTMF end passthrough '2' on PJSIP/1001-00000020
+[2025-07-23 07:45:43] DEBUG[376][C-00000021] pbx.c: Oooh, got something to jump out with ('2')!
+[2025-07-23 07:45:43] DEBUG[376][C-00000021] pbx.c: Launching 'Playback'
+[2025-07-23 07:45:43] VERBOSE[376][C-00000021] pbx.c: Executing [2@ivrmenu:1] Playback("PJSIP/1001-00000020", "beep") in new stack
+[2025-07-23 07:45:43] WARNING[376][C-00000021] format_wav.c: Not a supported wav file format (65534). Only PCM encoded, 16 bit, mono, 8kHz/16kHz files are supported with a lowercase '.wav' extension.
+[2025-07-23 07:45:43] WARNING[376][C-00000021] file.c: Unable to open format wav
+[2025-07-23 07:45:43] WARNING[376][C-00000021] file.c: Unable to open beep (format (ulaw)): No such file or directory
+[2025-07-23 07:45:43] WARNING[376][C-00000021] app_playback.c: Playback failed on PJSIP/1001-00000020 for beep
+[2025-07-23 07:45:43] DEBUG[376][C-00000021] pbx_variables.c: Function CALLERID(num) result is '1001'
+[2025-07-23 07:45:43] DEBUG[376][C-00000021] pbx_variables.c: Function STRFTIME(1753256743,,%Y%m%d-%H%M%S) result is '20250723-074543'
+[2025-07-23 07:45:43] DEBUG[376][C-00000021] pbx.c: Launching 'Record'
+[2025-07-23 07:45:43] VERBOSE[376][C-00000021] pbx.c: Executing [2@ivrmenu:2] Record("PJSIP/1001-00000020", "/var/spool/asterisk/recording/recording-1001-20250723-074543-number.wav,5,30,k") in new stack
+[2025-07-23 07:45:43] WARNING[376][C-00000021] format_wav.c: Not a supported wav file format (65534). Only PCM encoded, 16 bit, mono, 8kHz/16kHz files are supported with a lowercase '.wav' extension.
+[2025-07-23 07:45:43] WARNING[376][C-00000021] file.c: Unable to open format wav
+[2025-07-23 07:45:43] WARNING[376][C-00000021] file.c: Unable to open beep (format (ulaw)): No such file or directory
+[2025-07-23 07:45:43] WARNING[376][C-00000021] app_record.c: ast_streamfile(beep) failed on PJSIP/1001-00000020
+[2025-07-23 07:45:43] DEBUG[376][C-00000021] channel.c: Channel PJSIP/1001-00000020 setting read format path: ulaw -> slin
+[2025-07-23 07:45:43] DEBUG[376][C-00000021] dsp.c: Setup tone 1100 Hz, 500 ms, block_size=160, hits_required=21
+[2025-07-23 07:45:43] DEBUG[376][C-00000021] dsp.c: Setup tone 2100 Hz, 2600 ms, block_size=160, hits_required=116
+[2025-07-23 07:45:43] DEBUG[376][C-00000021] chan_pjsip.c:  PJSIP/1001-00000020: Indicated Video Update
+[2025-07-23 07:45:43] DEBUG[376][C-00000021] chan_pjsip.c:  PJSIP/1001-00000020
+[2025-07-23 07:45:43] DEBUG[376][C-00000021] res_rtp_asterisk.c: (0x7f8d8b768710) RTCP got report of 52 bytes from 172.17.0.1:45298
+[2025-07-23 07:45:48] DEBUG[47] res_pjsip_registrar.c: Expiring 0 contacts
+[2025-07-23 07:45:49] DEBUG[376][C-00000021] res_rtp_asterisk.c: (0x7f8d8b768710) RTCP got report of 28 bytes from 172.17.0.1:45298
+[2025-07-23 07:45:55] DEBUG[376][C-00000021] res_rtp_asterisk.c: (0x7f8d8b768710) RTCP got report of 28 bytes from 172.17.0.1:45298
+[2025-07-23 07:45:57] DEBUG[376][C-00000021] channel.c: Channel PJSIP/1001-00000020 setting read format path: ulaw -> ulaw
+[2025-07-23 07:45:57] DEBUG[376][C-00000021] pbx.c: Launching 'Playback'
+[2025-07-23 07:45:57] VERBOSE[376][C-00000021] pbx.c: Executing [2@ivrmenu:3] Playback("PJSIP/1001-00000020", "please-wait-connect-call") in new stack
+[2025-07-23 07:45:57] DEBUG[376][C-00000021] format_wav.c: Skipping unknown block 'LIST'
+[2025-07-23 07:45:57] DEBUG[376][C-00000021] res_rtp_asterisk.c: (0x7f8d8b768710) RTP audio difference is 114616, ms is 14347
+[2025-07-23 07:45:57] DEBUG[376][C-00000021] channel.c: Scheduling timer at (50 requested / 50 actual) timer ticks per second
+[2025-07-23 07:45:57] VERBOSE[376][C-00000021] file.c: <PJSIP/1001-00000020> Playing 'please-wait-connect-call.slin' (language 'en')
+[2025-07-23 07:46:00] DEBUG[376][C-00000021] channel.c: Scheduling timer at (66 requested / 66 actual) timer ticks per second
+[2025-07-23 07:46:00] DEBUG[376][C-00000021] channel.c: Scheduling timer at (0 requested / 0 actual) timer ticks per second
+[2025-07-23 07:46:00] DEBUG[376][C-00000021] channel.c: Scheduling timer at (0 requested / 0 actual) timer ticks per second
+[2025-07-23 07:46:00] DEBUG[376][C-00000021] channel.c: Scheduling timer at (0 requested / 0 actual) timer ticks per second
+[2025-07-23 07:46:00] DEBUG[376][C-00000021] pbx.c: Launching 'Hangup'
+[2025-07-23 07:46:00] VERBOSE[376][C-00000021] pbx.c: Executing [2@ivrmenu:4] Hangup("PJSIP/1001-00000020", "") in new stack
+[2025-07-23 07:46:00] DEBUG[376][C-00000021] channel.c: Soft-Hanging (0x20) up channel 'PJSIP/1001-00000020'
+[2025-07-23 07:46:00] DEBUG[376][C-00000021] pbx.c: Spawn extension (ivrmenu,2,4) exited non-zero on 'PJSIP/1001-00000020'
+[2025-07-23 07:46:00] VERBOSE[376][C-00000021] pbx.c: Spawn extension (ivrmenu, 2, 4) exited non-zero on 'PJSIP/1001-00000020'
+[2025-07-23 07:46:00] DEBUG[376][C-00000021] channel.c: Soft-Hanging (0x10) up channel 'PJSIP/1001-00000020'
+[2025-07-23 07:46:00] DEBUG[376][C-00000021] channel.c: Channel 0x7f8d8f42c060 'PJSIP/1001-00000020' hanging up.  Refs: 2
+[2025-07-23 07:46:00] DEBUG[376][C-00000021] chan_pjsip.c:  PJSIP/1001-00000020
+[2025-07-23 07:46:00] DEBUG[376][C-00000021] chan_pjsip.c: AST hangup cause 16 (no match found in PJSIP)
+[2025-07-23 07:46:00] DEBUG[376][C-00000021] chan_pjsip.c:  Cause: 0
+[2025-07-23 07:46:00] DEBUG[316] chan_pjsip.c:  PJSIP/1001-00000020
+[2025-07-23 07:46:00] DEBUG[316] res_pjsip_session.c:  PJSIP/1001-00000020 Response 0
+[2025-07-23 07:46:00] DEBUG[316] res_rtp_asterisk.c: (0x7f8d8b768710) DTLS srtp - stopped timeout timer'
+[2025-07-23 07:46:00] DEBUG[316] res_rtp_asterisk.c: (0x7f8d8b768710) DTLS srtp - stopped timeout timer'
+[2025-07-23 07:46:00] DEBUG[316] res_rtp_asterisk.c: (0x7f8d8b768710) DTLS stop
+[2025-07-23 07:46:00] DEBUG[316] res_rtp_asterisk.c: (0x7f8d8b768710) DTLS srtp - stopped timeout timer'
+[2025-07-23 07:46:00] DEBUG[316] res_rtp_asterisk.c: (0x7f8d8b768710) DTLS srtp - stopped timeout timer'
+[2025-07-23 07:46:00] DEBUG[316] res_rtp_asterisk.c: (0x7f8d8b768710) ICE RTP transport deallocating
+[2025-07-23 07:46:00] DEBUG[316] rtp_engine.c: Destroyed RTP instance '0x7f8d8b768710'
+[2025-07-23 07:46:00] DEBUG[316] res_pjsip_session.c:  PJSIP/1001-00000020: Method is BYE
+[2025-07-23 07:46:00] DEBUG[316] res_pjsip_session.c:  PJSIP/1001-00000020
+[2025-07-23 07:46:00] DEBUG[316] res_pjsip/pjsip_resolver.c: Performing SIP DNS resolution of target '192.168.1.9'
+[2025-07-23 07:46:00] DEBUG[316] res_pjsip/pjsip_resolver.c: Transport type for target '192.168.1.9' is 'UDP transport'
+[2025-07-23 07:46:00] DEBUG[316] res_pjsip/pjsip_resolver.c: Target '192.168.1.9' is an IP address, skipping resolution
+[2025-07-23 07:46:00] DEBUG[316] res_pjsip_session.c:  PJSIP/1001-00000020 TSX State: Calling  Inv State: CONFIRMED
+[2025-07-23 07:46:00] DEBUG[316] res_pjsip_session.c:  Nothing delayed
+[2025-07-23 07:46:00] DEBUG[316] res_pjsip_session.c:  PJSIP/1001-00000020 TSX State: Calling  Inv State: CONFIRMED
+[2025-07-23 07:46:00] DEBUG[316] res_pjsip_session.c:  Topology: Pending: (null topology)  Active: (null topology)
+[2025-07-23 07:46:00] DEBUG[316] res_pjsip_session.c:  
+[2025-07-23 07:46:00] DEBUG[316] res_pjsip_session.c:  
+[2025-07-23 07:46:00] DEBUG[316] channel.c: Channel 0x7f8d8f42c060 'PJSIP/1001-00000020' destroying
+[2025-07-23 07:46:00] DEBUG[316] stasis.c: Destroying topic. name: channel:1753256736.64, detail: 
+[2025-07-23 07:46:00] DEBUG[316] stasis.c: Topic 'channel:1753256736.64': 0x7f8d8f41c0f0 destroyed
+[2025-07-23 07:46:00] DEBUG[31] cdr.c: Finalized CDR for PJSIP/1001-00000020 - start 1753256736.007415 answer 1753256736.007829 end 1753256760.939541 dur 24.932 bill 24.931 dispo ANSWERED
+[2025-07-23 07:46:00] DEBUG[31] stasis.c: Creating topic. name: channel:1753256760.65, detail: 
+[2025-07-23 07:46:00] DEBUG[23] devicestate.c: Changing state for PJSIP/1001 - state 1 (Not in use)
+[2025-07-23 07:46:00] DEBUG[31] stasis.c: Topic 'channel:1753256760.65': 0x7f8d8f41caf0 created
+[2025-07-23 07:46:00] DEBUG[31] stasis.c: Destroying topic. name: channel:1753256760.65, detail: 
+[2025-07-23 07:46:00] DEBUG[31] stasis.c: Topic 'channel:1753256760.65': 0x7f8d8f41caf0 destroyed
+[2025-07-23 07:46:00] DEBUG[85] app_queue.c: Device 'PJSIP/1001' changed to state '1' (Not in use) but we don't care because they're not a member of any queue.
+[2025-07-23 07:46:00] DEBUG[316] channel_internal_api.c:  <initializing>: MultistreamFormats: (nothing)
+[2025-07-23 07:46:00] DEBUG[316] channel_internal_api.c:  Channel is being initialized or destroyed
+[2025-07-23 07:46:00] DEBUG[316] chan_pjsip.c:  
+[2025-07-23 07:46:00] DEBUG[35] res_pjsip/pjsip_distributor.c: Searching for serializer associated with dialog dlg0x7f8d8f312378 for Response msg 200/BYE/cseq=26847 (rdata0x7f8d8f3e70d8)
+[2025-07-23 07:46:00] DEBUG[35] res_pjsip/pjsip_distributor.c: Found serializer pjsip/distributor-00000036 associated with dialog dlg0x7f8d8f312378
+[2025-07-23 07:46:00] DEBUG[316] res_pjsip_session.c:  1001 Method: BYE Status: 200
+[2025-07-23 07:46:00] DEBUG[316] res_pjsip_session.c:  
+[2025-07-23 07:46:00] DEBUG[316] res_pjsip_session.c:  1001 Event: TSX_STATE  Inv State: DISCONNCTD
+[2025-07-23 07:46:00] DEBUG[316] res_pjsip_session.c: 1001: Source of transaction state change is RX_MSG
+[2025-07-23 07:46:00] DEBUG[316] res_pjsip_session.c: 1001: Received response
+[2025-07-23 07:46:00] DEBUG[316] res_pjsip_session.c:  1001: Response is 200 OK
+[2025-07-23 07:46:00] DEBUG[316] res_pjsip_session.c:  1001
+[2025-07-23 07:46:00] DEBUG[316] res_pjsip_session.c:  
+[2025-07-23 07:46:00] DEBUG[316] res_pjsip_session.c:  1001 TSX State: Completed  Inv State: DISCONNCTD
+[2025-07-23 07:46:00] DEBUG[316] res_pjsip_session.c:  1001: Response is 200 OK
+[2025-07-23 07:46:00] DEBUG[316] res_pjsip_session.c:  1001
+[2025-07-23 07:46:00] DEBUG[316] res_pjsip_session.c: 1001: BYE received final response code 200
+[2025-07-23 07:46:00] DEBUG[316] res_pjsip_session.c:  Nothing delayed
+[2025-07-23 07:46:00] DEBUG[316] res_pjsip_session.c:  1001 TSX State: Completed  Inv State: DISCONNCTD
+[2025-07-23 07:46:00] DEBUG[316] res_pjsip_session.c:  Topology: Pending: (null topology)  Active: (null topology)
+[2025-07-23 07:46:00] DEBUG[316] res_pjsip_session.c:  
+[2025-07-23 07:46:00] DEBUG[316] chan_pjsip.c:  1001
+[2025-07-23 07:46:00] DEBUG[316] chan_pjsip.c:  No channel
+[2025-07-23 07:46:05] DEBUG[35] res_pjsip_session.c:  1001 TSX State: Terminated  Inv State: DISCONNCTD
+[2025-07-23 07:46:05] DEBUG[35] res_pjsip_session.c:  Disconnected
+[2025-07-23 07:46:05] DEBUG[35] res_pjsip_session.c:  (null session) TSX State: Terminated  Inv State: DISCONNCTD
+[2025-07-23 07:46:05] DEBUG[35] res_pjsip_session.c:  
+[2025-07-23 07:46:05] DEBUG[316] res_pjsip_session.c: 1001: Destroying SIP session
+[2025-07-23 07:46:18] DEBUG[47] res_pjsip_registrar.c: Expiring 0 contacts
+[2025-07-23 07:46:20] DEBUG[375] threadpool.c: Worker thread idle timeout reached. Dying.
+[2025-07-23 07:46:20] DEBUG[11] threadpool.c: Destroying worker thread 113
+[2025-07-23 07:46:31] DEBUG[35] res_pjsip/pjsip_distributor.c: Could not find matching transaction for Request msg REGISTER/cseq=451 (rdata0x7f8d8f428038)
+[2025-07-23 07:46:31] DEBUG[35] res_pjsip/pjsip_distributor.c: Calculated serializer pjsip/distributor-00000024 to use for Request msg REGISTER/cseq=451 (rdata0x7f8d8f428038)
+[2025-07-23 07:46:31] DEBUG[316] res_pjsip_endpoint_identifier_ip.c: No identify sections to match against
+[2025-07-23 07:46:31] DEBUG[316] res_pjsip_endpoint_identifier_user.c: Attempting identify by From username '1001' domain '192.168.1.9'
+[2025-07-23 07:46:31] DEBUG[316] res_pjsip_endpoint_identifier_user.c: Identified by From username '1001' domain '192.168.1.9'
+[2025-07-23 07:46:31] DEBUG[316] res_pjsip_authenticator_digest.c: Using default realm 'asterisk' on incoming auth '1001-auth'.
+[2025-07-23 07:46:31] DEBUG[316] res_pjsip_authenticator_digest.c: Realm: asterisk  Username: 1001  Result: STALE
+[2025-07-23 07:46:32] DEBUG[35] res_pjsip/pjsip_distributor.c: Could not find matching transaction for Request msg REGISTER/cseq=452 (rdata0x7f8d8f428048)
+[2025-07-23 07:46:32] DEBUG[35] res_pjsip/pjsip_distributor.c: Calculated serializer pjsip/distributor-00000024 to use for Request msg REGISTER/cseq=452 (rdata0x7f8d8f428048)
+[2025-07-23 07:46:32] DEBUG[316] res_pjsip_endpoint_identifier_ip.c: No identify sections to match against
+[2025-07-23 07:46:32] DEBUG[316] res_pjsip_endpoint_identifier_user.c: Attempting identify by From username '1001' domain '192.168.1.9'
+[2025-07-23 07:46:32] DEBUG[316] res_pjsip_endpoint_identifier_user.c: Identified by From username '1001' domain '192.168.1.9'
+[2025-07-23 07:46:32] DEBUG[316] res_pjsip_authenticator_digest.c: Using default realm 'asterisk' on incoming auth '1001-auth'.
+[2025-07-23 07:46:32] DEBUG[316] res_pjsip_authenticator_digest.c: Calculated nonce 1753256791/6bb293663d2c5c87983fab65dd55f44d. Actual nonce is 1753256791/6bb293663d2c5c87983fab65dd55f44d
+[2025-07-23 07:46:32] DEBUG[316] res_pjsip_authenticator_digest.c: Realm: asterisk  Username: 1001  Result: SUCCESS
+[2025-07-23 07:46:32] DEBUG[316] res_pjsip_registrar.c: Matched id '1001' to aor '1001'
+[2025-07-23 07:46:32] DEBUG[316] res_pjsip_registrar.c: Matched aor '1001' by To username
+[2025-07-23 07:46:32] DEBUG[316] config.c: extract double from [3.0] in [-inf, inf] gives [3.000000](0)
+[2025-07-23 07:46:32] DEBUG[316] config.c: extract uint from [0] in [0, 4294967295] gives [0](0)
+[2025-07-23 07:46:32] DEBUG[316] config.c: extract double from [3.000000] in [-inf, inf] gives [3.000000](0)
+[2025-07-23 07:46:32] DEBUG[316] config.c: extract uint from [41216] in [0, 4294967295] gives [41216](0)
+[2025-07-23 07:46:32] DEBUG[316] config.c: extract uint from [0] in [0, 86400] gives [0](0)
+[2025-07-23 07:46:32] DEBUG[316] config.c: extract double from [3.0] in [-inf, inf] gives [3.000000](0)
+[2025-07-23 07:46:32] DEBUG[316] config.c: extract uint from [0] in [0, 4294967295] gives [0](0)
+[2025-07-23 07:46:32] DEBUG[316] config.c: extract double from [3.000000] in [-inf, inf] gives [3.000000](0)
+[2025-07-23 07:46:32] DEBUG[316] config.c: extract uint from [41216] in [0, 4294967295] gives [41216](0)
+[2025-07-23 07:46:32] DEBUG[316] config.c: extract uint from [0] in [0, 86400] gives [0](0)
+[2025-07-23 07:46:32] DEBUG[316] res_pjsip_registrar.c: Refreshed contact 'sip:1001@192.168.1.9:41216;transport=UDP;rinstance=53c5260e820da1aa' on AOR '1001' with new expiration of 60 seconds
+[2025-07-23 07:46:48] DEBUG[47] res_pjsip_registrar.c: Expiring 0 contacts
+[2025-07-23 07:47:18] DEBUG[47] res_pjsip_registrar.c: Expiring 0 contacts
+[2025-07-23 07:47:25] DEBUG[35] res_pjsip/pjsip_distributor.c: Could not find matching transaction for Request msg REGISTER/cseq=453 (rdata0x7f8d8f3e9048)
+[2025-07-23 07:47:25] DEBUG[35] res_pjsip/pjsip_distributor.c: Calculated serializer pjsip/distributor-00000024 to use for Request msg REGISTER/cseq=453 (rdata0x7f8d8f3e9048)
+[2025-07-23 07:47:25] DEBUG[316] res_pjsip_endpoint_identifier_ip.c: No identify sections to match against
+[2025-07-23 07:47:25] DEBUG[316] res_pjsip_endpoint_identifier_user.c: Attempting identify by From username '1001' domain '192.168.1.9'
+[2025-07-23 07:47:25] DEBUG[316] res_pjsip_endpoint_identifier_user.c: Identified by From username '1001' domain '192.168.1.9'
+[2025-07-23 07:47:25] DEBUG[316] res_pjsip_authenticator_digest.c: Using default realm 'asterisk' on incoming auth '1001-auth'.
+[2025-07-23 07:47:25] DEBUG[316] res_pjsip_authenticator_digest.c: Realm: asterisk  Username: 1001  Result: STALE
+[2025-07-23 07:47:25] DEBUG[35] res_pjsip/pjsip_distributor.c: Could not find matching transaction for Request msg REGISTER/cseq=454 (rdata0x7f8d8f3e9058)
+[2025-07-23 07:47:25] DEBUG[35] res_pjsip/pjsip_distributor.c: Calculated serializer pjsip/distributor-00000024 to use for Request msg REGISTER/cseq=454 (rdata0x7f8d8f3e9058)
+[2025-07-23 07:47:25] DEBUG[316] res_pjsip_endpoint_identifier_ip.c: No identify sections to match against
+[2025-07-23 07:47:25] DEBUG[316] res_pjsip_endpoint_identifier_user.c: Attempting identify by From username '1001' domain '192.168.1.9'
+[2025-07-23 07:47:25] DEBUG[316] res_pjsip_endpoint_identifier_user.c: Identified by From username '1001' domain '192.168.1.9'
+[2025-07-23 07:47:25] DEBUG[316] res_pjsip_authenticator_digest.c: Using default realm 'asterisk' on incoming auth '1001-auth'.
+[2025-07-23 07:47:25] DEBUG[316] res_pjsip_authenticator_digest.c: Calculated nonce 1753256845/477b1f67baa2b5e619e3fdbf21fe37a6. Actual nonce is 1753256845/477b1f67baa2b5e619e3fdbf21fe37a6
+[2025-07-23 07:47:25] DEBUG[316] res_pjsip_authenticator_digest.c: Realm: asterisk  Username: 1001  Result: SUCCESS
+[2025-07-23 07:47:25] DEBUG[316] res_pjsip_registrar.c: Matched id '1001' to aor '1001'
+[2025-07-23 07:47:25] DEBUG[316] res_pjsip_registrar.c: Matched aor '1001' by To username
+[2025-07-23 07:47:25] DEBUG[316] config.c: extract double from [3.0] in [-inf, inf] gives [3.000000](0)
+[2025-07-23 07:47:25] DEBUG[316] config.c: extract uint from [0] in [0, 4294967295] gives [0](0)
+[2025-07-23 07:47:25] DEBUG[316] config.c: extract double from [3.000000] in [-inf, inf] gives [3.000000](0)
+[2025-07-23 07:47:25] DEBUG[316] config.c: extract uint from [41216] in [0, 4294967295] gives [41216](0)
+[2025-07-23 07:47:25] DEBUG[316] config.c: extract uint from [0] in [0, 86400] gives [0](0)
+[2025-07-23 07:47:25] DEBUG[316] config.c: extract double from [3.0] in [-inf, inf] gives [3.000000](0)
+[2025-07-23 07:47:25] DEBUG[316] config.c: extract uint from [0] in [0, 4294967295] gives [0](0)
+[2025-07-23 07:47:25] DEBUG[316] config.c: extract double from [3.000000] in [-inf, inf] gives [3.000000](0)
+[2025-07-23 07:47:25] DEBUG[316] config.c: extract uint from [41216] in [0, 4294967295] gives [41216](0)
+[2025-07-23 07:47:25] DEBUG[316] config.c: extract uint from [0] in [0, 86400] gives [0](0)
+[2025-07-23 07:47:25] DEBUG[316] res_pjsip_registrar.c: Refreshed contact 'sip:1001@192.168.1.9:41216;transport=UDP;rinstance=53c5260e820da1aa' on AOR '1001' with new expiration of 60 seconds
+[2025-07-23 07:47:48] DEBUG[47] res_pjsip_registrar.c: Expiring 0 contacts
+[2025-07-23 07:48:18] DEBUG[35] res_pjsip/pjsip_distributor.c: Could not find matching transaction for Request msg REGISTER/cseq=455 (rdata0x7f8d8f428088)
+[2025-07-23 07:48:18] DEBUG[35] res_pjsip/pjsip_distributor.c: Calculated serializer pjsip/distributor-00000024 to use for Request msg REGISTER/cseq=455 (rdata0x7f8d8f428088)
+[2025-07-23 07:48:18] DEBUG[316] res_pjsip_endpoint_identifier_ip.c: No identify sections to match against
+[2025-07-23 07:48:18] DEBUG[316] res_pjsip_endpoint_identifier_user.c: Attempting identify by From username '1001' domain '192.168.1.9'
+[2025-07-23 07:48:18] DEBUG[316] res_pjsip_endpoint_identifier_user.c: Identified by From username '1001' domain '192.168.1.9'
+[2025-07-23 07:48:18] DEBUG[316] res_pjsip_authenticator_digest.c: Using default realm 'asterisk' on incoming auth '1001-auth'.
+[2025-07-23 07:48:18] DEBUG[316] res_pjsip_authenticator_digest.c: Realm: asterisk  Username: 1001  Result: STALE
+[2025-07-23 07:48:18] DEBUG[35] res_pjsip/pjsip_distributor.c: Could not find matching transaction for Request msg REGISTER/cseq=456 (rdata0x7f8d8f428098)
+[2025-07-23 07:48:18] DEBUG[35] res_pjsip/pjsip_distributor.c: Calculated serializer pjsip/distributor-00000024 to use for Request msg REGISTER/cseq=456 (rdata0x7f8d8f428098)
+[2025-07-23 07:48:18] DEBUG[316] res_pjsip_endpoint_identifier_ip.c: No identify sections to match against
+[2025-07-23 07:48:18] DEBUG[316] res_pjsip_endpoint_identifier_user.c: Attempting identify by From username '1001' domain '192.168.1.9'
+[2025-07-23 07:48:18] DEBUG[316] res_pjsip_endpoint_identifier_user.c: Identified by From username '1001' domain '192.168.1.9'
+[2025-07-23 07:48:18] DEBUG[316] res_pjsip_authenticator_digest.c: Using default realm 'asterisk' on incoming auth '1001-auth'.
+[2025-07-23 07:48:18] DEBUG[316] res_pjsip_authenticator_digest.c: Calculated nonce 1753256898/8dba187bc8709c4541c79f5e669b0833. Actual nonce is 1753256898/8dba187bc8709c4541c79f5e669b0833
+[2025-07-23 07:48:18] DEBUG[316] res_pjsip_authenticator_digest.c: Realm: asterisk  Username: 1001  Result: SUCCESS
+[2025-07-23 07:48:18] DEBUG[316] res_pjsip_registrar.c: Matched id '1001' to aor '1001'
+[2025-07-23 07:48:18] DEBUG[316] res_pjsip_registrar.c: Matched aor '1001' by To username
+[2025-07-23 07:48:18] DEBUG[316] config.c: extract double from [3.0] in [-inf, inf] gives [3.000000](0)
+[2025-07-23 07:48:18] DEBUG[316] config.c: extract uint from [0] in [0, 4294967295] gives [0](0)
+[2025-07-23 07:48:18] DEBUG[316] config.c: extract double from [3.000000] in [-inf, inf] gives [3.000000](0)
+[2025-07-23 07:48:18] DEBUG[316] config.c: extract uint from [41216] in [0, 4294967295] gives [41216](0)
+[2025-07-23 07:48:18] DEBUG[316] config.c: extract uint from [0] in [0, 86400] gives [0](0)
+[2025-07-23 07:48:18] DEBUG[316] config.c: extract double from [3.0] in [-inf, inf] gives [3.000000](0)
+[2025-07-23 07:48:18] DEBUG[316] config.c: extract uint from [0] in [0, 4294967295] gives [0](0)
+[2025-07-23 07:48:18] DEBUG[316] config.c: extract double from [3.000000] in [-inf, inf] gives [3.000000](0)
+[2025-07-23 07:48:18] DEBUG[316] config.c: extract uint from [41216] in [0, 4294967295] gives [41216](0)
+[2025-07-23 07:48:18] DEBUG[316] config.c: extract uint from [0] in [0, 86400] gives [0](0)
+[2025-07-23 07:48:18] DEBUG[316] res_pjsip_registrar.c: Refreshed contact 'sip:1001@192.168.1.9:41216;transport=UDP;rinstance=53c5260e820da1aa' on AOR '1001' with new expiration of 60 seconds
+[2025-07-23 07:48:18] DEBUG[47] res_pjsip_registrar.c: Expiring 0 contacts
+[2025-07-23 07:48:48] DEBUG[47] res_pjsip_registrar.c: Expiring 0 contacts
